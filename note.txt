@@ -1,0 +1,25 @@
+1.get default config object from getDefaultConfigJson()
+2.get collection filed data from getGlobalCollectionObject()
+3.get value type option which is used in default search field from getTypeList() (constant created)
+4.get Default Search Field - value option data from getGCOptions()
+5.
+
+
+
+
+
+
+
+Condition & Work Need To Be Done
+1. Default Search value
+    1. check same condition already present in the list
+    2. data saving format should be like that "cprimaryDefaultSearch": [
+        {
+            "fieldId": "-68",
+            "fieldName": "Country",
+            "fieldOperator": "=",
+            "recidtext": "Static",
+            "mapidtext": "United Kingdom",
+            "fieldValue": "{{static|~|United Kingdom}}"
+        }
+    ]

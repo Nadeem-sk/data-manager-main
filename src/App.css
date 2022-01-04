@@ -1,0 +1,10 @@
+.App {
+  box-sizing: border-box;
+}
+
+.errorStep .MuiStepLabel-iconContainer svg circle {
+  fill: #ff3333 !important;
+}
+.errorStep .MuiStepLabel-labelContainer span {
+  color: #ff3333 !important;
+}

@@ -1,0 +1,1342 @@
+{
+    "TableList": {
+        "Table": [
+            {
+                "Id": -1326,
+                "Name": "a_application"
+            },
+            {
+                "Id": -1352,
+                "Name": "a_appSession"
+            },
+            {
+                "Id": -214,
+                "Name": "a_MenuApplications"
+            },
+            {
+                "Id": -148,
+                "Name": "a_menuGroup"
+            },
+            {
+                "Id": -149,
+                "Name": "a_menuItem"
+            },
+            {
+                "Id": -222,
+                "Name": "a_release"
+            },
+            {
+                "Id": -189,
+                "Name": "a_Session"
+            },
+            {
+                "Id": -164,
+                "Name": "aes_Statistics"
+            },
+            {
+                "Id": -1373,
+                "Name": "chat_activity"
+            },
+            {
+                "Id": -1359,
+                "Name": "CM Inbound Email Queue Obj"
+            },
+            {
+                "Id": -215,
+                "Name": "dxi_actionlog"
+            },
+            {
+                "Id": -1382,
+                "Name": "dxi_agentQueues"
+            },
+            {
+                "Id": -216,
+                "Name": "dxi_cdrlog"
+            },
+            {
+                "Id": -217,
+                "Name": "dxi_cdrlog_retires"
+            },
+            {
+                "Id": -150,
+                "Name": "dxi_diallerStatsRaw"
+            },
+            {
+                "Id": -218,
+                "Name": "dxi_diallerstatssmall"
+            },
+            {
+                "Id": -219,
+                "Name": "dxi_ivrLog"
+            },
+            {
+                "Id": -244,
+                "Name": "dxi_Status_Agents"
+            },
+            {
+                "Id": -250,
+                "Name": "dxi_Status_InboundActivity"
+            },
+            {
+                "Id": -248,
+                "Name": "dxi_Status_Incoming"
+            },
+            {
+                "Id": -251,
+                "Name": "dxi_Status_OutboundActivity"
+            },
+            {
+                "Id": -249,
+                "Name": "dxi_Status_Outgoing"
+            },
+            {
+                "Id": -252,
+                "Name": "dxi_Status_Overview"
+            },
+            {
+                "Id": -220,
+                "Name": "dxi_statusLog"
+            },
+            {
+                "Id": -122,
+                "Name": "EXT_SQLCLIENT"
+            },
+            {
+                "Id": -115,
+                "Name": "g_adHocChart"
+            },
+            {
+                "Id": -78,
+                "Name": "g_applet"
+            },
+            {
+                "Id": -85,
+                "Name": "g_appletCommand"
+            },
+            {
+                "Id": -125,
+                "Name": "g_appletCommandCondition"
+            },
+            {
+                "Id": -86,
+                "Name": "g_appletField"
+            },
+            {
+                "Id": -143,
+                "Name": "g_appletFieldHyperlink"
+            },
+            {
+                "Id": -221,
+                "Name": "g_appletFieldHyperlinkCondition"
+            },
+            {
+                "Id": -83,
+                "Name": "g_appletFilter"
+            },
+            {
+                "Id": -1313,
+                "Name": "g_autoProcess"
+            },
+            {
+                "Id": -1314,
+                "Name": "g_autoProcessRules"
+            },
+            {
+                "Id": -262,
+                "Name": "g_bcFieldCalcDepend"
+            },
+            {
+                "Id": -113,
+                "Name": "g_bcFieldPickMap"
+            },
+            {
+                "Id": -79,
+                "Name": "g_BusComp"
+            },
+            {
+                "Id": -87,
+                "Name": "g_busCompField"
+            },
+            {
+                "Id": -161,
+                "Name": "g_buscompFieldSyn"
+            },
+            {
+                "Id": -88,
+                "Name": "g_busCompJoin"
+            },
+            {
+                "Id": -89,
+                "Name": "g_busCompLink"
+            },
+            {
+                "Id": -120,
+                "Name": "g_busCompProperties"
+            },
+            {
+                "Id": -80,
+                "Name": "g_busObj"
+            },
+            {
+                "Id": -90,
+                "Name": "g_busObjBusComp"
+            },
+            {
+                "Id": -224,
+                "Name": "g_certificate"
+            },
+            {
+                "Id": -127,
+                "Name": "g_copyItemComponent"
+            },
+            {
+                "Id": -128,
+                "Name": "g_copyItemComponentField"
+            },
+            {
+                "Id": -126,
+                "Name": "g_copyItemHeader"
+            },
+            {
+                "Id": -129,
+                "Name": "g_copyItemPrCompFieldUpdates"
+            },
+            {
+                "Id": -172,
+                "Name": "g_DataExport_DataFile"
+            },
+            {
+                "Id": -171,
+                "Name": "g_DataExport_Job"
+            },
+            {
+                "Id": -173,
+                "Name": "g_DataExport_Job_ErrorLine"
+            },
+            {
+                "Id": -174,
+                "Name": "g_DataExport_Schedule"
+            },
+            {
+                "Id": -179,
+                "Name": "g_DataImport_FileTemplate"
+            },
+            {
+                "Id": -157,
+                "Name": "g_DataImport_Header"
+            },
+            {
+                "Id": -158,
+                "Name": "g_DataImport_Job"
+            },
+            {
+                "Id": -160,
+                "Name": "g_DataImport_Job_ErrorLine"
+            },
+            {
+                "Id": -1310,
+                "Name": "g_displayFormat"
+            },
+            {
+                "Id": -195,
+                "Name": "g_employeeEndpoints"
+            },
+            {
+                "Id": -1350,
+                "Name": "g_encoding"
+            },
+            {
+                "Id": -196,
+                "Name": "g_endpointWhitelist"
+            },
+            {
+                "Id": -225,
+                "Name": "g_ExtAPI"
+            },
+            {
+                "Id": -91,
+                "Name": "g_Icons"
+            },
+            {
+                "Id": -1327,
+                "Name": "g_identityProvider"
+            },
+            {
+                "Id": -142,
+                "Name": "g_intersectionDefaults"
+            },
+            {
+                "Id": -139,
+                "Name": "g_intersectionObject"
+            },
+            {
+                "Id": -1279,
+                "Name": "g_ipAccessControl"
+            },
+            {
+                "Id": -1305,
+                "Name": "g_iso3166CountryCodes"
+            },
+            {
+                "Id": -1353,
+                "Name": "g_kryonRobot"
+            },
+            {
+                "Id": -1354,
+                "Name": "g_kryonRobotRequestField"
+            },
+            {
+                "Id": -1360,
+                "Name": "g_kryonRobotResponseField"
+            },
+            {
+                "Id": -1320,
+                "Name": "g_mediaActivityMapping"
+            },
+            {
+                "Id": -1319,
+                "Name": "g_mediaChannel"
+            },
+            {
+                "Id": -1311,
+                "Name": "g_mediaSMS"
+            },
+            {
+                "Id": -1351,
+                "Name": "g_mediaType"
+            },
+            {
+                "Id": -155,
+                "Name": "g_objectFilter"
+            },
+            {
+                "Id": -156,
+                "Name": "g_objectFilterField"
+            },
+            {
+                "Id": -81,
+                "Name": "g_regularExpressions"
+            },
+            {
+                "Id": -94,
+                "Name": "g_repository"
+            },
+            {
+                "Id": -1268,
+                "Name": "g_schedulerParams"
+            },
+            {
+                "Id": -74,
+                "Name": "g_searchObject"
+            },
+            {
+                "Id": -75,
+                "Name": "g_searchObjectField"
+            },
+            {
+                "Id": -130,
+                "Name": "g_searchObjectRole"
+            },
+            {
+                "Id": -193,
+                "Name": "g_securityProfiles"
+            },
+            {
+                "Id": -165,
+                "Name": "g_suppressionJob"
+            },
+            {
+                "Id": -166,
+                "Name": "g_suppressionJobDetail"
+            },
+            {
+                "Id": -97,
+                "Name": "g_tableColDef"
+            },
+            {
+                "Id": -98,
+                "Name": "g_TableDef"
+            },
+            {
+                "Id": -194,
+                "Name": "g_userEndpoints"
+            },
+            {
+                "Id": -99,
+                "Name": "g_view"
+            },
+            {
+                "Id": -100,
+                "Name": "g_viewApplet"
+            },
+            {
+                "Id": -1349,
+                "Name": "g_weblatchRequestClientCertificate"
+            },
+            {
+                "Id": -1348,
+                "Name": "g_weblatchRequestMapping"
+            },
+            {
+                "Id": -1347,
+                "Name": "g_weblatchTemplate"
+            },
+            {
+                "Id": -137,
+                "Name": "g_workflowActions"
+            },
+            {
+                "Id": -136,
+                "Name": "g_workflowEscalations"
+            },
+            {
+                "Id": -186,
+                "Name": "g_workflowEscalationsExtAPI"
+            },
+            {
+                "Id": -208,
+                "Name": "g_workflowEscalationsSP"
+            },
+            {
+                "Id": -133,
+                "Name": "g_workflowPolicies"
+            },
+            {
+                "Id": -132,
+                "Name": "g_workflowPolicyActionProps"
+            },
+            {
+                "Id": -131,
+                "Name": "g_workflowPolicyActions"
+            },
+            {
+                "Id": -265,
+                "Name": "g_workflowPolicyDaySchedules"
+            },
+            {
+                "Id": -134,
+                "Name": "g_workflowPolicyRules"
+            },
+            {
+                "Id": -1281,
+                "Name": "g_workflowScheduleEscalationSummary"
+            },
+            {
+                "Id": -1369,
+                "Name": "genie_Activity"
+            },
+            {
+                "Id": -1380,
+                "Name": "IVR_events"
+            },
+            {
+                "Id": -1378,
+                "Name": "IVRLog"
+            },
+            {
+                "Id": -1379,
+                "Name": "IVRLogDetails"
+            },
+            {
+                "Id": -1312,
+                "Name": "page_cms_element"
+            },
+            {
+                "Id": -1381,
+                "Name": "process_robot_master"
+            },
+            {
+                "Id": -56,
+                "Name": "r_pickListDef"
+            },
+            {
+                "Id": -57,
+                "Name": "r_pickListValues"
+            },
+            {
+                "Id": -65,
+                "Name": "rm_industry"
+            },
+            {
+                "Id": -61,
+                "Name": "rm_industrySkills"
+            },
+            {
+                "Id": -58,
+                "Name": "rm_industryVacancy"
+            },
+            {
+                "Id": -62,
+                "Name": "rm_skillCategory"
+            },
+            {
+                "Id": -63,
+                "Name": "rm_skills"
+            },
+            {
+                "Id": -72,
+                "Name": "rm_skillSynonym"
+            },
+            {
+                "Id": -59,
+                "Name": "rm_vacancy"
+            },
+            {
+                "Id": -60,
+                "Name": "rm_vacancyAttrib"
+            },
+            {
+                "Id": -64,
+                "Name": "rm_vacancyContact"
+            },
+            {
+                "Id": -243,
+                "Name": "rpt_mrg_CallRecord"
+            },
+            {
+                "Id": -76,
+                "Name": "rpt_report"
+            },
+            {
+                "Id": -77,
+                "Name": "rpt_reportField"
+            },
+            {
+                "Id": -124,
+                "Name": "rpt_reportUserQueryHdr"
+            },
+            {
+                "Id": -1367,
+                "Name": "rpt_spParamsDetails"
+            },
+            {
+                "Id": -1366,
+                "Name": "Schedule / Clients"
+            },
+            {
+                "Id": -1328,
+                "Name": "social_master"
+            },
+            {
+                "Id": -1334,
+                "Name": "social_masterMentionAlert_mapping"
+            },
+            {
+                "Id": -1333,
+                "Name": "social_masterReputology_mapping"
+            },
+            {
+                "Id": -1330,
+                "Name": "social_masterSite_mapping"
+            },
+            {
+                "Id": -1331,
+                "Name": "social_MentionAlert"
+            },
+            {
+                "Id": -1332,
+                "Name": "social_Reputology"
+            },
+            {
+                "Id": -1335,
+                "Name": "social_ReputologySite_mapping"
+            },
+            {
+                "Id": -1329,
+                "Name": "social_sites"
+            },
+            {
+                "Id": -1344,
+                "Name": "Survey_Page_Question"
+            },
+            {
+                "Id": -8,
+                "Name": "u_activity"
+            },
+            {
+                "Id": -135,
+                "Name": "u_activityAtt"
+            },
+            {
+                "Id": -180,
+                "Name": "u_api_batch"
+            },
+            {
+                "Id": -181,
+                "Name": "u_api_batchErrors"
+            },
+            {
+                "Id": -9,
+                "Name": "u_appPreferences"
+            },
+            {
+                "Id": -55,
+                "Name": "u_Attachment"
+            },
+            {
+                "Id": -10,
+                "Name": "u_auditLog"
+            },
+            {
+                "Id": -1337,
+                "Name": "u_auditLog_Report"
+            },
+            {
+                "Id": -1362,
+                "Name": "u_blog_tags"
+            },
+            {
+                "Id": -1392,
+                "Name": "u_blogs"
+            },
+            {
+                "Id": -264,
+                "Name": "u_cacheGenLog"
+            },
+            {
+                "Id": -11,
+                "Name": "u_calendarAccess"
+            },
+            {
+                "Id": -12,
+                "Name": "u_CallCycle"
+            },
+            {
+                "Id": -1370,
+                "Name": "u_Calls_RuleSets"
+            },
+            {
+                "Id": -1390,
+                "Name": "u_campaignActivation"
+            },
+            {
+                "Id": -1388,
+                "Name": "u_campaignActivationControl"
+            },
+            {
+                "Id": -13,
+                "Name": "u_campaignContact"
+            },
+            {
+                "Id": -82,
+                "Name": "u_campaignContactLock"
+            },
+            {
+                "Id": -14,
+                "Name": "u_campaignDispCodes"
+            },
+            {
+                "Id": -167,
+                "Name": "u_campaigngroup"
+            },
+            {
+                "Id": -15,
+                "Name": "u_campaignHdr"
+            },
+            {
+                "Id": -151,
+                "Name": "u_campaignHdrAtt"
+            },
+            {
+                "Id": -16,
+                "Name": "u_campaignObjection"
+            },
+            {
+                "Id": -17,
+                "Name": "u_campaignProducts"
+            },
+            {
+                "Id": -111,
+                "Name": "u_campaignRelatedItems"
+            },
+            {
+                "Id": -1389,
+                "Name": "u_campaignSiteActivations"
+            },
+            {
+                "Id": -1341,
+                "Name": "u_campaignSurvey"
+            },
+            {
+                "Id": -1343,
+                "Name": "u_campaignsurveyquestion"
+            },
+            {
+                "Id": -259,
+                "Name": "u_case"
+            },
+            {
+                "Id": -258,
+                "Name": "u_caseType"
+            },
+            {
+                "Id": -19,
+                "Name": "u_contact"
+            },
+            {
+                "Id": -20,
+                "Name": "u_contactActivity"
+            },
+            {
+                "Id": -1338,
+                "Name": "u_contactaddress"
+            },
+            {
+                "Id": -69,
+                "Name": "u_contactAtt"
+            },
+            {
+                "Id": -1304,
+                "Name": "u_contactCard"
+            },
+            {
+                "Id": -106,
+                "Name": "u_contactDashboardItem"
+            },
+            {
+                "Id": -21,
+                "Name": "u_contactDC"
+            },
+            {
+                "Id": -245,
+                "Name": "u_contactMedia"
+            },
+            {
+                "Id": -107,
+                "Name": "u_contactNotes"
+            },
+            {
+                "Id": -108,
+                "Name": "u_contactObjectHistory"
+            },
+            {
+                "Id": -22,
+                "Name": "u_contactRel"
+            },
+            {
+                "Id": -23,
+                "Name": "u_contactRole"
+            },
+            {
+                "Id": -24,
+                "Name": "u_contactSkills"
+            },
+            {
+                "Id": -168,
+                "Name": "u_contactSurvey"
+            },
+            {
+                "Id": -25,
+                "Name": "u_contactTeam"
+            },
+            {
+                "Id": -26,
+                "Name": "u_contactTimeSheet"
+            },
+            {
+                "Id": -104,
+                "Name": "u_dashBoardItem"
+            },
+            {
+                "Id": -105,
+                "Name": "u_dashBoardItemRole"
+            },
+            {
+                "Id": -184,
+                "Name": "u_dialerescalation_errors"
+            },
+            {
+                "Id": -183,
+                "Name": "u_dialerescalations"
+            },
+            {
+                "Id": -188,
+                "Name": "u_diallerPreferences"
+            },
+            {
+                "Id": -27,
+                "Name": "u_dispCode"
+            },
+            {
+                "Id": -163,
+                "Name": "u_dispCodeCategory"
+            },
+            {
+                "Id": -1273,
+                "Name": "u_DNCs"
+            },
+            {
+                "Id": -118,
+                "Name": "u_document"
+            },
+            {
+                "Id": -255,
+                "Name": "u_documentEscalations"
+            },
+            {
+                "Id": -119,
+                "Name": "u_documentPage"
+            },
+            {
+                "Id": -185,
+                "Name": "u_dxiCallBacks"
+            },
+            {
+                "Id": -226,
+                "Name": "u_emailAccount"
+            },
+            {
+                "Id": -1356,
+                "Name": "u_emailBlacklistContents"
+            },
+            {
+                "Id": -1357,
+                "Name": "u_emailBlacklisthdr"
+            },
+            {
+                "Id": -1358,
+                "Name": "u_emailBlacklistInt"
+            },
+            {
+                "Id": -234,
+                "Name": "u_emailCampaigns"
+            },
+            {
+                "Id": -261,
+                "Name": "u_emailDocumentTemplateAttachment"
+            },
+            {
+                "Id": -227,
+                "Name": "u_emailEscalations"
+            },
+            {
+                "Id": -246,
+                "Name": "u_emailEscalations_errors"
+            },
+            {
+                "Id": -235,
+                "Name": "u_emailEscalationsHdr"
+            },
+            {
+                "Id": -229,
+                "Name": "u_emailEvents"
+            },
+            {
+                "Id": -230,
+                "Name": "u_emailInbound"
+            },
+            {
+                "Id": -242,
+                "Name": "u_emailInbound_errors"
+            },
+            {
+                "Id": -117,
+                "Name": "u_emailTemplate"
+            },
+            {
+                "Id": -228,
+                "Name": "u_emailTemplates"
+            },
+            {
+                "Id": -29,
+                "Name": "u_employeeTarget"
+            },
+            {
+                "Id": -30,
+                "Name": "u_extractCriteria"
+            },
+            {
+                "Id": -1375,
+                "Name": "u_faq_tags"
+            },
+            {
+                "Id": -1365,
+                "Name": "u_genieCampaigns"
+            },
+            {
+                "Id": -31,
+                "Name": "u_importFileMap"
+            },
+            {
+                "Id": -32,
+                "Name": "u_importFiles"
+            },
+            {
+                "Id": -176,
+                "Name": "u_inboundNumbers"
+            },
+            {
+                "Id": -1301,
+                "Name": "u_IVRActionType"
+            },
+            {
+                "Id": -1290,
+                "Name": "u_IVREventInfo"
+            },
+            {
+                "Id": -1291,
+                "Name": "u_IVRHeader"
+            },
+            {
+                "Id": -1292,
+                "Name": "u_IVRParameter"
+            },
+            {
+                "Id": -1293,
+                "Name": "u_IVRQueue"
+            },
+            {
+                "Id": -1294,
+                "Name": "u_IVRScript"
+            },
+            {
+                "Id": -1295,
+                "Name": "u_IVRScriptStep"
+            },
+            {
+                "Id": -1296,
+                "Name": "u_IVRScriptStepAction"
+            },
+            {
+                "Id": -1297,
+                "Name": "u_IVRScriptStepAnswer"
+            },
+            {
+                "Id": -1298,
+                "Name": "u_IVRScriptStepCondition"
+            },
+            {
+                "Id": -1299,
+                "Name": "u_IVRStep"
+            },
+            {
+                "Id": -1302,
+                "Name": "u_IVRStepActionINT"
+            },
+            {
+                "Id": -1300,
+                "Name": "u_IVRStepType"
+            },
+            {
+                "Id": -1355,
+                "Name": "u_kryonRobotRun"
+            },
+            {
+                "Id": -206,
+                "Name": "u_notes"
+            },
+            {
+                "Id": -36,
+                "Name": "u_objection"
+            },
+            {
+                "Id": -1376,
+                "Name": "u_objection_comment"
+            },
+            {
+                "Id": -1377,
+                "Name": "u_objection_feedback"
+            },
+            {
+                "Id": -73,
+                "Name": "u_objectTeam"
+            },
+            {
+                "Id": -37,
+                "Name": "u_opp"
+            },
+            {
+                "Id": -66,
+                "Name": "u_oppProd"
+            },
+            {
+                "Id": -38,
+                "Name": "u_order"
+            },
+            {
+                "Id": -39,
+                "Name": "u_orderItem"
+            },
+            {
+                "Id": -40,
+                "Name": "u_orderItemDate"
+            },
+            {
+                "Id": -41,
+                "Name": "u_orderLineItemSkills"
+            },
+            {
+                "Id": -33,
+                "Name": "u_pageScriptHeader"
+            },
+            {
+                "Id": -34,
+                "Name": "u_pageScriptPage"
+            },
+            {
+                "Id": -35,
+                "Name": "u_pageScriptPageItem"
+            },
+            {
+                "Id": -1306,
+                "Name": "u_payment"
+            },
+            {
+                "Id": -1303,
+                "Name": "u_PaymentGatewayDetails"
+            },
+            {
+                "Id": -42,
+                "Name": "u_product"
+            },
+            {
+                "Id": -43,
+                "Name": "u_productAtt"
+            },
+            {
+                "Id": -140,
+                "Name": "u_project"
+            },
+            {
+                "Id": -141,
+                "Name": "u_projectAtt"
+            },
+            {
+                "Id": -1342,
+                "Name": "u_qualityControl"
+            },
+            {
+                "Id": -110,
+                "Name": "u_relatedItem"
+            },
+            {
+                "Id": -44,
+                "Name": "u_role"
+            },
+            {
+                "Id": -45,
+                "Name": "u_roleView"
+            },
+            {
+                "Id": -46,
+                "Name": "u_salesMethodology"
+            },
+            {
+                "Id": -47,
+                "Name": "u_salesStage"
+            },
+            {
+                "Id": -48,
+                "Name": "u_salesStatus"
+            },
+            {
+                "Id": -49,
+                "Name": "u_scriptAnswer"
+            },
+            {
+                "Id": -50,
+                "Name": "u_scriptAnswerAction"
+            },
+            {
+                "Id": -1316,
+                "Name": "u_scriptHeader"
+            },
+            {
+                "Id": -1340,
+                "Name": "u_scriptHeader_v2"
+            },
+            {
+                "Id": -52,
+                "Name": "u_scriptQuestion"
+            },
+            {
+                "Id": -241,
+                "Name": "u_scriptQuestionPageItem"
+            },
+            {
+                "Id": -68,
+                "Name": "u_service"
+            },
+            {
+                "Id": -256,
+                "Name": "u_skillCategory"
+            },
+            {
+                "Id": -257,
+                "Name": "u_skills"
+            },
+            {
+                "Id": -1265,
+                "Name": "u_SMSCampaigns"
+            },
+            {
+                "Id": -253,
+                "Name": "u_SMSEscalations"
+            },
+            {
+                "Id": -1266,
+                "Name": "u_SMSEscalationsHdr"
+            },
+            {
+                "Id": -254,
+                "Name": "u_SMSEscalationsProcessed"
+            },
+            {
+                "Id": -1267,
+                "Name": "u_SMSTemplates"
+            },
+            {
+                "Id": -1361,
+                "Name": "u_storedProcFields"
+            },
+            {
+                "Id": -1383,
+                "Name": "u_Studio_Comments"
+            },
+            {
+                "Id": -1384,
+                "Name": "u_Studio_Feedbacks"
+            },
+            {
+                "Id": -1371,
+                "Name": "u_studioMessages"
+            },
+            {
+                "Id": -260,
+                "Name": "u_survey"
+            },
+            {
+                "Id": -1393,
+                "Name": "u_Survey_AudienceMaster"
+            },
+            {
+                "Id": -1270,
+                "Name": "u_surveyAnswer"
+            },
+            {
+                "Id": -1318,
+                "Name": "u_surveyAnswerInt"
+            },
+            {
+                "Id": -1275,
+                "Name": "u_surveyCategory"
+            },
+            {
+                "Id": -1364,
+                "Name": "u_surveyCollector"
+            },
+            {
+                "Id": -1321,
+                "Name": "u_surveydetails"
+            },
+            {
+                "Id": -1368,
+                "Name": "u_surveyFeedbackAcknowledgement"
+            },
+            {
+                "Id": -1271,
+                "Name": "u_surveyHeader"
+            },
+            {
+                "Id": -1322,
+                "Name": "u_surveyPage"
+            },
+            {
+                "Id": -1324,
+                "Name": "u_surveyPageAnswer"
+            },
+            {
+                "Id": -1323,
+                "Name": "u_surveyPageQuestion"
+            },
+            {
+                "Id": -1272,
+                "Name": "u_surveyQuestion"
+            },
+            {
+                "Id": -1317,
+                "Name": "u_surveyQuestionInt"
+            },
+            {
+                "Id": -1325,
+                "Name": "u_surveyResponse"
+            },
+            {
+                "Id": -1339,
+                "Name": "u_surveyResponseHeader"
+            },
+            {
+                "Id": -1276,
+                "Name": "u_surveySubCategory"
+            },
+            {
+                "Id": -247,
+                "Name": "u_task"
+            },
+            {
+                "Id": -53,
+                "Name": "u_team"
+            },
+            {
+                "Id": -1286,
+                "Name": "u_testCase"
+            },
+            {
+                "Id": -1284,
+                "Name": "u_testHistory"
+            },
+            {
+                "Id": -1285,
+                "Name": "u_testResult"
+            },
+            {
+                "Id": -1287,
+                "Name": "u_testScenario"
+            },
+            {
+                "Id": -1289,
+                "Name": "u_testStepResult"
+            },
+            {
+                "Id": -1288,
+                "Name": "u_testSteps"
+            },
+            {
+                "Id": -1374,
+                "Name": "u_tPointChatCampaignAgentINT"
+            },
+            {
+                "Id": -1345,
+                "Name": "u_userActivityLog"
+            },
+            {
+                "Id": -233,
+                "Name": "u_webApiErrorLookup"
+            },
+            {
+                "Id": -237,
+                "Name": "u_webApiRequestInputMapping"
+            },
+            {
+                "Id": -223,
+                "Name": "u_webApiRequestTemplate"
+            },
+            {
+                "Id": -232,
+                "Name": "u_webApiResponseErrorMapping"
+            },
+            {
+                "Id": -231,
+                "Name": "u_webApiResponseOutputMapping"
+            },
+            {
+                "Id": -1277,
+                "Name": "u_webchatcampaigns"
+            },
+            {
+                "Id": -1336,
+                "Name": "u_webchatEvent"
+            },
+            {
+                "Id": -1269,
+                "Name": "u_webChatMessage"
+            },
+            {
+                "Id": -1278,
+                "Name": "u_webchatPreferences"
+            },
+            {
+                "Id": -1346,
+                "Name": "u_weblatchRequest"
+            },
+            {
+                "Id": -70,
+                "Name": "u_workOrder"
+            },
+            {
+                "Id": -71,
+                "Name": "u_workOrderLineItem"
+            },
+            {
+                "Id": -209,
+                "Name": "view_AgentQueues"
+            },
+            {
+                "Id": -263,
+                "Name": "view_cache_tables"
+            },
+            {
+                "Id": -1391,
+                "Name": "view_CampaignActivation"
+            },
+            {
+                "Id": -210,
+                "Name": "view_CampaignCallbacks"
+            },
+            {
+                "Id": -213,
+                "Name": "view_CampaignQueueInboundNumbers"
+            },
+            {
+                "Id": -190,
+                "Name": "view_Messages"
+            },
+            {
+                "Id": -1309,
+                "Name": "view_nextRecsIntPointQueue"
+            },
+            {
+                "Id": -1307,
+                "Name": "view_u_campaignContactQueue"
+            },
+            {
+                "Id": -1308,
+                "Name": "view_u_campaignContactQueueDisp"
+            },
+            {
+                "Id": -182,
+                "Name": "vwHeartbeat"
+            },
+            {
+                "Id": -138,
+                "Name": "vwWhoisOn"
+            },
+            {
+                "Id": -197,
+                "Name": "wd_Menus"
+            },
+            {
+                "Id": -198,
+                "Name": "wd_Pages"
+            },
+            {
+                "Id": -199,
+                "Name": "wd_pageTag"
+            },
+            {
+                "Id": -200,
+                "Name": "wd_PageTemplates"
+            },
+            {
+                "Id": -201,
+                "Name": "wd_Resources"
+            },
+            {
+                "Id": -202,
+                "Name": "wd_Sites"
+            },
+            {
+                "Id": -203,
+                "Name": "wd_tag"
+            },
+            {
+                "Id": -204,
+                "Name": "wd_tagManager"
+            },
+            {
+                "Id": -205,
+                "Name": "wd_Versions"
+            }
+        ]
+    }
+}

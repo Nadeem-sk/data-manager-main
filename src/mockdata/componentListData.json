@@ -1,0 +1,5123 @@
+[
+    {
+        "Id": -2712,
+        "Name": " CM Schedule Contacts",
+        "Table": "u_service",
+        "BC Search Spec": "recordtype='Sched Contacts'",
+        "Created": "2019-08-20T06:39:00.123",
+        "Updated": "2019-08-20T06:40:33.197",
+        "Owner": "Sakshi Deshmukh"
+    },
+    {
+        "Id": -1443,
+        "Name": "_Example Comp",
+        "Table": "u_opp",
+        "BC Search Spec": "u_opp.recordType = 101",
+        "Created": "2015-01-29T14:58:25.223",
+        "Updated": "2016-05-23T12:41:05.28",
+        "Owner": "-"
+    },
+    {
+        "Id": -1447,
+        "Name": "_Example Comp Child",
+        "Table": "u_oppProd",
+        "BC Search Spec": "u_oppProd.prodId = 1",
+        "Created": "2015-01-29T15:51:04.123",
+        "Updated": "2015-01-29T17:03:28.07",
+        "Owner": "-"
+    },
+    {
+        "Id": -1515,
+        "Name": "_Example Comp Grand Child",
+        "Table": "u_oppProd",
+        "BC Search Spec": "u_oppProd.prodId = 2",
+        "Created": "2016-04-13T12:40:10.463",
+        "Updated": "2016-04-13T12:40:10.463",
+        "Owner": "-"
+    },
+    {
+        "Id": -128,
+        "Name": "Admin - Ad Hoc Chart/Report",
+        "Table": "g_adHocChart",
+        "BC Search Spec": null,
+        "Created": "2006-08-27T21:31:54.45",
+        "Updated": "2006-08-31T15:39:21.84",
+        "Owner": "-"
+    },
+    {
+        "Id": -2659,
+        "Name": "Admin - App Session",
+        "Table": "a_appSession",
+        "BC Search Spec": null,
+        "Created": "2018-12-31T10:47:07.423",
+        "Updated": "2018-12-31T10:47:29.133",
+        "Owner": "-"
+    },
+    {
+        "Id": -2599,
+        "Name": "Admin - Applications",
+        "Table": "a_application",
+        "BC Search Spec": null,
+        "Created": "2018-02-16T16:02:25.077",
+        "Updated": "2018-12-31T11:03:16.683",
+        "Owner": "-"
+    },
+    {
+        "Id": -1514,
+        "Name": "Admin - Buscomp Calc",
+        "Table": "view_cache_tables",
+        "BC Search Spec": null,
+        "Created": "2016-04-13T12:52:13.37",
+        "Updated": "2016-04-13T15:43:50.79",
+        "Owner": "-"
+    },
+    {
+        "Id": -1516,
+        "Name": "Admin - Cache Generation Log",
+        "Table": "u_cacheGenLog",
+        "BC Search Spec": null,
+        "Created": "2016-04-13T12:49:18.913",
+        "Updated": "2016-04-13T16:02:53.96",
+        "Owner": "-"
+    },
+    {
+        "Id": -1467,
+        "Name": "Admin - Certificate",
+        "Table": "g_certificate",
+        "BC Search Spec": null,
+        "Created": "2015-07-31T15:08:44.517",
+        "Updated": "2015-07-31T15:08:44.517",
+        "Owner": "-"
+    },
+    {
+        "Id": -159,
+        "Name": "Admin - Contact List",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=7",
+        "Created": "2007-01-25T10:37:35.14",
+        "Updated": "2007-01-25T10:37:35.14",
+        "Owner": "-"
+    },
+    {
+        "Id": -201,
+        "Name": "Admin - Contact Roles",
+        "Table": "u_contactRole",
+        "BC Search Spec": null,
+        "Created": "2007-08-02T10:49:58.577",
+        "Updated": "2014-04-30T10:15:35.213",
+        "Owner": "-"
+    },
+    {
+        "Id": -87,
+        "Name": "Admin - Dashboard Item",
+        "Table": "u_dashBoardItem",
+        "BC Search Spec": "",
+        "Created": "2006-03-07T13:58:36.56",
+        "Updated": "2006-09-16T15:21:04.327",
+        "Owner": "-"
+    },
+    {
+        "Id": -2567,
+        "Name": "Admin - Display Formats",
+        "Table": "g_displayFormat",
+        "BC Search Spec": null,
+        "Created": "2017-05-17T22:20:51.57",
+        "Updated": "2017-05-17T22:20:51.57",
+        "Owner": "-"
+    },
+    {
+        "Id": -39,
+        "Name": "Admin - Email Account",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.RecordType='EMAILACCOUNT'",
+        "Created": "2005-08-18T15:47:26.593",
+        "Updated": "2007-06-26T14:54:18.043",
+        "Owner": "-"
+    },
+    {
+        "Id": -141,
+        "Name": "Admin - Email Signature",
+        "Table": "u_contactNotes",
+        "BC Search Spec": "u_contactnotes.notetype='EMAILSIG'",
+        "Created": "2006-10-19T19:42:41.39",
+        "Updated": "2006-10-19T19:42:41.39",
+        "Owner": "-"
+    },
+    {
+        "Id": -132,
+        "Name": "ADMIN - Email Templates",
+        "Table": "u_emailTemplate",
+        "BC Search Spec": "",
+        "Created": "2006-09-04T14:12:03.42",
+        "Updated": "2006-09-04T14:27:27.483",
+        "Owner": "-"
+    },
+    {
+        "Id": -11,
+        "Name": "Admin - Employee",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=3",
+        "Created": "2005-07-21T15:16:19.03",
+        "Updated": "2019-09-04T15:25:01.903",
+        "Owner": "-"
+    },
+    {
+        "Id": -239,
+        "Name": "Admin - Employee (DXI Agents)",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=3 and exists (select isnull(a.attTXT01,'0') from u_contactAtt a where a.attINT01 = u_contact.id and a.attTXT01 > '0')",
+        "Created": "2008-07-03T10:30:27.287",
+        "Updated": "2015-09-30T16:29:59.26",
+        "Owner": "-"
+    },
+    {
+        "Id": -194,
+        "Name": "Admin - Employee Email Account",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.RecordType='EMPEMAILACCOUNT'",
+        "Created": "2007-07-05T12:38:19.84",
+        "Updated": "2007-07-05T12:38:46.687",
+        "Owner": "-"
+    },
+    {
+        "Id": -419,
+        "Name": "Admin - Employee Endpoints",
+        "Table": "g_employeeEndpoints",
+        "BC Search Spec": null,
+        "Created": "2014-04-30T17:16:06.733",
+        "Updated": "2014-04-30T17:16:06.733",
+        "Owner": "-"
+    },
+    {
+        "Id": -2676,
+        "Name": "Admin - Employee Hours",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactatt.recordType = 'EmployeeHours'",
+        "Created": "2019-02-25T11:18:46.013",
+        "Updated": "2019-02-27T17:01:18.867",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -227,
+        "Name": "Admin - Employee Proxy Account",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactatt.recordType='PROXY'",
+        "Created": "2008-01-24T15:39:46.84",
+        "Updated": "2008-01-24T15:39:46.84",
+        "Owner": "-"
+    },
+    {
+        "Id": -136,
+        "Name": "Admin - Employee Shift",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType='EMPSHIFT'",
+        "Created": "2006-09-06T16:06:11.763",
+        "Updated": "2006-09-06T16:07:55.467",
+        "Owner": "-"
+    },
+    {
+        "Id": -253,
+        "Name": "Admin - Employee Sites",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactatt.recordtype='EMPSITE'",
+        "Created": "2009-06-16T09:57:34.11",
+        "Updated": "2009-06-16T09:57:34.11",
+        "Owner": "-"
+    },
+    {
+        "Id": -1503,
+        "Name": "Admin - Employee Skills",
+        "Table": "u_contactSkills",
+        "BC Search Spec": "u_contactSkills.recordType = 1 and u_contactSkills.contactId <> 0",
+        "Created": "2016-02-22T10:06:53.447",
+        "Updated": "2016-03-24T16:14:49.783",
+        "Owner": "-"
+    },
+    {
+        "Id": -222,
+        "Name": "Admin - Employee SMS Account",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.RecordType='EMPSMSACCOUNT'",
+        "Created": "2007-09-19T19:44:31.343",
+        "Updated": "2007-09-19T19:44:31.343",
+        "Owner": "-"
+    },
+    {
+        "Id": -421,
+        "Name": "Admin - Endpoint IP Whitelist",
+        "Table": "g_endpointWhitelist",
+        "BC Search Spec": null,
+        "Created": "2014-05-02T09:41:42.33",
+        "Updated": "2014-05-02T09:41:42.33",
+        "Owner": "-"
+    },
+    {
+        "Id": -381,
+        "Name": "ADMIN - FTP Accounts",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.RecordType='FTPACCOUNT'",
+        "Created": "2013-04-18T21:57:07.27",
+        "Updated": "2013-04-18T21:57:07.27",
+        "Owner": "-"
+    },
+    {
+        "Id": -402,
+        "Name": "Admin - Heartbeat",
+        "Table": "vwHeartbeat",
+        "BC Search Spec": null,
+        "Created": "2013-11-21T14:27:16.64",
+        "Updated": "2014-04-28T13:50:01.563",
+        "Owner": "-"
+    },
+    {
+        "Id": -2600,
+        "Name": "Admin - Identity Provider",
+        "Table": "g_identityProvider",
+        "BC Search Spec": null,
+        "Created": "2018-03-02T12:28:52.087",
+        "Updated": "2018-03-02T12:28:52.087",
+        "Owner": "-"
+    },
+    {
+        "Id": -2581,
+        "Name": "Admin - Media Activity Mapping",
+        "Table": "g_mediaActivityMapping",
+        "BC Search Spec": null,
+        "Created": "2017-08-09T13:21:17.21",
+        "Updated": "2017-08-09T13:21:17.21",
+        "Owner": "-"
+    },
+    {
+        "Id": -2580,
+        "Name": "Admin - Media Channel",
+        "Table": "g_mediaChannel",
+        "BC Search Spec": null,
+        "Created": "2017-08-08T15:06:09.37",
+        "Updated": "2017-08-08T15:10:52.043",
+        "Owner": "-"
+    },
+    {
+        "Id": -1449,
+        "Name": "Admin - Menu Applications",
+        "Table": "a_MenuApplications",
+        "BC Search Spec": null,
+        "Created": "2015-02-03T10:01:18.29",
+        "Updated": "2015-02-03T10:01:18.29",
+        "Owner": "-"
+    },
+    {
+        "Id": -1451,
+        "Name": "Admin - Menu Favourites",
+        "Table": "u_contactActivity",
+        "BC Search Spec": "u_contactActivity.recordType = '1'",
+        "Created": "2015-02-10T09:19:02.777",
+        "Updated": "2015-02-10T09:37:35.21",
+        "Owner": "-"
+    },
+    {
+        "Id": -328,
+        "Name": "Admin - Menu Group",
+        "Table": "a_menuGroup",
+        "BC Search Spec": null,
+        "Created": "2013-01-29T11:53:11.477",
+        "Updated": "2013-08-28T13:07:03.287",
+        "Owner": "-"
+    },
+    {
+        "Id": -221,
+        "Name": "Admin - Menu Item",
+        "Table": "a_menuItem",
+        "BC Search Spec": "",
+        "Created": "2007-09-19T18:32:43.89",
+        "Updated": "2014-04-30T10:00:19.573",
+        "Owner": "-"
+    },
+    {
+        "Id": -436,
+        "Name": "Admin - Message",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType = '998'",
+        "Created": "2014-05-15T12:03:49.057",
+        "Updated": "2014-05-15T12:06:47.1",
+        "Owner": "-"
+    },
+    {
+        "Id": -437,
+        "Name": "Admin - Message Filter",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType = 'FILTER'",
+        "Created": "2014-05-15T12:07:26.473",
+        "Updated": "2014-05-15T12:08:52.637",
+        "Owner": "-"
+    },
+    {
+        "Id": -415,
+        "Name": "Admin - Messages",
+        "Table": "view_Messages",
+        "BC Search Spec": null,
+        "Created": "2014-04-30T15:06:20.42",
+        "Updated": "2014-04-30T15:06:20.42",
+        "Owner": "-"
+    },
+    {
+        "Id": -56,
+        "Name": "Admin - Object Team",
+        "Table": "u_objectTeam",
+        "BC Search Spec": "",
+        "Created": "2005-10-18T15:31:37.543",
+        "Updated": "2019-09-04T14:37:41.957",
+        "Owner": "-"
+    },
+    {
+        "Id": -58,
+        "Name": "Admin - Object Team (Campaign)",
+        "Table": "u_objectTeam",
+        "BC Search Spec": "objectType = 3",
+        "Created": "2005-10-24T12:25:00.247",
+        "Updated": "2019-09-04T16:06:52.097",
+        "Owner": "-"
+    },
+    {
+        "Id": -57,
+        "Name": "Admin - Object Team (Contact)",
+        "Table": "u_objectTeam",
+        "BC Search Spec": "objectType = 1",
+        "Created": "2005-10-20T16:07:10.84",
+        "Updated": "2019-09-04T14:37:19.647",
+        "Owner": "-"
+    },
+    {
+        "Id": -223,
+        "Name": "Admin - Object Team (Skills)",
+        "Table": "u_objectTeam",
+        "BC Search Spec": "u_objectteam.objectType = 6",
+        "Created": "2007-09-28T16:45:10.717",
+        "Updated": "2019-09-04T14:39:55.863",
+        "Owner": "-"
+    },
+    {
+        "Id": -422,
+        "Name": "Admin - Passwords",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType='PASSWORD'",
+        "Created": "2014-05-02T11:43:23.33",
+        "Updated": "2014-05-02T11:43:23.33",
+        "Owner": "-"
+    },
+    {
+        "Id": -148,
+        "Name": "Admin - Picklist Values",
+        "Table": "r_pickListValues",
+        "BC Search Spec": null,
+        "Created": "2006-11-16T14:35:00.937",
+        "Updated": "2006-11-16T14:35:00.937",
+        "Owner": "-"
+    },
+    {
+        "Id": -147,
+        "Name": "Admin - Picklists",
+        "Table": "r_pickListDef",
+        "BC Search Spec": "r_picklistDef.type='PICKLIST'",
+        "Created": "2006-11-16T14:26:58.17",
+        "Updated": "2006-11-16T15:04:15.013",
+        "Owner": "-"
+    },
+    {
+        "Id": -66,
+        "Name": "Admin - Regular Expression",
+        "Table": "g_regularExpressions",
+        "BC Search Spec": "",
+        "Created": "2006-01-05T13:52:00.577",
+        "Updated": "2006-01-05T13:52:00.577",
+        "Owner": "-"
+    },
+    {
+        "Id": -1464,
+        "Name": "Admin - Release History",
+        "Table": "a_release",
+        "BC Search Spec": null,
+        "Created": "2015-06-12T12:30:14.86",
+        "Updated": "2015-06-12T16:48:22.117",
+        "Owner": "-"
+    },
+    {
+        "Id": -63,
+        "Name": "Admin - Repository Bus Comp",
+        "Table": "g_BusComp",
+        "BC Search Spec": "",
+        "Created": "2005-11-28T17:36:10.75",
+        "Updated": "2007-02-26T12:01:06.343",
+        "Owner": "-"
+    },
+    {
+        "Id": -62,
+        "Name": "Admin - Repository List Applet",
+        "Table": "g_applet",
+        "BC Search Spec": "g_applet.type = 'LIST'",
+        "Created": "2005-11-28T17:33:56.03",
+        "Updated": "2017-06-16T17:53:04.21",
+        "Owner": "-"
+    },
+    {
+        "Id": -179,
+        "Name": "Admin - Role",
+        "Table": "u_role",
+        "BC Search Spec": "u_role.isSystem=0",
+        "Created": "2007-05-04T14:36:47.077",
+        "Updated": "2018-12-10T13:30:16.28",
+        "Owner": "-"
+    },
+    {
+        "Id": -202,
+        "Name": "Admin - Role Menu Item",
+        "Table": "u_roleView",
+        "BC Search Spec": null,
+        "Created": "2007-08-02T10:49:58.827",
+        "Updated": "2014-04-30T12:03:04.61",
+        "Owner": "-"
+    },
+    {
+        "Id": -31,
+        "Name": "Admin - Roles",
+        "Table": "u_role",
+        "BC Search Spec": "u_role.isSystem=0",
+        "Created": "2005-08-15T18:30:19.293",
+        "Updated": "2018-12-10T13:32:31.9",
+        "Owner": "-"
+    },
+    {
+        "Id": -60,
+        "Name": "Admin - Search Object",
+        "Table": "g_searchObject",
+        "BC Search Spec": "",
+        "Created": "2005-11-28T17:15:12.797",
+        "Updated": "2005-11-28T17:15:12.797",
+        "Owner": "-"
+    },
+    {
+        "Id": -61,
+        "Name": "Admin - Search Object Field",
+        "Table": "g_searchObjectField",
+        "BC Search Spec": "",
+        "Created": "2005-11-28T17:15:29.06",
+        "Updated": "2005-11-28T17:15:29.06",
+        "Owner": "-"
+    },
+    {
+        "Id": -178,
+        "Name": "Admin - Search Object Role",
+        "Table": "g_searchObjectRole",
+        "BC Search Spec": null,
+        "Created": "2007-05-04T13:51:54.84",
+        "Updated": "2007-05-04T13:54:04.153",
+        "Owner": "-"
+    },
+    {
+        "Id": -252,
+        "Name": "Admin - Sites",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactATT.recordType='SITE'",
+        "Created": "2009-06-16T09:53:42.297",
+        "Updated": "2009-06-16T09:56:49.907",
+        "Owner": "-"
+    },
+    {
+        "Id": -131,
+        "Name": "Admin - SMS Account",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType = 'SMSACCOUNT'",
+        "Created": "2006-08-31T17:17:28.983",
+        "Updated": "2006-08-31T17:39:58.543",
+        "Owner": "-"
+    },
+    {
+        "Id": -2520,
+        "Name": "Admin - SMS Templates",
+        "Table": "u_SMSTemplates",
+        "BC Search Spec": null,
+        "Created": "2016-05-25T11:06:28",
+        "Updated": "2016-05-25T11:06:28",
+        "Owner": "-"
+    },
+    {
+        "Id": -251,
+        "Name": "AES - Auto Dialer Detail",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.code='AUTODIALER'",
+        "Created": "2009-06-14T22:48:10.69",
+        "Updated": "2009-06-14T22:48:10.69",
+        "Owner": "-"
+    },
+    {
+        "Id": -250,
+        "Name": "AES - Phone Detail",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.code='PHONE'",
+        "Created": "2009-06-14T22:47:56.33",
+        "Updated": "2009-06-14T22:47:56.33",
+        "Owner": "-"
+    },
+    {
+        "Id": -258,
+        "Name": "AES - Stats",
+        "Table": "aes_Statistics",
+        "BC Search Spec": null,
+        "Created": "2009-07-09T12:53:02.207",
+        "Updated": "2009-07-09T12:53:02.207",
+        "Owner": "-"
+    },
+    {
+        "Id": -249,
+        "Name": "AES - Switch Detail",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.code='SWITCH'",
+        "Created": "2009-06-11T11:13:44.88",
+        "Updated": "2009-06-11T11:13:44.88",
+        "Owner": "-"
+    },
+    {
+        "Id": -2575,
+        "Name": "All Process Scripts",
+        "Table": "u_scriptHeader",
+        "BC Search Spec": "hardDeletedFlag=0",
+        "Created": "2017-06-23T12:10:02.003",
+        "Updated": "2017-06-23T12:10:02.003",
+        "Owner": "-"
+    },
+    {
+        "Id": -36,
+        "Name": "APP - Activity Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": "parentTbl = 'u_Activity'",
+        "Created": "2005-08-17T18:52:11.327",
+        "Updated": "2014-04-30T10:01:02.52",
+        "Owner": "-"
+    },
+    {
+        "Id": -405,
+        "Name": "APP - Add to Dialer Queue",
+        "Table": "u_dialerescalations",
+        "BC Search Spec": "u_dialerEscalations.action = 'import'",
+        "Created": "2013-11-27T16:49:02.833",
+        "Updated": "2014-04-30T10:54:23.363",
+        "Owner": "-"
+    },
+    {
+        "Id": -399,
+        "Name": "APP - API Batch",
+        "Table": "u_api_batch",
+        "BC Search Spec": null,
+        "Created": "2013-11-12T17:23:13.693",
+        "Updated": "2013-11-13T17:30:54.443",
+        "Owner": "-"
+    },
+    {
+        "Id": -400,
+        "Name": "APP - API Batch Errors",
+        "Table": "u_api_batchErrors",
+        "BC Search Spec": null,
+        "Created": "2013-11-13T17:28:36.637",
+        "Updated": "2013-11-13T17:28:36.637",
+        "Owner": "-"
+    },
+    {
+        "Id": -82,
+        "Name": "APP - Applet",
+        "Table": "g_applet",
+        "BC Search Spec": "",
+        "Created": "2006-02-16T11:55:29.343",
+        "Updated": "2006-02-16T11:55:29.343",
+        "Owner": "-"
+    },
+    {
+        "Id": -101,
+        "Name": "APP - Applet Command",
+        "Table": "g_appletCommand",
+        "BC Search Spec": "",
+        "Created": "2006-07-16T14:33:37.2",
+        "Updated": "2006-07-16T14:33:37.2",
+        "Owner": "-"
+    },
+    {
+        "Id": -83,
+        "Name": "APP - Applet Field",
+        "Table": "g_appletField",
+        "BC Search Spec": "",
+        "Created": "2006-02-16T11:56:01.81",
+        "Updated": "2006-08-02T13:17:30.17",
+        "Owner": "-"
+    },
+    {
+        "Id": -1463,
+        "Name": "APP - Applet Field Hyperlink",
+        "Table": "g_appletFieldHyperlink",
+        "BC Search Spec": null,
+        "Created": "2015-05-11T11:31:34.687",
+        "Updated": "2015-05-11T11:31:34.687",
+        "Owner": "-"
+    },
+    {
+        "Id": -97,
+        "Name": "APP - Applet Filter",
+        "Table": "g_appletFilter",
+        "BC Search Spec": "",
+        "Created": "2006-06-30T13:44:51.92",
+        "Updated": "2006-06-30T13:44:51.92",
+        "Owner": "-"
+    },
+    {
+        "Id": -76,
+        "Name": "APP - Application Settings",
+        "Table": "u_appPreferences",
+        "BC Search Spec": "",
+        "Created": "2006-02-10T12:09:03.98",
+        "Updated": "2014-05-01T11:37:20.73",
+        "Owner": "-"
+    },
+    {
+        "Id": -14,
+        "Name": "APP - Audit Log",
+        "Table": "u_auditLog",
+        "BC Search Spec": "",
+        "Created": "2005-07-25T23:15:18.373",
+        "Updated": "2014-04-30T10:55:50.077",
+        "Owner": "-"
+    },
+    {
+        "Id": -2570,
+        "Name": "APP - Auto Process",
+        "Table": "g_autoProcess",
+        "BC Search Spec": null,
+        "Created": "2017-06-15T16:38:49.113",
+        "Updated": "2017-06-15T16:38:49.113",
+        "Owner": "-"
+    },
+    {
+        "Id": -2571,
+        "Name": "APP - Auto Process Rules",
+        "Table": "g_autoProcessRules",
+        "BC Search Spec": null,
+        "Created": "2017-06-15T16:52:36.673",
+        "Updated": "2017-06-15T16:52:36.673",
+        "Owner": "-"
+    },
+    {
+        "Id": -1513,
+        "Name": "APP - BCF Calc Depend",
+        "Table": "g_bcFieldCalcDepend",
+        "BC Search Spec": null,
+        "Created": "2016-04-13T12:52:13.37",
+        "Updated": "2016-04-13T12:52:13.37",
+        "Owner": "-"
+    },
+    {
+        "Id": -1469,
+        "Name": "APP - Certificate Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": "parentTbl = 'g_certificate'",
+        "Created": "2015-08-11T10:58:11.997",
+        "Updated": "2015-08-11T10:58:11.997",
+        "Owner": "-"
+    },
+    {
+        "Id": -110,
+        "Name": "APP - Comp Field Pick Map",
+        "Table": "g_bcFieldPickMap",
+        "BC Search Spec": "",
+        "Created": "2006-08-01T15:53:02.793",
+        "Updated": "2006-08-01T15:53:02.793",
+        "Owner": "-"
+    },
+    {
+        "Id": -79,
+        "Name": "APP - Component",
+        "Table": "g_BusComp",
+        "BC Search Spec": "",
+        "Created": "2006-02-16T11:39:44.81",
+        "Updated": "2007-09-13T12:33:49.873",
+        "Owner": "-"
+    },
+    {
+        "Id": -80,
+        "Name": "APP - Component Field",
+        "Table": "g_busCompField",
+        "BC Search Spec": "",
+        "Created": "2006-02-16T11:40:26.763",
+        "Updated": "2007-09-13T12:34:09.14",
+        "Owner": "-"
+    },
+    {
+        "Id": -1512,
+        "Name": "APP - Component Field Calc",
+        "Table": "g_busCompField",
+        "BC Search Spec": "g_busCompField.type LIKE '%CALCULATED%'",
+        "Created": "2016-04-13T12:52:13.37",
+        "Updated": "2016-04-13T12:52:13.37",
+        "Owner": "-"
+    },
+    {
+        "Id": -153,
+        "Name": "APP - Component Propeties",
+        "Table": "g_busCompProperties",
+        "BC Search Spec": null,
+        "Created": "2006-12-30T11:36:47.103",
+        "Updated": "2006-12-30T11:36:47.103",
+        "Owner": "-"
+    },
+    {
+        "Id": -199,
+        "Name": "APP - Contact Role",
+        "Table": "u_contactRole",
+        "BC Search Spec": null,
+        "Created": "2007-07-31T14:18:44.2",
+        "Updated": "2008-11-20T08:49:46.703",
+        "Owner": "-"
+    },
+    {
+        "Id": -174,
+        "Name": "APP - Copy Item",
+        "Table": "g_copyItemHeader",
+        "BC Search Spec": null,
+        "Created": "2007-04-30T14:25:51.39",
+        "Updated": "2014-04-30T10:03:58.927",
+        "Owner": "-"
+    },
+    {
+        "Id": -175,
+        "Name": "APP - Copy Item Component",
+        "Table": "g_copyItemComponent",
+        "BC Search Spec": null,
+        "Created": "2007-04-30T14:29:36.607",
+        "Updated": "2014-04-30T10:04:21.187",
+        "Owner": "-"
+    },
+    {
+        "Id": -176,
+        "Name": "APP - Copy Item Component Fld",
+        "Table": "g_copyItemComponentField",
+        "BC Search Spec": null,
+        "Created": "2007-04-30T14:33:41.34",
+        "Updated": "2014-04-30T10:42:23.25",
+        "Owner": "-"
+    },
+    {
+        "Id": -177,
+        "Name": "APP - Copy Item Updates",
+        "Table": "g_copyItemPrCompFieldUpdates",
+        "BC Search Spec": null,
+        "Created": "2007-05-02T17:16:28.827",
+        "Updated": "2007-05-02T17:16:28.827",
+        "Owner": "-"
+    },
+    {
+        "Id": -331,
+        "Name": "APP - Data Export Error",
+        "Table": "g_DataExport_Job_ErrorLine",
+        "BC Search Spec": null,
+        "Created": "2012-12-18T16:35:11.2",
+        "Updated": "2013-02-13T14:34:40.137",
+        "Owner": "-"
+    },
+    {
+        "Id": -330,
+        "Name": "APP - Data Export File",
+        "Table": "g_DataExport_Job_ErrorLine",
+        "BC Search Spec": null,
+        "Created": "2012-12-17T16:11:28.053",
+        "Updated": "2012-12-17T17:01:33.57",
+        "Owner": "-"
+    },
+    {
+        "Id": -329,
+        "Name": "APP - Data Export Job",
+        "Table": "g_DataExport_Job",
+        "BC Search Spec": null,
+        "Created": "2012-12-05T15:40:27.637",
+        "Updated": "2012-12-18T16:36:58.653",
+        "Owner": "-"
+    },
+    {
+        "Id": -332,
+        "Name": "APP - Data Export Schedule",
+        "Table": "g_DataExport_Schedule",
+        "BC Search Spec": "",
+        "Created": "2013-01-03T14:28:36.173",
+        "Updated": "2013-02-13T14:13:22.99",
+        "Owner": "-"
+    },
+    {
+        "Id": -395,
+        "Name": "APP - Data Imp File Templates",
+        "Table": "g_DataImport_FileTemplate",
+        "BC Search Spec": null,
+        "Created": "2013-08-28T09:44:55.523",
+        "Updated": "2013-08-28T09:44:55.523",
+        "Owner": "-"
+    },
+    {
+        "Id": -360,
+        "Name": "APP - Data Import Auto",
+        "Table": "g_DataImport_Header",
+        "BC Search Spec": null,
+        "Created": "2013-03-08T17:36:11.413",
+        "Updated": "2013-03-08T17:36:11.413",
+        "Owner": "-"
+    },
+    {
+        "Id": -235,
+        "Name": "APP - Data Import Error",
+        "Table": "g_DataImport_Job_ErrorLine",
+        "BC Search Spec": null,
+        "Created": "2008-04-17T16:19:09.297",
+        "Updated": "2008-04-21T17:11:57.95",
+        "Owner": "-"
+    },
+    {
+        "Id": -234,
+        "Name": "APP - Data Import Header",
+        "Table": "g_DataImport_Header",
+        "BC Search Spec": null,
+        "Created": "2008-03-25T17:21:40.84",
+        "Updated": "2008-03-25T17:22:25.687",
+        "Owner": "-"
+    },
+    {
+        "Id": -233,
+        "Name": "APP - Data Import Job",
+        "Table": "g_DataImport_Job",
+        "BC Search Spec": null,
+        "Created": "2008-03-25T17:04:05.263",
+        "Updated": "2018-10-19T12:40:56.213",
+        "Owner": "-"
+    },
+    {
+        "Id": -406,
+        "Name": "APP - Delete from Dialer Queue",
+        "Table": "u_dialerescalations",
+        "BC Search Spec": "u_dialerEscalations.action = 'delete'",
+        "Created": "2013-11-27T16:54:33.773",
+        "Updated": "2014-04-30T10:58:58.77",
+        "Owner": "-"
+    },
+    {
+        "Id": -404,
+        "Name": "APP - Dialer Escalation Errors",
+        "Table": "u_dialerescalation_errors",
+        "BC Search Spec": null,
+        "Created": "2013-11-25T11:42:01.297",
+        "Updated": "2014-04-30T11:01:08.483",
+        "Owner": "-"
+    },
+    {
+        "Id": -403,
+        "Name": "APP - Dialer Escalations",
+        "Table": "u_dialerescalations",
+        "BC Search Spec": null,
+        "Created": "2013-11-22T18:00:21.947",
+        "Updated": "2014-04-30T10:59:08.47",
+        "Owner": "-"
+    },
+    {
+        "Id": -2657,
+        "Name": "APP - Encoding",
+        "Table": "g_encoding",
+        "BC Search Spec": null,
+        "Created": "2018-12-12T17:22:28.437",
+        "Updated": "2018-12-12T17:22:28.437",
+        "Owner": "-"
+    },
+    {
+        "Id": -382,
+        "Name": "APP - Export File Types Pick",
+        "Table": "r_pickListValues",
+        "BC Search Spec": "r_picklistvalues.picklistId = 591",
+        "Created": "2013-04-18T22:10:51.623",
+        "Updated": "2013-04-18T22:10:51.623",
+        "Owner": "-"
+    },
+    {
+        "Id": -1468,
+        "Name": "APP - External API",
+        "Table": "g_ExtAPI",
+        "BC Search Spec": null,
+        "Created": "2015-08-10T15:10:20.497",
+        "Updated": "2019-11-20T13:17:33.397",
+        "Owner": "-"
+    },
+    {
+        "Id": -137,
+        "Name": "APP - Icons",
+        "Table": "g_Icons",
+        "BC Search Spec": null,
+        "Created": "2006-09-10T18:05:57.467",
+        "Updated": "2006-09-10T18:05:57.467",
+        "Owner": "-"
+    },
+    {
+        "Id": -337,
+        "Name": "APP - Import Freq. Picklist",
+        "Table": "r_pickListValues",
+        "BC Search Spec": "r_picklistvalues.picklistId = 593",
+        "Created": "2013-02-14T14:38:56.983",
+        "Updated": "2014-04-30T11:01:33.52",
+        "Owner": "-"
+    },
+    {
+        "Id": -336,
+        "Name": "APP - Import Trans Templates",
+        "Table": "u_document",
+        "BC Search Spec": "recordType = 'TRANS' and attTXT50 = 'Import'",
+        "Created": "2013-02-14T13:42:59.177",
+        "Updated": "2013-02-14T13:42:59.177",
+        "Owner": "-"
+    },
+    {
+        "Id": -200,
+        "Name": "APP - Intersection Defaults",
+        "Table": "g_intersectionDefaults",
+        "BC Search Spec": null,
+        "Created": "2007-07-31T15:25:41.013",
+        "Updated": "2014-04-30T10:03:29.737",
+        "Owner": "-"
+    },
+    {
+        "Id": -195,
+        "Name": "APP - Intersection Object",
+        "Table": "g_intersectionObject",
+        "BC Search Spec": null,
+        "Created": "2007-07-05T14:55:03.967",
+        "Updated": "2014-04-30T13:41:40.95",
+        "Owner": "-"
+    },
+    {
+        "Id": -99,
+        "Name": "APP - Join",
+        "Table": "g_busCompJoin",
+        "BC Search Spec": "",
+        "Created": "2006-07-02T17:00:30.153",
+        "Updated": "2006-08-13T10:47:29.64",
+        "Owner": "-"
+    },
+    {
+        "Id": -2661,
+        "Name": "APP - Kryon Robot",
+        "Table": "g_kryonRobot",
+        "BC Search Spec": null,
+        "Created": "2019-01-28T14:33:03.91",
+        "Updated": "2019-01-28T14:33:03.91",
+        "Owner": "-"
+    },
+    {
+        "Id": -2662,
+        "Name": "APP - Kryon Robot Req Field",
+        "Table": "g_kryonRobotRequestField",
+        "BC Search Spec": null,
+        "Created": "2019-01-28T14:33:27.167",
+        "Updated": "2019-01-28T14:33:27.167",
+        "Owner": "-"
+    },
+    {
+        "Id": -2673,
+        "Name": "APP - Kryon Robot Resp Field",
+        "Table": "g_kryonRobotResponseField",
+        "BC Search Spec": null,
+        "Created": "2019-02-12T16:19:14.793",
+        "Updated": "2019-02-12T16:19:14.793",
+        "Owner": "-"
+    },
+    {
+        "Id": -2663,
+        "Name": "APP - Kryon Robot Run",
+        "Table": "u_kryonRobotRun",
+        "BC Search Spec": null,
+        "Created": "2019-01-28T14:33:41.51",
+        "Updated": "2019-04-05T15:11:41.173",
+        "Owner": "-"
+    },
+    {
+        "Id": -98,
+        "Name": "APP - Link",
+        "Table": "g_busCompLink",
+        "BC Search Spec": "",
+        "Created": "2006-07-02T17:00:07.843",
+        "Updated": "2006-08-13T10:47:57.84",
+        "Owner": "-"
+    },
+    {
+        "Id": -2658,
+        "Name": "APP - Media Type",
+        "Table": "g_mediaType",
+        "BC Search Spec": null,
+        "Created": "2018-12-13T11:31:49.16",
+        "Updated": "2018-12-13T11:31:49.16",
+        "Owner": "-"
+    },
+    {
+        "Id": -85,
+        "Name": "APP - Object",
+        "Table": "g_busObj",
+        "BC Search Spec": "",
+        "Created": "2006-02-16T11:57:21.043",
+        "Updated": "2014-05-27T16:33:43.05",
+        "Owner": "-"
+    },
+    {
+        "Id": -112,
+        "Name": "APP - Object Component",
+        "Table": "g_busObjBusComp",
+        "BC Search Spec": "",
+        "Created": "2006-08-02T16:24:06.903",
+        "Updated": "2006-08-02T16:24:06.903",
+        "Owner": "-"
+    },
+    {
+        "Id": -230,
+        "Name": "APP - Object Filter",
+        "Table": "g_objectFilter",
+        "BC Search Spec": null,
+        "Created": "2008-03-13T16:38:29.373",
+        "Updated": "2014-04-30T10:04:30.157",
+        "Owner": "-"
+    },
+    {
+        "Id": -232,
+        "Name": "APP - Object Filter Field",
+        "Table": "g_objectFilterField",
+        "BC Search Spec": null,
+        "Created": "2008-03-13T18:00:10.39",
+        "Updated": "2014-04-30T10:04:42.98",
+        "Owner": "-"
+    },
+    {
+        "Id": -88,
+        "Name": "APP - Object History",
+        "Table": "u_contactObjectHistory",
+        "BC Search Spec": "",
+        "Created": "2006-03-22T15:23:40.14",
+        "Updated": "2014-04-30T10:19:36.957",
+        "Owner": "-"
+    },
+    {
+        "Id": -257,
+        "Name": "APP - Queue Object Filter",
+        "Table": "g_objectFilter",
+        "BC Search Spec": "recordType = 'Q'",
+        "Created": "2009-07-08T23:50:56.88",
+        "Updated": "2014-04-30T10:02:56.99",
+        "Owner": "-"
+    },
+    {
+        "Id": -1462,
+        "Name": "APP - Repository",
+        "Table": "g_repository",
+        "BC Search Spec": null,
+        "Created": "2015-05-07T16:23:58.07",
+        "Updated": "2015-05-07T16:23:58.07",
+        "Owner": "-"
+    },
+    {
+        "Id": -2521,
+        "Name": "APP - Scheduler Params",
+        "Table": "g_schedulerParams",
+        "BC Search Spec": null,
+        "Created": "2016-05-19T17:21:05",
+        "Updated": "2016-05-19T17:21:36",
+        "Owner": "-"
+    },
+    {
+        "Id": -106,
+        "Name": "APP - Search Object",
+        "Table": "g_searchObject",
+        "BC Search Spec": "",
+        "Created": "2006-07-26T14:12:26.95",
+        "Updated": "2006-07-26T14:12:26.95",
+        "Owner": "-"
+    },
+    {
+        "Id": -107,
+        "Name": "APP - Search Object Field",
+        "Table": "g_searchObjectField",
+        "BC Search Spec": "",
+        "Created": "2006-07-26T14:12:50.513",
+        "Updated": "2006-07-26T14:12:50.513",
+        "Owner": "-"
+    },
+    {
+        "Id": -418,
+        "Name": "APP - Security Profiles",
+        "Table": "g_securityProfiles",
+        "BC Search Spec": null,
+        "Created": "2014-04-30T17:07:05.567",
+        "Updated": "2014-04-30T17:07:05.567",
+        "Owner": "-"
+    },
+    {
+        "Id": -2695,
+        "Name": "APP - Services",
+        "Table": "u_service",
+        "BC Search Spec": "u_service.recordtype='service'",
+        "Created": "2019-04-25T17:03:23.383",
+        "Updated": "2019-04-25T17:04:59.35",
+        "Owner": "Shakila Small"
+    },
+    {
+        "Id": -414,
+        "Name": "APP - Session",
+        "Table": "a_Session",
+        "BC Search Spec": null,
+        "Created": "2014-04-30T11:50:51.857",
+        "Updated": "2014-04-30T11:50:51.857",
+        "Owner": "-"
+    },
+    {
+        "Id": -2696,
+        "Name": "APP - SP Fields",
+        "Table": "u_storedProcFields",
+        "BC Search Spec": null,
+        "Created": "2019-04-29T12:19:05.517",
+        "Updated": "2019-04-29T12:19:05.517",
+        "Owner": "-"
+    },
+    {
+        "Id": -334,
+        "Name": "APP - SP Templates",
+        "Table": "u_document",
+        "BC Search Spec": "recordType = 'SPs'",
+        "Created": "2013-02-13T15:51:00.56",
+        "Updated": "2013-08-28T14:33:36.283",
+        "Owner": "-"
+    },
+    {
+        "Id": -265,
+        "Name": "APP - Suppression Detail",
+        "Table": "g_suppressionJobDetail",
+        "BC Search Spec": null,
+        "Created": "2011-03-28T15:46:44.72",
+        "Updated": "2014-04-30T10:02:49.8",
+        "Owner": "-"
+    },
+    {
+        "Id": -264,
+        "Name": "APP - Suppression Job",
+        "Table": "g_suppressionJob",
+        "BC Search Spec": null,
+        "Created": "2011-03-28T15:46:43.367",
+        "Updated": "2014-04-30T10:03:08.123",
+        "Owner": "-"
+    },
+    {
+        "Id": -77,
+        "Name": "APP - Table",
+        "Table": "g_TableDef",
+        "BC Search Spec": "",
+        "Created": "2006-02-16T11:37:04.14",
+        "Updated": "2006-02-16T13:51:17.34",
+        "Owner": "-"
+    },
+    {
+        "Id": -78,
+        "Name": "APP - Table Column",
+        "Table": "g_tableColDef",
+        "BC Search Spec": "",
+        "Created": "2006-02-16T11:38:51.467",
+        "Updated": "2014-12-11T14:33:20.31",
+        "Owner": "-"
+    },
+    {
+        "Id": -396,
+        "Name": "APP - Transformation Templates",
+        "Table": "u_document",
+        "BC Search Spec": "recordType = 'TRANS'",
+        "Created": "2013-08-28T13:15:18.657",
+        "Updated": "2013-08-28T13:15:18.657",
+        "Owner": "-"
+    },
+    {
+        "Id": -420,
+        "Name": "APP - User Endpoints",
+        "Table": "g_userEndpoints",
+        "BC Search Spec": null,
+        "Created": "2014-04-30T17:18:25.437",
+        "Updated": "2014-04-30T17:18:25.437",
+        "Owner": "-"
+    },
+    {
+        "Id": -84,
+        "Name": "APP - View",
+        "Table": "g_view",
+        "BC Search Spec": "",
+        "Created": "2006-02-16T11:56:40.45",
+        "Updated": "2020-12-15T14:17:31.553",
+        "Owner": "-"
+    },
+    {
+        "Id": -116,
+        "Name": "APP - View Applet",
+        "Table": "g_viewApplet",
+        "BC Search Spec": "",
+        "Created": "2006-08-03T16:26:45.95",
+        "Updated": "2014-05-29T10:05:22.533",
+        "Owner": "-"
+    },
+    {
+        "Id": -115,
+        "Name": "APP - View Mode",
+        "Table": "r_pickListValues",
+        "BC Search Spec": "r_picklistValues.pickListId=80",
+        "Created": "2006-08-02T17:45:11.123",
+        "Updated": "2014-04-30T10:23:04.503",
+        "Owner": "-"
+    },
+    {
+        "Id": -1476,
+        "Name": "APP - Web API Error Lookup",
+        "Table": "u_webApiErrorLookup",
+        "BC Search Spec": null,
+        "Created": "2015-11-12T16:24:18.99",
+        "Updated": "2015-11-12T16:24:18.99",
+        "Owner": "-"
+    },
+    {
+        "Id": -1475,
+        "Name": "APP - Web API Error Mapping",
+        "Table": "u_webApiResponseErrorMapping",
+        "BC Search Spec": null,
+        "Created": "2015-11-09T16:33:24.7",
+        "Updated": "2015-11-09T16:33:24.7",
+        "Owner": "-"
+    },
+    {
+        "Id": -1481,
+        "Name": "APP - Web API Request Mapping",
+        "Table": "u_webApiRequestInputMapping",
+        "BC Search Spec": null,
+        "Created": "2015-11-20T14:30:38.003",
+        "Updated": "2015-11-20T14:30:38.003",
+        "Owner": "-"
+    },
+    {
+        "Id": -1466,
+        "Name": "APP - Web API Request Template",
+        "Table": "u_webApiRequestTemplate",
+        "BC Search Spec": null,
+        "Created": "2015-07-31T14:56:09.293",
+        "Updated": "2015-07-31T14:56:09.293",
+        "Owner": "-"
+    },
+    {
+        "Id": -1474,
+        "Name": "APP - Web API Response Mapping",
+        "Table": "u_webApiResponseOutputMapping",
+        "BC Search Spec": null,
+        "Created": "2015-10-29T14:50:19.997",
+        "Updated": "2015-10-29T14:50:19.997",
+        "Owner": "-"
+    },
+    {
+        "Id": -2656,
+        "Name": "APP - WebLatch Req Client Cert",
+        "Table": "g_weblatchRequestClientCertificate",
+        "BC Search Spec": null,
+        "Created": "2018-12-12T16:41:31.477",
+        "Updated": "2018-12-12T16:41:31.477",
+        "Owner": "-"
+    },
+    {
+        "Id": -2653,
+        "Name": "APP - WebLatch Request",
+        "Table": "u_weblatchRequest",
+        "BC Search Spec": null,
+        "Created": "2018-12-12T11:01:12.043",
+        "Updated": "2019-04-05T15:12:56.963",
+        "Owner": "-"
+    },
+    {
+        "Id": -2655,
+        "Name": "APP - WebLatch Request Mapping",
+        "Table": "g_weblatchRequestMapping",
+        "BC Search Spec": null,
+        "Created": "2018-12-12T11:21:43.543",
+        "Updated": "2018-12-12T11:21:43.543",
+        "Owner": "-"
+    },
+    {
+        "Id": -2654,
+        "Name": "APP - WebLatch Template",
+        "Table": "g_weblatchTemplate",
+        "BC Search Spec": null,
+        "Created": "2018-12-12T11:21:43.107",
+        "Updated": "2018-12-12T11:21:43.107",
+        "Owner": "-"
+    },
+    {
+        "Id": -1439,
+        "Name": "APP - WF Escalations ExtAPI",
+        "Table": "g_workflowEscalationsExtAPI",
+        "BC Search Spec": null,
+        "Created": "2014-07-25T14:56:23.01",
+        "Updated": "2019-02-22T17:40:27.367",
+        "Owner": "-"
+    },
+    {
+        "Id": -1440,
+        "Name": "APP - WF Escalations SP",
+        "Table": "g_workflowEscalationsSP",
+        "BC Search Spec": null,
+        "Created": "2014-07-25T14:56:24.99",
+        "Updated": "2014-07-25T14:56:24.99",
+        "Owner": "-"
+    },
+    {
+        "Id": -186,
+        "Name": "APP - WFP Action Props",
+        "Table": "g_workflowPolicyActionProps",
+        "BC Search Spec": null,
+        "Created": "2007-05-23T16:14:28.873",
+        "Updated": "2007-05-23T16:14:28.873",
+        "Owner": "-"
+    },
+    {
+        "Id": -188,
+        "Name": "APP - WFP Actions",
+        "Table": "g_workflowActions",
+        "BC Search Spec": null,
+        "Created": "2007-06-08T11:38:44.53",
+        "Updated": "2007-06-08T11:47:37.59",
+        "Owner": "-"
+    },
+    {
+        "Id": -1517,
+        "Name": "APP - WFP Day Schedules",
+        "Table": "g_workflowPolicyDaySchedules",
+        "BC Search Spec": "[g_workflowPolicyDaySchedules].[ruleType] = 'Day Of The Week'",
+        "Created": "2016-05-06T14:28:06.823",
+        "Updated": "2016-05-06T15:53:23.3",
+        "Owner": "-"
+    },
+    {
+        "Id": -187,
+        "Name": "APP - WFP Escalations",
+        "Table": "g_workflowEscalations",
+        "BC Search Spec": null,
+        "Created": "2007-06-08T11:04:18.64",
+        "Updated": "2018-10-22T08:06:08.837",
+        "Owner": "-"
+    },
+    {
+        "Id": -2517,
+        "Name": "APP - WFP Holiday Schedules",
+        "Table": "g_workflowPolicyDaySchedules",
+        "BC Search Spec": "[g_workflowPolicyDaySchedules].[ruleType] = 'Bank Holidays'",
+        "Created": "2016-06-01T10:41:12.113",
+        "Updated": "2016-06-01T10:41:12.113",
+        "Owner": "-"
+    },
+    {
+        "Id": -181,
+        "Name": "APP - WFP Policies",
+        "Table": "g_workflowPolicies",
+        "BC Search Spec": null,
+        "Created": "2007-05-22T14:56:49.467",
+        "Updated": "2018-10-19T12:27:56.383",
+        "Owner": "-"
+    },
+    {
+        "Id": -184,
+        "Name": "APP - WFP Policy Actions",
+        "Table": "g_workflowPolicyActions",
+        "BC Search Spec": "",
+        "Created": "2007-05-23T14:38:55.687",
+        "Updated": "2007-06-11T16:03:08.34",
+        "Owner": "-"
+    },
+    {
+        "Id": -182,
+        "Name": "APP - WFP Rules",
+        "Table": "g_workflowPolicyRules",
+        "BC Search Spec": null,
+        "Created": "2007-05-22T17:29:37.747",
+        "Updated": "2007-05-22T17:29:37.747",
+        "Owner": "-"
+    },
+    {
+        "Id": -2536,
+        "Name": "APP - WFP Schedule Summary",
+        "Table": "g_workflowScheduleEscalationSummary",
+        "BC Search Spec": null,
+        "Created": "2016-07-19T15:31:05.423",
+        "Updated": "2016-07-19T15:31:05.423",
+        "Owner": "-"
+    },
+    {
+        "Id": -1518,
+        "Name": "APP - WFP Specific Days",
+        "Table": "g_workflowPolicyDaySchedules",
+        "BC Search Spec": "[g_workflowPolicyDaySchedules].[ruleType] = 'Specific Date'",
+        "Created": "2016-05-10T16:36:51.247",
+        "Updated": "2016-05-10T16:36:51.247",
+        "Owner": "-"
+    },
+    {
+        "Id": -192,
+        "Name": "Application Sessions",
+        "Table": "EXT_SQLCLIENT",
+        "BC Search Spec": null,
+        "Created": "2007-06-29T17:31:35.593",
+        "Updated": "2007-06-29T17:31:35.593",
+        "Owner": "-"
+    },
+    {
+        "Id": -193,
+        "Name": "Application Sessions 2",
+        "Table": "vwWhoisOn",
+        "BC Search Spec": null,
+        "Created": "2007-06-29T17:37:31.733",
+        "Updated": "2007-06-29T17:37:31.733",
+        "Owner": "-"
+    },
+    {
+        "Id": -2698,
+        "Name": "Blog Tags",
+        "Table": "u_blog_tags",
+        "BC Search Spec": null,
+        "Created": "2019-05-10T10:48:37.31",
+        "Updated": "2019-05-10T10:48:56.397",
+        "Owner": "Aamir Lakdawala"
+    },
+    {
+        "Id": -142,
+        "Name": "CAL - Tasks",
+        "Table": "u_activity",
+        "BC Search Spec": "",
+        "Created": "2006-10-24T20:07:01.857",
+        "Updated": "2006-10-24T20:31:59.747",
+        "Owner": "-"
+    },
+    {
+        "Id": -2800,
+        "Name": "Campaign Activation Portal",
+        "Table": "view_CampaignActivation",
+        "BC Search Spec": null,
+        "Created": "2021-02-26T13:39:25.623",
+        "Updated": "2021-02-26T13:39:25.623",
+        "Owner": "-"
+    },
+    {
+        "Id": -2761,
+        "Name": "Chat Rulesets",
+        "Table": "u_Calls_RuleSets",
+        "BC Search Spec": null,
+        "Created": "2020-05-01T16:57:11.03",
+        "Updated": "2020-05-01T16:57:11.03",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -225,
+        "Name": "CL - Crystal Report Parameters",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.recordtype=101",
+        "Created": "2007-11-06T14:23:54.857",
+        "Updated": "2007-11-06T14:23:54.857",
+        "Owner": "-"
+    },
+    {
+        "Id": -224,
+        "Name": "CL - Crystal Reports",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.recordtype=100",
+        "Created": "2007-11-06T14:09:23.873",
+        "Updated": "2007-11-06T14:09:23.873",
+        "Owner": "-"
+    },
+    {
+        "Id": -434,
+        "Name": "CM - Campaign Queue Messages",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "recordtype='campqmsg'",
+        "Created": "2014-05-14T11:07:34.237",
+        "Updated": "2014-06-04T10:41:59.097",
+        "Owner": "-"
+    },
+    {
+        "Id": -412,
+        "Name": "CM - Dialler App Settings",
+        "Table": "u_diallerPreferences",
+        "BC Search Spec": "recordType = 15",
+        "Created": "2014-04-28T16:13:23.827",
+        "Updated": "2014-05-23T16:52:55.017",
+        "Owner": "-"
+    },
+    {
+        "Id": -2527,
+        "Name": "CM - DNC List",
+        "Table": "u_DNCs",
+        "BC Search Spec": "",
+        "Created": "2016-06-21T09:56:18",
+        "Updated": "2016-06-27T11:42:57.61",
+        "Owner": "-"
+    },
+    {
+        "Id": -2609,
+        "Name": "CM - Employee Comapi Agent",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "recordType = 'EmpComapiAgent'",
+        "Created": "2018-04-09T10:48:05.64",
+        "Updated": "2018-04-09T10:48:05.64",
+        "Owner": "-"
+    },
+    {
+        "Id": -413,
+        "Name": "CM - Employee Dialler Type",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "recordType = 'EmpDialler'",
+        "Created": "2014-04-28T16:28:43.787",
+        "Updated": "2014-05-23T17:03:50.827",
+        "Owner": "-"
+    },
+    {
+        "Id": -2720,
+        "Name": "CM - Employee Nexmo Agent",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "recordType = 'EmpNexmoAgent'",
+        "Created": "2019-12-03T13:30:35.15",
+        "Updated": "2019-12-03T13:30:35.15",
+        "Owner": "Aamir Lakdawala"
+    },
+    {
+        "Id": -2537,
+        "Name": "CM - Employee WebChat Type",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "recordtype='empWebChat'",
+        "Created": "2016-07-27T08:55:52.677",
+        "Updated": "2016-07-27T10:37:05.753",
+        "Owner": "-"
+    },
+    {
+        "Id": -2649,
+        "Name": "CM - Webchat Status Log",
+        "Table": "u_userActivityLog",
+        "BC Search Spec": "[u_userActivityLog].[category] = 'Webchat Status'",
+        "Created": "2018-10-24T11:24:27.15",
+        "Updated": "2018-10-24T11:33:22.67",
+        "Owner": "-"
+    },
+    {
+        "Id": -240,
+        "Name": "CM Account Contact",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType =2",
+        "Created": "2008-07-14T15:42:16.52",
+        "Updated": "2008-07-14T15:43:13.57",
+        "Owner": "-"
+    },
+    {
+        "Id": -92,
+        "Name": "CM Activity",
+        "Table": "u_activity",
+        "BC Search Spec": "",
+        "Created": "2006-04-28T13:50:32.547",
+        "Updated": "2015-11-27T14:18:06.743",
+        "Owner": "-"
+    },
+    {
+        "Id": -373,
+        "Name": "CM Add Offers",
+        "Table": "u_orderItem",
+        "BC Search Spec": "u_orderitem.recordType = 75",
+        "Created": "2013-03-28T15:32:41.473",
+        "Updated": "2014-04-30T13:17:55.303",
+        "Owner": "-"
+    },
+    {
+        "Id": -367,
+        "Name": "CM Advert Codes",
+        "Table": "u_oppProd",
+        "BC Search Spec": "u_oppProd.attTXT02='AC'",
+        "Created": "2013-03-25T09:28:52.7",
+        "Updated": "2013-03-25T10:55:05.643",
+        "Owner": "-"
+    },
+    {
+        "Id": -371,
+        "Name": "CM Attendance",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.attNum01 = 21",
+        "Created": "2013-03-25T17:12:52.337",
+        "Updated": "2014-04-30T13:18:10.33",
+        "Owner": "-"
+    },
+    {
+        "Id": -1461,
+        "Name": "CM BCH Payment Activity",
+        "Table": "u_activity",
+        "BC Search Spec": "actionType='BCHPayment Request'",
+        "Created": "2015-04-14T09:52:34.04",
+        "Updated": "2015-04-14T09:57:18.9",
+        "Owner": "-"
+    },
+    {
+        "Id": -2665,
+        "Name": "CM Blacklist Contents",
+        "Table": "u_emailBlacklistContents",
+        "BC Search Spec": null,
+        "Created": "2019-01-30T14:37:11.08",
+        "Updated": "2019-01-30T14:37:11.08",
+        "Owner": "-"
+    },
+    {
+        "Id": -2666,
+        "Name": "CM Blacklist Hdr",
+        "Table": "u_emailBlacklisthdr",
+        "BC Search Spec": "u_emailblacklisthdr.recordtype='blacklist'",
+        "Created": "2019-01-30T14:37:25.177",
+        "Updated": "2019-01-30T15:26:15.953",
+        "Owner": "-"
+    },
+    {
+        "Id": -2692,
+        "Name": "CM Blog",
+        "Table": "u_blogs",
+        "BC Search Spec": "",
+        "Created": "2019-04-25T14:11:56.617",
+        "Updated": "2021-06-07T14:27:45.24",
+        "Owner": "Shakila Small"
+    },
+    {
+        "Id": -246,
+        "Name": "CM Branch Scripts",
+        "Table": "u_scriptHeader",
+        "BC Search Spec": null,
+        "Created": "2008-12-01T10:07:30.743",
+        "Updated": "2008-12-01T10:09:38.57",
+        "Owner": "-"
+    },
+    {
+        "Id": -1482,
+        "Name": "CM Branch Scripts Page Item",
+        "Table": "u_scriptQuestionPageItem",
+        "BC Search Spec": null,
+        "Created": "2015-11-24T14:09:13.777",
+        "Updated": "2015-11-24T14:09:13.777",
+        "Owner": "-"
+    },
+    {
+        "Id": -369,
+        "Name": "CM Brief",
+        "Table": "u_order",
+        "BC Search Spec": "u_order.recordType = '9'",
+        "Created": "2013-03-25T16:38:55.583",
+        "Updated": "2015-09-23T14:25:39.52",
+        "Owner": "-"
+    },
+    {
+        "Id": -1454,
+        "Name": "CM Broadcast Message Profile",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType='bcOutcomeProfile'",
+        "Created": "2015-02-12T18:43:08.02",
+        "Updated": "2015-02-12T18:43:08.02",
+        "Owner": "-"
+    },
+    {
+        "Id": -1446,
+        "Name": "CM Broadcast Queue",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "atttxt02='broadcastQ'",
+        "Created": "2015-01-29T15:10:20.26",
+        "Updated": "2015-02-12T15:36:47.063",
+        "Owner": "-"
+    },
+    {
+        "Id": -1445,
+        "Name": "CM Broadcast Queue Messages",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType = 'bcMessage'",
+        "Created": "2015-01-29T15:09:10.79",
+        "Updated": "2015-01-29T15:09:10.79",
+        "Owner": "-"
+    },
+    {
+        "Id": -1444,
+        "Name": "CM Broadcast Queue Outcomes",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType = 'bcOutcome'",
+        "Created": "2015-01-29T15:06:21.343",
+        "Updated": "2015-01-29T15:06:21.343",
+        "Owner": "-"
+    },
+    {
+        "Id": -1455,
+        "Name": "CM Broadcast Queue Script",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType='bcScript'",
+        "Created": "2015-02-13T12:38:46.937",
+        "Updated": "2015-02-13T12:39:04.953",
+        "Owner": "-"
+    },
+    {
+        "Id": -2677,
+        "Name": "CM Business Hours",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignhdratt.recordtype='CampaignBusinessHours'",
+        "Created": "2019-02-27T10:58:29.46",
+        "Updated": "2019-02-27T16:41:03.65",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -6,
+        "Name": "CM Calendar Attendee",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType in (2,3,4)",
+        "Created": "2005-07-15T14:15:02.763",
+        "Updated": "2014-05-01T11:36:18.553",
+        "Owner": "-"
+    },
+    {
+        "Id": -105,
+        "Name": "CM Call Cycle",
+        "Table": "u_CallCycle",
+        "BC Search Spec": "",
+        "Created": "2006-07-21T13:42:56.763",
+        "Updated": "2006-07-21T13:42:56.763",
+        "Owner": "-"
+    },
+    {
+        "Id": -1486,
+        "Name": "CM Call Record Merge",
+        "Table": "rpt_mrg_CallRecord",
+        "BC Search Spec": null,
+        "Created": "2015-12-11T10:03:03.43",
+        "Updated": "2015-12-11T10:03:03.43",
+        "Owner": "-"
+    },
+    {
+        "Id": -243,
+        "Name": "CM Cam Object Filter agent",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType='CAMPAIGNFILTERAGENT'",
+        "Created": "2008-08-07T13:48:56.793",
+        "Updated": "2008-08-07T13:49:25.31",
+        "Owner": "-"
+    },
+    {
+        "Id": -47,
+        "Name": "CM Campaign",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "isnull(u_campaignHDR.diallerType,'') NOT IN ('SMS','Inbound Email') and u_campaignHDR.parentId=0 and ISNULL(u_campaignHdr.attTXT01,'')<>'OOHPolicy' and ISNULL(u_campaignHdr.atttxt02,'')<>'broadcastQ'",
+        "Created": "2005-09-20T10:09:21.137",
+        "Updated": "2019-01-30T11:53:38.98",
+        "Owner": "-"
+    },
+    {
+        "Id": -2795,
+        "Name": "CM Campaign Activation",
+        "Table": "u_campaignActivation",
+        "BC Search Spec": null,
+        "Created": "2021-02-10T14:56:04.21",
+        "Updated": "2021-02-10T14:56:04.21",
+        "Owner": "-"
+    },
+    {
+        "Id": -2793,
+        "Name": "CM campaign Activation Control",
+        "Table": "u_campaignActivationControl",
+        "BC Search Spec": null,
+        "Created": "2021-02-10T14:51:13.42",
+        "Updated": "2021-02-10T14:51:13.42",
+        "Owner": "-"
+    },
+    {
+        "Id": -2870,
+        "Name": "CM Campaign Agents",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHDRAtt.recordtype='CAMPAIGNAGENT'",
+        "Created": "2021-06-25T15:24:43.077",
+        "Updated": "2021-06-30T11:23:30.797",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -51,
+        "Name": "CM Campaign Contact",
+        "Table": "u_campaignContact",
+        "BC Search Spec": "",
+        "Created": "2005-10-11T20:47:17.937",
+        "Updated": "2017-10-06T11:00:33.507",
+        "Owner": "-"
+    },
+    {
+        "Id": -165,
+        "Name": "CM Campaign Contact (FSD)",
+        "Table": "u_campaignContact",
+        "BC Search Spec": null,
+        "Created": "2007-02-12T14:57:54.373",
+        "Updated": "2007-02-12T14:57:54.373",
+        "Owner": "-"
+    },
+    {
+        "Id": -2564,
+        "Name": "CM Campaign Contact tpQueue",
+        "Table": "view_u_campaignContactQueue",
+        "BC Search Spec": null,
+        "Created": "2017-04-13T16:38:07.707",
+        "Updated": "2017-04-18T13:42:51.86",
+        "Owner": "-"
+    },
+    {
+        "Id": -59,
+        "Name": "CM Campaign Disp Codes",
+        "Table": "u_campaignDispCodes",
+        "BC Search Spec": "",
+        "Created": "2005-10-26T12:16:30.797",
+        "Updated": "2006-01-17T23:27:42.873",
+        "Owner": "-"
+    },
+    {
+        "Id": -2877,
+        "Name": "CM Campaign Email Queue",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "u_campaignHDR.parentId <> 0 and u_campaignHDr.atttxt04 = 'Email Outbound'",
+        "Created": "2021-09-16T11:19:23.51",
+        "Updated": "2021-09-16T11:19:23.51",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -344,
+        "Name": "CM Campaign Group",
+        "Table": "u_campaigngroup",
+        "BC Search Spec": "recordtype = 'group'  ",
+        "Created": "2013-02-26T16:49:18.383",
+        "Updated": "2013-02-26T16:49:18.383",
+        "Owner": "-"
+    },
+    {
+        "Id": -345,
+        "Name": "CM Campaign Group INT",
+        "Table": "u_campaigngroup",
+        "BC Search Spec": "recordtype = 'activeGroup'  ",
+        "Created": "2013-02-26T16:49:27.977",
+        "Updated": "2013-02-26T16:49:27.977",
+        "Owner": "-"
+    },
+    {
+        "Id": -343,
+        "Name": "CM Campaign Group Management",
+        "Table": "u_campaigngroup",
+        "BC Search Spec": "recordtype = 'groupmgt'  ",
+        "Created": "2013-02-26T16:49:13.22",
+        "Updated": "2013-02-26T16:49:13.22",
+        "Owner": "-"
+    },
+    {
+        "Id": -2869,
+        "Name": "CM Campaign Inbound Numbers",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHDRAtt.recordtype='CAMPINBOUNDNUM'",
+        "Created": "2021-06-15T16:48:52.053",
+        "Updated": "2021-06-16T16:33:33.433",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -229,
+        "Name": "CM Campaign Object Filters",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType='CAMPAIGNFILTER'",
+        "Created": "2008-03-13T16:19:36.107",
+        "Updated": "2008-08-07T13:36:26.78",
+        "Owner": "-"
+    },
+    {
+        "Id": -94,
+        "Name": "CM Campaign Objections",
+        "Table": "u_campaignObjection",
+        "BC Search Spec": "",
+        "Created": "2006-06-30T12:53:09.547",
+        "Updated": "2006-06-30T12:53:09.547",
+        "Owner": "-"
+    },
+    {
+        "Id": -2875,
+        "Name": "CM Campaign Process Queue",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "u_campaignHDR.parentId <> 0 and u_campaignHDr.atttxt04 = 'Process'",
+        "Created": "2021-09-13T09:28:28.047",
+        "Updated": "2021-09-13T10:55:01.16",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -228,
+        "Name": "CM Campaign Queue",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "u_campaignHDR.parentId <> 0 AND u_campaignHDr.atttxt02 <> 'broadcastQ'",
+        "Created": "2008-01-24T16:15:32.95",
+        "Updated": "2021-10-04T12:41:08.683",
+        "Owner": "-"
+    },
+    {
+        "Id": -237,
+        "Name": "CM Campaign Queue Agent",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHDRAtt.recordtype='QUEUEAGENT'",
+        "Created": "2008-06-19T16:26:22.357",
+        "Updated": "2019-09-04T15:16:56.427",
+        "Owner": "-"
+    },
+    {
+        "Id": -236,
+        "Name": "CM Campaign Queue Dataset",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHDRAtt.recordtype='DATASET'",
+        "Created": "2008-05-07T14:29:03.497",
+        "Updated": "2019-09-03T14:46:30.03",
+        "Owner": "-"
+    },
+    {
+        "Id": -348,
+        "Name": "CM Campaign Queue Inbound Num",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHDRAtt.recordtype='INBOUNDNUM'",
+        "Created": "2013-02-26T17:32:47.86",
+        "Updated": "2013-02-26T17:32:47.86",
+        "Owner": "-"
+    },
+    {
+        "Id": -2879,
+        "Name": "CM Campaign Queue Nexmo",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "u_campaignHDR.parentId <> 0 AND u_campaignHDr.atttxt02 <> 'broadcastQ' AND 1 = (SELECT CASE WHEN c.[attTXT10] = 'tPointDial' THEN 1 ELSE 0 END FROM u_campaignHDR c WITH(NOLOCK) WHERE c.[id] = u_campaignHDR.[parentId])",
+        "Created": "2021-09-30T12:37:40.753",
+        "Updated": "2021-11-03T10:22:56.61",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -89,
+        "Name": "CM Campaign Related Item",
+        "Table": "u_campaignRelatedItems",
+        "BC Search Spec": "",
+        "Created": "2006-04-25T15:25:42.763",
+        "Updated": "2006-04-25T15:25:42.763",
+        "Owner": "-"
+    },
+    {
+        "Id": -2794,
+        "Name": "CM Campaign Site Activations",
+        "Table": "u_campaignSiteActivations",
+        "BC Search Spec": null,
+        "Created": "2021-02-10T14:55:37.477",
+        "Updated": "2021-02-10T14:55:37.477",
+        "Owner": "-"
+    },
+    {
+        "Id": -2876,
+        "Name": "CM Campaign SMS Queue",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "u_campaignHDR.parentId <> 0 and u_campaignHDr.atttxt04 = 'SMS Outbound'",
+        "Created": "2021-09-16T11:14:10.57",
+        "Updated": "2021-09-16T11:14:10.57",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -2642,
+        "Name": "CM Campaign Survey O",
+        "Table": "u_campaignSurvey",
+        "BC Search Spec": "recordtype='QA Other'",
+        "Created": "2018-10-09T10:23:28.86",
+        "Updated": "2018-10-10T08:05:23.297",
+        "Owner": "-"
+    },
+    {
+        "Id": -2641,
+        "Name": "CM Campaign Survey QC",
+        "Table": "u_campaignSurvey",
+        "BC Search Spec": "recordtype='QC Survey'",
+        "Created": "2018-10-09T10:03:18.727",
+        "Updated": "2018-10-24T11:31:29.817",
+        "Owner": "-"
+    },
+    {
+        "Id": -376,
+        "Name": "CM Campaign/Offer",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordtype = 'CampOffer'",
+        "Created": "2013-04-04T14:19:43.567",
+        "Updated": "2014-05-01T11:36:08.593",
+        "Owner": "-"
+    },
+    {
+        "Id": -1505,
+        "Name": "CM Case",
+        "Table": "u_case",
+        "BC Search Spec": "",
+        "Created": "2016-02-23T11:48:03.397",
+        "Updated": "2019-01-16T12:25:53.793",
+        "Owner": "-"
+    },
+    {
+        "Id": -1504,
+        "Name": "CM Case Type",
+        "Table": "u_caseType",
+        "BC Search Spec": null,
+        "Created": "2016-02-22T16:39:37.6",
+        "Updated": "2016-02-22T16:39:37.6",
+        "Owner": "-"
+    },
+    {
+        "Id": -2560,
+        "Name": "CM Cashflows Stored Card",
+        "Table": "u_contactCard",
+        "BC Search Spec": "u_contactCard.recordType ='CashFlows Stored Card'",
+        "Created": "2017-02-06T07:41:28.783",
+        "Updated": "2017-02-06T10:49:46.577",
+        "Owner": "-"
+    },
+    {
+        "Id": -2775,
+        "Name": "CM Chat Bot Message",
+        "Table": "chat_activity",
+        "BC Search Spec": null,
+        "Created": "2020-05-21T13:14:37.527",
+        "Updated": "2020-05-21T13:14:37.527",
+        "Owner": "-"
+    },
+    {
+        "Id": -2776,
+        "Name": "CM Chat Campaign Agent",
+        "Table": "u_tPointChatCampaignAgentINT",
+        "BC Search Spec": "",
+        "Created": "2020-05-28T11:20:38.823",
+        "Updated": "2020-05-28T11:58:27.55",
+        "Owner": "Sakshiamit Deshmukh"
+    },
+    {
+        "Id": -2693,
+        "Name": "CM Comment",
+        "Table": "u_notes",
+        "BC Search Spec": "u_notes.buscompid = -2693",
+        "Created": "2019-04-25T14:30:47.41",
+        "Updated": "2019-04-25T15:08:49.11",
+        "Owner": "Shakila Small"
+    },
+    {
+        "Id": -368,
+        "Name": "CM Commisions ",
+        "Table": "u_order",
+        "BC Search Spec": "u_order.recordType='30'",
+        "Created": "2013-03-25T16:09:10.067",
+        "Updated": "2015-09-04T11:22:49.42",
+        "Owner": "-"
+    },
+    {
+        "Id": -372,
+        "Name": "CM Commission Updates",
+        "Table": "u_workOrder",
+        "BC Search Spec": "u_workOrder.recordType = 27",
+        "Created": "2013-03-25T17:19:39.45",
+        "Updated": "2014-05-01T11:36:03.103",
+        "Owner": "-"
+    },
+    {
+        "Id": -370,
+        "Name": "CM Consolidated Sales",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.attNum01 = 19",
+        "Created": "2013-03-25T17:04:57.417",
+        "Updated": "2014-05-01T11:36:29.413",
+        "Owner": "-"
+    },
+    {
+        "Id": -53,
+        "Name": "CM Contact",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType = 5",
+        "Created": "2005-10-12T09:33:22.937",
+        "Updated": "2020-07-31T12:37:14.19",
+        "Owner": "-"
+    },
+    {
+        "Id": -2620,
+        "Name": "CM Contact Address",
+        "Table": "u_contactaddress",
+        "BC Search Spec": null,
+        "Created": "2018-08-08T09:34:19.79",
+        "Updated": "2018-08-08T09:34:19.79",
+        "Owner": "-"
+    },
+    {
+        "Id": -12,
+        "Name": "CM Contact Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": "parentTbl = 'u_contact'",
+        "Created": "2005-07-21T15:54:59.483",
+        "Updated": "2014-04-30T10:56:31.437",
+        "Owner": "-"
+    },
+    {
+        "Id": -117,
+        "Name": "CM Contact Children",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType = 'CHILD'",
+        "Created": "2006-08-14T08:59:20.373",
+        "Updated": "2006-08-14T09:55:19.67",
+        "Owner": "-"
+    },
+    {
+        "Id": -1488,
+        "Name": "CM Contact Media",
+        "Table": "u_contactMedia",
+        "BC Search Spec": null,
+        "Created": "2015-12-18T15:45:09.37",
+        "Updated": "2015-12-18T15:45:09.37",
+        "Owner": "-"
+    },
+    {
+        "Id": -2561,
+        "Name": "CM Country Codes",
+        "Table": "g_iso3166CountryCodes",
+        "BC Search Spec": null,
+        "Created": "2017-02-06T08:56:01.78",
+        "Updated": "2017-02-06T08:56:01.78",
+        "Owner": "-"
+    },
+    {
+        "Id": -244,
+        "Name": "CM Data Dictionary",
+        "Table": "g_buscompFieldSyn",
+        "BC Search Spec": null,
+        "Created": "2008-10-08T15:39:43.053",
+        "Updated": "2008-10-08T15:39:43.053",
+        "Owner": "-"
+    },
+    {
+        "Id": -2690,
+        "Name": "CM Data Manager ",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordtype=10009",
+        "Created": "2019-03-28T11:38:51.367",
+        "Updated": "2019-03-28T16:36:27.577",
+        "Owner": "-"
+    },
+    {
+        "Id": -46,
+        "Name": "CM Disp Code",
+        "Table": "u_dispCode",
+        "BC Search Spec": "u_dispCode.system=0",
+        "Created": "2005-09-20T10:06:29",
+        "Updated": "2009-07-22T09:26:54.29",
+        "Owner": "-"
+    },
+    {
+        "Id": -248,
+        "Name": "CM Disposition Category",
+        "Table": "u_dispCodeCategory",
+        "BC Search Spec": null,
+        "Created": "2009-02-27T12:06:29.707",
+        "Updated": "2009-02-27T12:08:18.627",
+        "Owner": "-"
+    },
+    {
+        "Id": -1456,
+        "Name": "CM DXI Action Log",
+        "Table": "dxi_actionlog",
+        "BC Search Spec": null,
+        "Created": "2015-02-20T11:16:04.7",
+        "Updated": "2015-02-20T11:16:04.7",
+        "Owner": "-"
+    },
+    {
+        "Id": -1457,
+        "Name": "CM DXI CDR Log",
+        "Table": "dxi_cdrlog",
+        "BC Search Spec": null,
+        "Created": "2015-02-20T11:16:05.03",
+        "Updated": "2015-02-20T11:16:05.03",
+        "Owner": "-"
+    },
+    {
+        "Id": -1458,
+        "Name": "CM DXI CDR Retires Log",
+        "Table": "dxi_cdrlog_retires",
+        "BC Search Spec": null,
+        "Created": "2015-02-20T11:16:05.037",
+        "Updated": "2015-02-20T11:16:05.037",
+        "Owner": "-"
+    },
+    {
+        "Id": -1459,
+        "Name": "CM DXI IVR Log",
+        "Table": "dxi_ivrLog",
+        "BC Search Spec": null,
+        "Created": "2015-02-20T11:16:05.043",
+        "Updated": "2015-02-20T11:16:05.043",
+        "Owner": "-"
+    },
+    {
+        "Id": -1487,
+        "Name": "CM DXI Status Agents",
+        "Table": "dxi_Status_Agents",
+        "BC Search Spec": null,
+        "Created": "2015-12-11T10:04:07.34",
+        "Updated": "2015-12-11T10:04:07.34",
+        "Owner": "-"
+    },
+    {
+        "Id": -1493,
+        "Name": "CM DXI Status IB Activity",
+        "Table": "dxi_Status_InboundActivity",
+        "BC Search Spec": null,
+        "Created": "2016-01-22T17:18:38.583",
+        "Updated": "2016-01-22T17:18:38.583",
+        "Owner": "-"
+    },
+    {
+        "Id": -1491,
+        "Name": "CM DXI Status Incoming",
+        "Table": "dxi_Status_Incoming",
+        "BC Search Spec": null,
+        "Created": "2016-01-22T17:18:38.51",
+        "Updated": "2016-01-22T17:18:38.51",
+        "Owner": "-"
+    },
+    {
+        "Id": -1460,
+        "Name": "CM DXI Status Log",
+        "Table": "dxi_statusLog",
+        "BC Search Spec": null,
+        "Created": "2015-02-20T11:16:05.05",
+        "Updated": "2015-02-20T11:16:05.05",
+        "Owner": "-"
+    },
+    {
+        "Id": -1494,
+        "Name": "CM DXI Status OB Activity",
+        "Table": "dxi_Status_OutboundActivity",
+        "BC Search Spec": null,
+        "Created": "2016-01-22T17:23:17.173",
+        "Updated": "2016-01-22T17:23:17.173",
+        "Owner": "-"
+    },
+    {
+        "Id": -1492,
+        "Name": "CM DXI Status Outgoing",
+        "Table": "dxi_Status_Outgoing",
+        "BC Search Spec": null,
+        "Created": "2016-01-22T17:18:38.55",
+        "Updated": "2016-01-22T17:18:38.55",
+        "Owner": "-"
+    },
+    {
+        "Id": -1495,
+        "Name": "CM DXI Status Overview",
+        "Table": "dxi_Status_Overview",
+        "BC Search Spec": null,
+        "Created": "2016-01-22T17:23:17.21",
+        "Updated": "2016-01-22T17:23:17.21",
+        "Owner": "-"
+    },
+    {
+        "Id": -2667,
+        "Name": "CM Email CampaignBlacklist INT",
+        "Table": "u_emailBlacklistInt",
+        "BC Search Spec": null,
+        "Created": "2019-01-30T18:28:27.047",
+        "Updated": "2019-01-30T18:44:08.517",
+        "Owner": "-"
+    },
+    {
+        "Id": -2670,
+        "Name": "CM Email Queue Parameters",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignhdratt.recordtype='QueueParameters'",
+        "Created": "2019-01-31T16:45:14.65",
+        "Updated": "2019-01-31T16:45:14.65",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -366,
+        "Name": "CM Employment Type",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.attTXT01='EmType'",
+        "Created": "2013-03-21T18:38:57.273",
+        "Updated": "2014-05-23T17:03:38.16",
+        "Owner": "-"
+    },
+    {
+        "Id": -2707,
+        "Name": "CM Escalation Skill",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "recordtype='Escalation Skill'",
+        "Created": "2019-08-19T12:47:25.55",
+        "Updated": "2019-08-19T13:18:55.843",
+        "Owner": "Sakshi Deshmukh"
+    },
+    {
+        "Id": -2706,
+        "Name": "CM Escalations",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType = 222 and u_contact.attINT01 in (select attINT01 from u_service with (nolock) where recordtype='CM Schedule' and attINT01 = u_contact.attINT01)",
+        "Created": "2019-08-19T12:37:32.61",
+        "Updated": "2019-11-05T17:01:47.99",
+        "Owner": "Sakshi Deshmukh"
+    },
+    {
+        "Id": -2694,
+        "Name": "CM Feedback",
+        "Table": "u_productAtt",
+        "BC Search Spec": "u_productAtt.productId=-2692",
+        "Created": "2019-04-25T15:00:18.003",
+        "Updated": "2019-04-25T15:02:13.56",
+        "Owner": "Shakila Small"
+    },
+    {
+        "Id": -68,
+        "Name": "CM Filter",
+        "Table": "g_appletFilter",
+        "BC Search Spec": "g_appletFilter.cmFilter=1",
+        "Created": "2006-01-18T16:58:04.403",
+        "Updated": "2006-01-18T17:57:43.75",
+        "Owner": "-"
+    },
+    {
+        "Id": -365,
+        "Name": "CM Fulfilment Code",
+        "Table": "u_oppProd",
+        "BC Search Spec": "u_oppProd.attTXT02='FF'",
+        "Created": "2013-03-21T17:59:03.46",
+        "Updated": "2013-03-21T18:03:01.44",
+        "Owner": "-"
+    },
+    {
+        "Id": -2671,
+        "Name": "CM In Email Campaign Agent INT",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignhdratt.recordtype='EmailAgents'",
+        "Created": "2019-01-31T19:02:38.847",
+        "Updated": "2019-01-31T19:02:38.847",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -2664,
+        "Name": "CM Inbound Email Campaign",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "",
+        "Created": "2019-01-30T11:52:13.96",
+        "Updated": "2019-01-30T11:52:13.96",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -2668,
+        "Name": "CM Inbound Email Queue",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": null,
+        "Created": "2019-01-31T11:36:13.093",
+        "Updated": "2019-01-31T11:36:13.093",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -2675,
+        "Name": "CM Inbound Email Queue Action",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType = 'EmailAction'",
+        "Created": "2019-02-21T13:54:41.35",
+        "Updated": "2019-02-21T13:54:41.35",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -2672,
+        "Name": "CM Inbound Email Queue Agent",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.Recordtype='EmailCampAgent'",
+        "Created": "2019-02-06T14:02:50.447",
+        "Updated": "2019-02-06T14:11:35.493",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -346,
+        "Name": "CM Inbound Numbers",
+        "Table": "u_inboundNumbers",
+        "BC Search Spec": null,
+        "Created": "2013-02-26T17:32:47.853",
+        "Updated": "2013-02-26T17:32:47.853",
+        "Owner": "-"
+    },
+    {
+        "Id": -347,
+        "Name": "CM Inbound Numbers Available",
+        "Table": "u_inboundNumbers",
+        "BC Search Spec": "u_inboundNumbers.id NOT IN (SELECT attINT01 FROM u_campaignhdrAtt WITH(NOLOCK) WHERE recordType = 'INBOUNDNUM')",
+        "Created": "2013-02-26T17:32:47.857",
+        "Updated": "2021-09-22T13:58:35.87",
+        "Owner": "-"
+    },
+    {
+        "Id": -2669,
+        "Name": "CM Inound Email Queue Rule",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType = 'EmailRule'\t",
+        "Created": "2019-01-31T13:45:11.98",
+        "Updated": "2019-01-31T13:45:11.98",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -67,
+        "Name": "CM Locked Calls",
+        "Table": "u_campaignContactLock",
+        "BC Search Spec": "u_campaignContactLock.status=1",
+        "Created": "2006-01-18T11:32:27.233",
+        "Updated": "2006-01-18T11:32:27.233",
+        "Owner": "-"
+    },
+    {
+        "Id": -2534,
+        "Name": "CM Media Access Control",
+        "Table": "g_ipAccessControl",
+        "BC Search Spec": null,
+        "Created": "2016-07-19T10:46:41.953",
+        "Updated": "2016-07-19T10:46:41.953",
+        "Owner": "-"
+    },
+    {
+        "Id": -2583,
+        "Name": "CM Media Activity",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.actiontype in  ('Call Inbound' ,'Call Outbound' ,'Facebook Outbound' ,'Facebook Inbound' ,'Email Inbound' ,'Email Outbound' ,'SMS Transmission', 'SMS','SMS Inbound','SMS Outbound','DXI Call Outbound')",
+        "Created": "2017-09-08T10:53:02.05",
+        "Updated": "2019-10-17T16:07:20.493",
+        "Owner": "-"
+    },
+    {
+        "Id": -2532,
+        "Name": "CM Media Web Chat Campaigns",
+        "Table": "u_webchatcampaigns",
+        "BC Search Spec": null,
+        "Created": "2016-07-18T15:57:40.473",
+        "Updated": "2018-10-19T10:34:01.233",
+        "Owner": "-"
+    },
+    {
+        "Id": -2533,
+        "Name": "CM Media Web Chat Preferences",
+        "Table": "u_webchatPreferences",
+        "BC Search Spec": null,
+        "Created": "2016-07-18T16:44:37.97",
+        "Updated": "2016-07-18T16:51:33.653",
+        "Owner": "-"
+    },
+    {
+        "Id": -2530,
+        "Name": "CM Media WebChat",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.actionSubType='Web Chat'",
+        "Created": "2016-07-15T16:05:59.203",
+        "Updated": "2016-07-28T15:07:11.82",
+        "Owner": "-"
+    },
+    {
+        "Id": -2531,
+        "Name": "CM Media WebChat Message",
+        "Table": "u_webChatMessage",
+        "BC Search Spec": "u_webchatmessage.recordtype='WebChatMessage'",
+        "Created": "2016-07-15T16:21:44.967",
+        "Updated": "2016-07-15T17:33:34.173",
+        "Owner": "-"
+    },
+    {
+        "Id": -2538,
+        "Name": "CM Media Webchat Provider",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.recordtype=5465",
+        "Created": "2016-07-27T11:28:20.63",
+        "Updated": "2016-07-27T11:33:46.73",
+        "Owner": "-"
+    },
+    {
+        "Id": -2559,
+        "Name": "CM Merchant Account",
+        "Table": "u_PaymentGatewayDetails",
+        "BC Search Spec": null,
+        "Created": "2017-02-03T10:46:53.72",
+        "Updated": "2017-02-03T10:46:53.72",
+        "Owner": "-"
+    },
+    {
+        "Id": -433,
+        "Name": "CM Notes",
+        "Table": "u_notes",
+        "BC Search Spec": null,
+        "Created": "2014-05-12T14:24:21.013",
+        "Updated": "2014-05-12T14:24:21.013",
+        "Owner": "-"
+    },
+    {
+        "Id": -93,
+        "Name": "CM Objections",
+        "Table": "u_objection",
+        "BC Search Spec": "",
+        "Created": "2006-05-02T14:35:14.14",
+        "Updated": "2006-05-02T14:35:14.14",
+        "Owner": "-"
+    },
+    {
+        "Id": -90,
+        "Name": "CM Opportunity",
+        "Table": "u_opp",
+        "BC Search Spec": "u_opp.attTXT49 = 79",
+        "Created": "2006-04-26T19:44:05.03",
+        "Updated": "2013-04-02T09:41:33.823",
+        "Owner": "-"
+    },
+    {
+        "Id": -172,
+        "Name": "CM Opportunity Team",
+        "Table": "u_objectTeam",
+        "BC Search Spec": "u_objectTeam.objectType=2",
+        "Created": "2007-03-14T15:52:31.81",
+        "Updated": "2007-03-14T15:53:09.963",
+        "Owner": "-"
+    },
+    {
+        "Id": -374,
+        "Name": "CM Order",
+        "Table": "u_order",
+        "BC Search Spec": "u_order.recordType = 73",
+        "Created": "2013-03-28T16:50:42.103",
+        "Updated": "2014-05-01T11:35:57.713",
+        "Owner": "-"
+    },
+    {
+        "Id": -7,
+        "Name": "CM Order Header",
+        "Table": "u_order",
+        "BC Search Spec": "",
+        "Created": "2005-07-21T11:24:08.107",
+        "Updated": "2014-04-30T13:14:28.503",
+        "Owner": "-"
+    },
+    {
+        "Id": -16,
+        "Name": "CM Order Line Item",
+        "Table": "u_orderItem",
+        "BC Search Spec": "",
+        "Created": "2005-07-26T20:32:39.997",
+        "Updated": "2014-04-30T13:13:56.497",
+        "Owner": "-"
+    },
+    {
+        "Id": -17,
+        "Name": "CM Order Line Item Skills",
+        "Table": "u_orderLineItemSkills",
+        "BC Search Spec": "",
+        "Created": "2005-07-26T20:33:29.28",
+        "Updated": "2014-04-30T13:14:14.697",
+        "Owner": "-"
+    },
+    {
+        "Id": -1452,
+        "Name": "CM Out of Hours Policy",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "u_campaignHdr.attTXT01='OOHPolicy'",
+        "Created": "2015-02-12T15:24:38.503",
+        "Updated": "2015-02-12T15:31:09.62",
+        "Owner": "-"
+    },
+    {
+        "Id": -1453,
+        "Name": "CM Out of Hours Policy Rule",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType='OOHPolicyRule'",
+        "Created": "2015-02-12T15:32:49.283",
+        "Updated": "2015-02-12T15:37:14.38",
+        "Owner": "-"
+    },
+    {
+        "Id": -1511,
+        "Name": "CM Parent Skills",
+        "Table": "u_contactSkills",
+        "BC Search Spec": "u_contactSkills.recordType = 1 and u_contactSkills.parentId <> 0",
+        "Created": "2016-03-24T16:16:43.37",
+        "Updated": "2016-03-24T16:17:16.523",
+        "Owner": "-"
+    },
+    {
+        "Id": -2563,
+        "Name": "CM Payment",
+        "Table": "u_payment",
+        "BC Search Spec": "u_payment.actiontype='PaymentGateway Request'",
+        "Created": "2017-02-07T08:55:22.19",
+        "Updated": "2018-07-30T12:05:20.217",
+        "Owner": "-"
+    },
+    {
+        "Id": -1450,
+        "Name": "CM Process Activity",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.actiontype = 'tPoint Process'",
+        "Created": "2015-02-09T15:12:02.663",
+        "Updated": "2015-02-09T15:12:02.663",
+        "Owner": "-"
+    },
+    {
+        "Id": -27,
+        "Name": "CM Product",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.recordtype =200",
+        "Created": "2005-08-12T10:05:23.56",
+        "Updated": "2016-07-18T11:19:07.76",
+        "Owner": "-"
+    },
+    {
+        "Id": -170,
+        "Name": "CM Product Quality Assurance",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.recordType=5",
+        "Created": "2007-02-28T10:18:32.747",
+        "Updated": "2007-03-09T15:57:50.09",
+        "Owner": "-"
+    },
+    {
+        "Id": -196,
+        "Name": "CM Project",
+        "Table": "u_project",
+        "BC Search Spec": null,
+        "Created": "2007-07-13T17:04:31.403",
+        "Updated": "2014-04-30T11:08:10.687",
+        "Owner": "-"
+    },
+    {
+        "Id": -2562,
+        "Name": "CM Provider Type",
+        "Table": "u_product",
+        "BC Search Spec": "code='Provider Type'",
+        "Created": "2017-02-07T06:39:44.87",
+        "Updated": "2017-02-07T06:45:51.67",
+        "Owner": "-"
+    },
+    {
+        "Id": -103,
+        "Name": "CM Quality Assurance",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.recordType=5",
+        "Created": "2006-07-19T15:13:28.047",
+        "Updated": "2016-10-12T13:46:32.58",
+        "Owner": "-"
+    },
+    {
+        "Id": -2711,
+        "Name": "CM Queue / Schedule Times",
+        "Table": "u_service",
+        "BC Search Spec": "recordtype='Schedule Queue'",
+        "Created": "2019-08-19T15:31:28.973",
+        "Updated": "2019-08-19T15:33:10.02",
+        "Owner": "Sakshi Deshmukh"
+    },
+    {
+        "Id": -260,
+        "Name": "CM Queue Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": "parentTbl = 'u_campaignHDR'",
+        "Created": "2009-12-14T15:40:32.823",
+        "Updated": "2009-12-15T16:56:17.32",
+        "Owner": "-"
+    },
+    {
+        "Id": -1448,
+        "Name": "CM Queue Inbound Numbers",
+        "Table": "view_CampaignQueueInboundNumbers",
+        "BC Search Spec": null,
+        "Created": "2015-02-02T17:50:44.443",
+        "Updated": "2015-02-02T17:50:44.443",
+        "Owner": "-"
+    },
+    {
+        "Id": -435,
+        "Name": "CM Queue Messages",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "recordtype='QMSG'",
+        "Created": "2014-05-14T11:19:05.9",
+        "Updated": "2014-05-14T11:19:05.9",
+        "Owner": "-"
+    },
+    {
+        "Id": -407,
+        "Name": "CM Queue Object Filters",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType='QUEUEFILTER'",
+        "Created": "2013-12-03T09:40:49.4",
+        "Updated": "2013-12-03T16:11:03.043",
+        "Owner": "-"
+    },
+    {
+        "Id": -2713,
+        "Name": "CM Queue Team Priority",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType='TeamPriority'",
+        "Created": "2019-09-04T15:30:16.113",
+        "Updated": "2019-09-04T15:33:49.207",
+        "Owner": "Shakila Small"
+    },
+    {
+        "Id": -30,
+        "Name": "CM Related Account",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=1",
+        "Created": "2005-08-14T17:46:56.687",
+        "Updated": "2014-04-30T11:42:50.33",
+        "Owner": "-"
+    },
+    {
+        "Id": -259,
+        "Name": "CM Related Contact",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType = 5",
+        "Created": "2009-11-16T17:14:06.46",
+        "Updated": "2009-11-16T17:14:06.46",
+        "Owner": "-"
+    },
+    {
+        "Id": -100,
+        "Name": "CM Related Item",
+        "Table": "u_relatedItem",
+        "BC Search Spec": "",
+        "Created": "2006-07-12T13:30:09.437",
+        "Updated": "2006-07-12T13:30:09.437",
+        "Owner": "-"
+    },
+    {
+        "Id": -2710,
+        "Name": "CM Sched Days",
+        "Table": "u_service",
+        "BC Search Spec": "recordtype='Day Of The Week'",
+        "Created": "2019-08-19T15:09:19.383",
+        "Updated": "2019-08-19T15:09:19.383",
+        "Owner": "Sakshi Deshmukh"
+    },
+    {
+        "Id": -2709,
+        "Name": "CM Sched Specific Days",
+        "Table": "u_service",
+        "BC Search Spec": "recordtype='Specific Date'",
+        "Created": "2019-08-19T14:43:17.023",
+        "Updated": "2019-08-19T14:50:50.763",
+        "Owner": "Sakshi Deshmukh"
+    },
+    {
+        "Id": -2705,
+        "Name": "CM Schedule",
+        "Table": "u_service",
+        "BC Search Spec": "recordtype='CM Schedule'",
+        "Created": "2019-08-19T12:13:17.03",
+        "Updated": "2019-08-19T12:14:07.377",
+        "Owner": "Sakshi Deshmukh"
+    },
+    {
+        "Id": -2715,
+        "Name": "CM Schedule / Escalation INT",
+        "Table": "u_productAtt",
+        "BC Search Spec": "recordType = 'SchedEsc'",
+        "Created": "2019-09-18T16:48:37.77",
+        "Updated": "2019-09-18T16:49:40.913",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -2716,
+        "Name": "CM Schedule Booking",
+        "Table": "u_order",
+        "BC Search Spec": "u_order.recordType = 'SchedBook'",
+        "Created": "2019-09-18T16:54:54.77",
+        "Updated": "2019-09-18T17:09:42.45",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -2714,
+        "Name": "CM Schedule Details",
+        "Table": "u_service",
+        "BC Search Spec": "u_service.recordType = 'SchedDetails'",
+        "Created": "2019-09-17T10:25:15.79",
+        "Updated": "2019-09-17T10:25:15.79",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -2708,
+        "Name": "CM Schedule Times",
+        "Table": "u_product",
+        "BC Search Spec": "recordtype=223",
+        "Created": "2019-08-19T13:55:07",
+        "Updated": "2019-08-19T14:01:11.06",
+        "Owner": "Sakshi Deshmukh"
+    },
+    {
+        "Id": -2717,
+        "Name": "CM Schedule/ Client",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "recordtype='SchedClient'",
+        "Created": "2019-10-04T08:40:34.443",
+        "Updated": "2019-10-04T08:41:37.693",
+        "Owner": "Sakshi Deshmukh"
+    },
+    {
+        "Id": -50,
+        "Name": "CM Script Header",
+        "Table": "u_pageScriptHeader",
+        "BC Search Spec": "",
+        "Created": "2005-10-07T18:37:07.7",
+        "Updated": "2009-04-24T10:43:34.817",
+        "Owner": "-"
+    },
+    {
+        "Id": -34,
+        "Name": "CM Service",
+        "Table": "u_service",
+        "BC Search Spec": "",
+        "Created": "2005-08-17T14:29:43.013",
+        "Updated": "2014-04-30T13:16:38.823",
+        "Owner": "-"
+    },
+    {
+        "Id": -1502,
+        "Name": "CM Skills",
+        "Table": "u_skills",
+        "BC Search Spec": null,
+        "Created": "2016-02-22T09:20:26.853",
+        "Updated": "2016-02-22T09:20:26.853",
+        "Owner": "-"
+    },
+    {
+        "Id": -1500,
+        "Name": "CM Skills Category",
+        "Table": "u_skillCategory",
+        "BC Search Spec": null,
+        "Created": "2016-02-19T16:54:32.74",
+        "Updated": "2016-02-19T16:54:37.783",
+        "Owner": "-"
+    },
+    {
+        "Id": -256,
+        "Name": "CM Static Cam Object Filters",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType='CAMPAIGNFILTERQ'",
+        "Created": "2009-07-08T23:30:27.613",
+        "Updated": "2009-07-08T23:30:27.613",
+        "Owner": "-"
+    },
+    {
+        "Id": -255,
+        "Name": "CM Static Campaign",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "isnull(u_campaignHDR.diallerType,'') <> 'SMS' and u_campaignHDR.parentId=0 and u_campaignHDR.attTXT01 = 'Queue'",
+        "Created": "2009-07-06T22:19:19.763",
+        "Updated": "2009-07-06T22:19:19.763",
+        "Owner": "-"
+    },
+    {
+        "Id": -254,
+        "Name": "CM Static Campaign Queue",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "u_campaignHDR.parentId <> 0",
+        "Created": "2009-06-16T14:17:17.033",
+        "Updated": "2009-07-13T16:29:48.63",
+        "Owner": "-"
+    },
+    {
+        "Id": -2798,
+        "Name": "CM Surge Employees",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType = 3 AND ISNULL(u_contact.attBIT12, 0) = 1",
+        "Created": "2021-02-11T13:41:31.597",
+        "Updated": "2021-02-11T13:42:34.007",
+        "Owner": "Parm Bains"
+    },
+    {
+        "Id": -1490,
+        "Name": "CM Task",
+        "Table": "u_task",
+        "BC Search Spec": null,
+        "Created": "2016-01-07T18:50:22.253",
+        "Updated": "2016-01-07T18:50:28.73",
+        "Owner": "-"
+    },
+    {
+        "Id": -2565,
+        "Name": "CM tPoint Q Next Recs",
+        "Table": "view_nextRecsIntPointQueue",
+        "BC Search Spec": null,
+        "Created": "2017-04-26T11:28:47.3",
+        "Updated": "2017-04-26T12:32:42.33",
+        "Owner": "-"
+    },
+    {
+        "Id": -2617,
+        "Name": "CM Voicemails",
+        "Table": "dxi_cdrlog",
+        "BC Search Spec": "dxi_cdrLog.[outcome] = 99",
+        "Created": "2018-05-24T12:06:49.843",
+        "Updated": "2018-05-24T12:06:49.843",
+        "Owner": "-"
+    },
+    {
+        "Id": -2614,
+        "Name": "CM Webchat Closed Event",
+        "Table": "u_webchatEvent",
+        "BC Search Spec": "u_webchatEvent.recordType = 'Webchat Closed Event'",
+        "Created": "2018-04-30T15:47:53.46",
+        "Updated": "2018-04-30T15:47:53.46",
+        "Owner": "Patricia  Garcia"
+    },
+    {
+        "Id": -2612,
+        "Name": "CM Webchat Delivered Event",
+        "Table": "u_webchatEvent",
+        "BC Search Spec": "u_webchatEvent.recordType = 'Webchat Delivered Event'",
+        "Created": "2018-04-30T12:26:47.663",
+        "Updated": "2018-04-30T13:57:39.763",
+        "Owner": "Patricia  Garcia"
+    },
+    {
+        "Id": -2610,
+        "Name": "CM Webchat Message",
+        "Table": "u_webChatMessage",
+        "BC Search Spec": "u_webchatMessage.recordType='WebChatMessage1'",
+        "Created": "2018-04-26T16:28:23.263",
+        "Updated": "2018-04-26T16:28:23.263",
+        "Owner": "-"
+    },
+    {
+        "Id": -1509,
+        "Name": "CM WebChat Message2",
+        "Table": "u_webChatMessage",
+        "BC Search Spec": null,
+        "Created": "2016-03-22T10:17:24.873",
+        "Updated": "2016-07-15T17:33:04.943",
+        "Owner": "-"
+    },
+    {
+        "Id": -2616,
+        "Name": "CM Webchat Parti Removed Event",
+        "Table": "u_webchatEvent",
+        "BC Search Spec": "u_webchatEvent.recordType = 'Webchat Parti Removed Event'",
+        "Created": "2018-05-01T15:12:48.16",
+        "Updated": "2018-05-01T15:12:48.16",
+        "Owner": "Patricia  Garcia"
+    },
+    {
+        "Id": -2615,
+        "Name": "CM Webchat Partici Added Event",
+        "Table": "u_webchatEvent",
+        "BC Search Spec": "u_webchatEvent.recordType = 'Webchat Partici Added Event'",
+        "Created": "2018-05-01T12:31:10.68",
+        "Updated": "2018-05-01T12:31:10.68",
+        "Owner": "Patricia  Garcia"
+    },
+    {
+        "Id": -2613,
+        "Name": "CM Webchat Read Event",
+        "Table": "u_webchatEvent",
+        "BC Search Spec": "u_webchatEvent.recordType = 'Webchat Read Event'",
+        "Created": "2018-04-30T15:12:31.07",
+        "Updated": "2018-04-30T15:12:31.07",
+        "Owner": "Patricia  Garcia"
+    },
+    {
+        "Id": -2611,
+        "Name": "CM Webchat Sent Event",
+        "Table": "u_webchatEvent",
+        "BC Search Spec": "u_webchatEvent.recordType = 'Webchat Sent Event'",
+        "Created": "2018-04-27T11:52:10.553",
+        "Updated": "2018-04-27T11:52:10.553",
+        "Owner": "Patricia  Garcia"
+    },
+    {
+        "Id": -1508,
+        "Name": "CM WebChat2",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.actiontype = 'Chat'",
+        "Created": "2016-03-22T10:16:26.787",
+        "Updated": "2016-07-15T17:32:07.737",
+        "Owner": "-"
+    },
+    {
+        "Id": -2577,
+        "Name": "compFAQ",
+        "Table": "u_objection",
+        "BC Search Spec": "",
+        "Created": "2017-06-29T10:15:16.49",
+        "Updated": "2017-06-29T10:15:16.49",
+        "Owner": "-"
+    },
+    {
+        "Id": -1441,
+        "Name": "Dashboard - Agent Queues",
+        "Table": "view_AgentQueues",
+        "BC Search Spec": null,
+        "Created": "2014-07-29T09:53:44.353",
+        "Updated": "2014-07-29T09:53:44.353",
+        "Owner": "-"
+    },
+    {
+        "Id": -2788,
+        "Name": "Dashboard - Agent Queues Cache",
+        "Table": "dxi_agentQueues",
+        "BC Search Spec": null,
+        "Created": "2020-12-10T18:37:02.797",
+        "Updated": "2020-12-10T19:14:46.45",
+        "Owner": "Mark O'Donnell"
+    },
+    {
+        "Id": -1442,
+        "Name": "Dashboard - Campaign Callbacks",
+        "Table": "view_CampaignCallbacks",
+        "BC Search Spec": null,
+        "Created": "2014-07-29T09:55:31.443",
+        "Updated": "2014-07-29T09:55:31.443",
+        "Owner": "-"
+    },
+    {
+        "Id": -2796,
+        "Name": "DNU",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType = 8",
+        "Created": "2021-02-11T11:48:29.623",
+        "Updated": "2021-02-24T13:26:35.63",
+        "Owner": "Parm Bains"
+    },
+    {
+        "Id": -140,
+        "Name": "DOC - Additional Page",
+        "Table": "u_documentPage",
+        "BC Search Spec": null,
+        "Created": "2006-09-22T20:21:30.733",
+        "Updated": "2006-09-22T20:21:30.733",
+        "Owner": "-"
+    },
+    {
+        "Id": -197,
+        "Name": "DOC - Batch Doc Merge",
+        "Table": "u_activity",
+        "BC Search Spec": null,
+        "Created": "2007-07-24T15:48:15.297",
+        "Updated": "2008-09-05T13:44:44.403",
+        "Owner": "-"
+    },
+    {
+        "Id": -139,
+        "Name": "DOC - Document",
+        "Table": "u_document",
+        "BC Search Spec": "u_document.recordType='DOCUMENT'",
+        "Created": "2006-09-22T20:17:55.42",
+        "Updated": "2006-09-22T20:17:55.42",
+        "Owner": "-"
+    },
+    {
+        "Id": -1499,
+        "Name": "DOC - Document Escalations",
+        "Table": "u_documentEscalations",
+        "BC Search Spec": null,
+        "Created": "2016-02-09T10:44:30.23",
+        "Updated": "2016-02-09T10:44:30.23",
+        "Owner": "-"
+    },
+    {
+        "Id": -164,
+        "Name": "DOC - Document Table",
+        "Table": "u_documentPage",
+        "BC Search Spec": null,
+        "Created": "2007-01-30T15:23:32.093",
+        "Updated": "2007-01-30T15:23:32.093",
+        "Owner": "-"
+    },
+    {
+        "Id": -163,
+        "Name": "DOC - Document Template",
+        "Table": "u_document",
+        "BC Search Spec": "u_document.recordType='TEMPLATE'",
+        "Created": "2007-01-30T15:01:48.437",
+        "Updated": "2007-01-30T16:33:01.483",
+        "Owner": "-"
+    },
+    {
+        "Id": -198,
+        "Name": "DOC - Merge Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": null,
+        "Created": "2007-07-24T16:57:50.763",
+        "Updated": "2013-08-30T16:27:11.947",
+        "Owner": "-"
+    },
+    {
+        "Id": -145,
+        "Name": "DST - Distribution / Contact",
+        "Table": "u_contactRel",
+        "BC Search Spec": "u_contactRel.relType=1",
+        "Created": "2006-11-16T11:24:01.17",
+        "Updated": "2015-12-21T16:38:36.17",
+        "Owner": "-"
+    },
+    {
+        "Id": -144,
+        "Name": "DST - Distribution List Header",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.RecordType=6",
+        "Created": "2006-11-16T11:02:01.903",
+        "Updated": "2006-11-16T12:09:11.03",
+        "Owner": "-"
+    },
+    {
+        "Id": -149,
+        "Name": "DST - Recipient",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType in (2,3,6,7)",
+        "Created": "2006-11-16T16:50:12.013",
+        "Updated": "2007-01-27T11:24:01.903",
+        "Owner": "-"
+    },
+    {
+        "Id": -408,
+        "Name": "DXI - Callbacks",
+        "Table": "u_dxiCallBacks",
+        "BC Search Spec": null,
+        "Created": "2013-12-04T17:03:08.493",
+        "Updated": "2014-04-30T13:11:32.823",
+        "Owner": "-"
+    },
+    {
+        "Id": -262,
+        "Name": "DXI - IVR Messages",
+        "Table": "dxi_diallerStatsRaw",
+        "BC Search Spec": "queue = 2938",
+        "Created": "2010-03-19T22:14:16.793",
+        "Updated": "2014-04-30T10:57:51.637",
+        "Owner": "-"
+    },
+    {
+        "Id": -261,
+        "Name": "DXI - Messages",
+        "Table": "dxi_diallerStatsRaw",
+        "BC Search Spec": "queue = 2938",
+        "Created": "2010-03-19T17:50:56.883",
+        "Updated": "2014-04-30T10:57:00.687",
+        "Owner": "-"
+    },
+    {
+        "Id": -226,
+        "Name": "DXI - Raw Stats",
+        "Table": "dxi_diallerStatsRaw",
+        "BC Search Spec": "convert(varchar, callid) in (select recordedfilename from u_activity)",
+        "Created": "2008-01-24T15:35:17.107",
+        "Updated": "2014-04-30T10:57:12.19",
+        "Owner": "-"
+    },
+    {
+        "Id": -1470,
+        "Name": "EMAIL - Account",
+        "Table": "u_emailAccount",
+        "BC Search Spec": null,
+        "Created": "2015-09-18T13:57:43.97",
+        "Updated": "2015-10-05T14:46:51.07",
+        "Owner": "-"
+    },
+    {
+        "Id": -166,
+        "Name": "EMAIL - Batch Email Message",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.actionType='Batch Email'",
+        "Created": "2007-02-15T15:28:14",
+        "Updated": "2007-02-15T19:45:21.577",
+        "Owner": "-"
+    },
+    {
+        "Id": -1478,
+        "Name": "EMAIL - Campaign",
+        "Table": "u_emailCampaigns",
+        "BC Search Spec": null,
+        "Created": "2015-11-20T11:49:11.367",
+        "Updated": "2018-10-19T09:30:10.497",
+        "Owner": "-"
+    },
+    {
+        "Id": -1507,
+        "Name": "EMAIL - DocTemplate Attachment",
+        "Table": "u_emailDocumentTemplateAttachment",
+        "BC Search Spec": null,
+        "Created": "2016-02-25T10:03:32.34",
+        "Updated": "2016-02-25T10:05:22.66",
+        "Owner": "-"
+    },
+    {
+        "Id": -180,
+        "Name": "EMAIL - Email Message",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.actionType in ('Email Inbound','Email Outbound')",
+        "Created": "2007-05-21T13:55:07.84",
+        "Updated": "2016-01-04T10:30:44.45",
+        "Owner": "-"
+    },
+    {
+        "Id": -1471,
+        "Name": "EMAIL - Escalations",
+        "Table": "u_emailEscalations",
+        "BC Search Spec": null,
+        "Created": "2015-09-18T14:42:38.05",
+        "Updated": "2015-10-05T15:32:24.707",
+        "Owner": "-"
+    },
+    {
+        "Id": -1489,
+        "Name": "EMAIL - Escalations Errors",
+        "Table": "u_emailEscalations_errors",
+        "BC Search Spec": null,
+        "Created": "2015-12-22T14:46:08.26",
+        "Updated": "2015-12-22T14:47:02.57",
+        "Owner": "-"
+    },
+    {
+        "Id": -1477,
+        "Name": "EMAIL - Escalations Header",
+        "Table": "u_emailEscalationsHdr",
+        "BC Search Spec": null,
+        "Created": "2015-11-20T11:39:31.873",
+        "Updated": "2018-10-19T09:30:24.7",
+        "Owner": "-"
+    },
+    {
+        "Id": -1473,
+        "Name": "EMAIL - Events",
+        "Table": "u_emailEvents",
+        "BC Search Spec": null,
+        "Created": "2015-09-18T15:02:37.067",
+        "Updated": "2015-12-17T09:56:13.677",
+        "Owner": "-"
+    },
+    {
+        "Id": -1479,
+        "Name": "EMAIL - Inbound",
+        "Table": "u_emailInbound",
+        "BC Search Spec": null,
+        "Created": "2015-11-20T11:55:53.5",
+        "Updated": "2019-03-06T12:34:12.007",
+        "Owner": "-"
+    },
+    {
+        "Id": -1483,
+        "Name": "EMAIL - Inbound Errors",
+        "Table": "u_emailInbound_errors",
+        "BC Search Spec": null,
+        "Created": "2015-12-04T15:43:28.43",
+        "Updated": "2015-12-15T14:13:17.107",
+        "Owner": "-"
+    },
+    {
+        "Id": -185,
+        "Name": "EMAIL - Message Recipient",
+        "Table": "u_activityAtt",
+        "BC Search Spec": null,
+        "Created": "2007-05-23T15:48:27.903",
+        "Updated": "2007-05-23T15:50:33.92",
+        "Owner": "-"
+    },
+    {
+        "Id": -1472,
+        "Name": "EMAIL - Templates",
+        "Table": "u_emailTemplate",
+        "BC Search Spec": null,
+        "Created": "2015-09-18T14:58:51.963",
+        "Updated": "2015-12-22T16:50:32.123",
+        "Owner": "-"
+    },
+    {
+        "Id": -2618,
+        "Name": "Email Inbound Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": "u_attachment.parentTbl = 'u_emailInbound'",
+        "Created": "2018-06-01T11:01:28.123",
+        "Updated": "2018-06-01T11:01:28.123",
+        "Owner": "-"
+    },
+    {
+        "Id": -2748,
+        "Name": "f463",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=10015",
+        "Created": "2020-01-23T10:13:26.91",
+        "Updated": "2020-01-23T10:13:26.91",
+        "Owner": "CB_Test CB_Test123"
+    },
+    {
+        "Id": -2760,
+        "Name": "Genie Activity",
+        "Table": "genie_Activity",
+        "BC Search Spec": null,
+        "Created": "2020-05-01T12:02:54.343",
+        "Updated": "2020-05-01T13:35:27.913",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -2704,
+        "Name": "Genie Campaigns",
+        "Table": "u_genieCampaigns",
+        "BC Search Spec": null,
+        "Created": "2019-07-22T12:03:31.853",
+        "Updated": "2019-07-22T12:03:31.853",
+        "Owner": "Aamir Lakdawala"
+    },
+    {
+        "Id": -2719,
+        "Name": "Genie Note Action",
+        "Table": "u_notes",
+        "BC Search Spec": "u_notes.type='GenieNotes'",
+        "Created": "2019-11-27T12:07:51.89",
+        "Updated": "2020-11-17T15:27:48.287",
+        "Owner": "Aamir Lakdawala"
+    },
+    {
+        "Id": -2699,
+        "Name": "Infrastructure - ServiceStats",
+        "Table": "a_application",
+        "BC Search Spec": null,
+        "Created": "2019-05-13T13:53:13.73",
+        "Updated": "2019-05-13T13:53:13.73",
+        "Owner": "Aaroon Virk"
+    },
+    {
+        "Id": -2557,
+        "Name": "IVR - Action Type",
+        "Table": "u_IVRActionType",
+        "BC Search Spec": null,
+        "Created": "2016-10-24T17:55:57.053",
+        "Updated": "2016-10-24T17:55:57.053",
+        "Owner": "-"
+    },
+    {
+        "Id": -2555,
+        "Name": "IVR - Audio Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": "u_attachment.parentTbl = 'u_IVRScript'",
+        "Created": "2016-10-24T10:14:37.233",
+        "Updated": "2016-10-24T10:53:47.763",
+        "Owner": "-"
+    },
+    {
+        "Id": -2540,
+        "Name": "IVR - Event Info",
+        "Table": "u_IVREventInfo",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:14:49.19",
+        "Updated": "2016-10-05T16:14:49.19",
+        "Owner": "-"
+    },
+    {
+        "Id": -2791,
+        "Name": "IVR - Events",
+        "Table": "IVR_events",
+        "BC Search Spec": null,
+        "Created": "2020-08-24T09:39:10.02",
+        "Updated": "2020-08-24T09:39:10.02",
+        "Owner": "-"
+    },
+    {
+        "Id": -2541,
+        "Name": "IVR - Header",
+        "Table": "u_IVRHeader",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:20:26.34",
+        "Updated": "2016-11-11T15:22:22.103",
+        "Owner": "-"
+    },
+    {
+        "Id": -2542,
+        "Name": "IVR - Parameter",
+        "Table": "u_IVRParameter",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:20:48.173",
+        "Updated": "2016-10-05T16:20:48.173",
+        "Owner": "-"
+    },
+    {
+        "Id": -2543,
+        "Name": "IVR - Queue",
+        "Table": "u_IVRQueue",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:21:06.053",
+        "Updated": "2016-10-05T16:21:06.053",
+        "Owner": "-"
+    },
+    {
+        "Id": -2544,
+        "Name": "IVR - Script",
+        "Table": "u_IVRScript",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:21:22.217",
+        "Updated": "2016-10-05T16:21:22.217",
+        "Owner": "-"
+    },
+    {
+        "Id": -2545,
+        "Name": "IVR - Script Step",
+        "Table": "u_IVRScriptStep",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:21:41.51",
+        "Updated": "2016-10-05T16:21:41.51",
+        "Owner": "-"
+    },
+    {
+        "Id": -2546,
+        "Name": "IVR - Script Step Action",
+        "Table": "u_IVRScriptStepAction",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:22:07.85",
+        "Updated": "2016-10-05T16:22:07.85",
+        "Owner": "-"
+    },
+    {
+        "Id": -2547,
+        "Name": "IVR - Script Step Answer",
+        "Table": "u_IVRScriptStepAnswer",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:22:30.57",
+        "Updated": "2016-10-05T16:22:30.57",
+        "Owner": "-"
+    },
+    {
+        "Id": -2548,
+        "Name": "IVR - Script Step Condition",
+        "Table": "u_IVRScriptStepCondition",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:22:46.44",
+        "Updated": "2016-10-05T16:22:46.44",
+        "Owner": "-"
+    },
+    {
+        "Id": -2549,
+        "Name": "IVR - Step",
+        "Table": "u_IVRStep",
+        "BC Search Spec": null,
+        "Created": "2016-10-05T16:23:04.673",
+        "Updated": "2016-10-05T16:23:04.673",
+        "Owner": "-"
+    },
+    {
+        "Id": -2558,
+        "Name": "IVR - Step / Action Type INT",
+        "Table": "u_IVRStepActionINT",
+        "BC Search Spec": null,
+        "Created": "2016-10-25T09:31:15.37",
+        "Updated": "2016-10-25T09:31:15.37",
+        "Owner": "-"
+    },
+    {
+        "Id": -2556,
+        "Name": "IVR - Step Type",
+        "Table": "u_IVRStepType",
+        "BC Search Spec": null,
+        "Created": "2016-10-24T17:54:44.353",
+        "Updated": "2016-10-24T17:54:44.353",
+        "Owner": "-"
+    },
+    {
+        "Id": -2782,
+        "Name": "IVR Log",
+        "Table": "IVRLog",
+        "BC Search Spec": "",
+        "Created": "2020-06-24T16:57:30.94",
+        "Updated": "2020-06-24T16:57:30.94",
+        "Owner": "Pete Joslin"
+    },
+    {
+        "Id": -2783,
+        "Name": "IVRLogDetails",
+        "Table": "IVRLogDetails",
+        "BC Search Spec": "",
+        "Created": "2020-06-30T14:49:15.26",
+        "Updated": "2020-06-30T15:02:37.973",
+        "Owner": "Pete Joslin"
+    },
+    {
+        "Id": -2777,
+        "Name": "KnM - Assigned Tags",
+        "Table": "u_faq_tags",
+        "BC Search Spec": null,
+        "Created": "2020-05-28T12:41:52.853",
+        "Updated": "2020-05-28T12:42:22.137",
+        "Owner": "-"
+    },
+    {
+        "Id": -2778,
+        "Name": "KnM - Knowledge Item",
+        "Table": "u_objection",
+        "BC Search Spec": null,
+        "Created": "2020-05-28T12:45:30.183",
+        "Updated": "2020-05-28T12:45:55.637",
+        "Owner": "-"
+    },
+    {
+        "Id": -2779,
+        "Name": "KnM - Knowledge Item Comment",
+        "Table": "u_objection_comment",
+        "BC Search Spec": null,
+        "Created": "2020-05-28T13:01:26.503",
+        "Updated": "2020-05-28T13:01:49.753",
+        "Owner": "-"
+    },
+    {
+        "Id": -2780,
+        "Name": "KnM - Knowledge Item Feedback",
+        "Table": "u_objection_feedback",
+        "BC Search Spec": null,
+        "Created": "2020-05-28T13:03:25.647",
+        "Updated": "2020-05-28T13:04:03.503",
+        "Owner": "-"
+    },
+    {
+        "Id": -2576,
+        "Name": "List Applet Manager",
+        "Table": "g_applet",
+        "BC Search Spec": "",
+        "Created": "2017-06-25T09:41:44.313",
+        "Updated": "2018-01-11T09:35:11.91",
+        "Owner": "-"
+    },
+    {
+        "Id": -2786,
+        "Name": "Luis App List",
+        "Table": "u_order",
+        "BC Search Spec": "u_order.recordType = 'DM_-2786'",
+        "Created": "2020-08-20T15:56:08.433",
+        "Updated": "2020-08-20T15:57:03.217",
+        "Owner": "Nazma Khan"
+    },
+    {
+        "Id": -2589,
+        "Name": "MC - Campaigns",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "isnull(u_campaignHDR.diallerType,'') = 'Media'",
+        "Created": "2017-12-01T16:59:03.347",
+        "Updated": "2017-12-01T17:26:12.29",
+        "Owner": "-"
+    },
+    {
+        "Id": -2590,
+        "Name": "MC - Manifestation",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "",
+        "Created": "2017-12-04T11:04:10.68",
+        "Updated": "2017-12-04T11:04:10.68",
+        "Owner": "-"
+    },
+    {
+        "Id": -2629,
+        "Name": "OPP - Updates",
+        "Table": "u_notes",
+        "BC Search Spec": "u_notes.buscompid = 121",
+        "Created": "2018-08-29T18:09:41.573",
+        "Updated": "2018-08-29T18:09:41.573",
+        "Owner": "-"
+    },
+    {
+        "Id": -2625,
+        "Name": "Opportunity",
+        "Table": "u_opp",
+        "BC Search Spec": null,
+        "Created": "2018-08-27T12:27:34.393",
+        "Updated": "2018-08-27T12:27:34.393",
+        "Owner": "-"
+    },
+    {
+        "Id": -2569,
+        "Name": "Page Control Designer",
+        "Table": "page_cms_element",
+        "BC Search Spec": "",
+        "Created": "2017-06-01T15:10:07.033",
+        "Updated": "2021-03-23T12:50:40.593",
+        "Owner": "-"
+    },
+    {
+        "Id": -2787,
+        "Name": "Process Robot Master",
+        "Table": "process_robot_master",
+        "BC Search Spec": null,
+        "Created": "2020-10-23T10:04:27.913",
+        "Updated": "2020-10-23T10:04:27.913",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -2785,
+        "Name": "Process Routing Rulesets",
+        "Table": "u_document",
+        "BC Search Spec": "recordType = 'Rulesets'",
+        "Created": "2020-07-22T10:34:35.817",
+        "Updated": "2020-07-22T10:34:35.817",
+        "Owner": "Aamir Lakdawala"
+    },
+    {
+        "Id": -2574,
+        "Name": "Process Scripts",
+        "Table": "u_scriptHeader",
+        "BC Search Spec": "harddeletedflag = 0",
+        "Created": "2017-06-23T12:00:19.05",
+        "Updated": "2017-06-23T12:05:17.633",
+        "Owner": "-"
+    },
+    {
+        "Id": -2647,
+        "Name": "QC CampaignCategory",
+        "Table": "u_campaignsurveyquestion",
+        "BC Search Spec": "recordtype='Category'",
+        "Created": "2018-10-15T11:56:53.883",
+        "Updated": "2018-10-24T11:37:23.02",
+        "Owner": "-"
+    },
+    {
+        "Id": -2648,
+        "Name": "QC CampaignCategory Others",
+        "Table": "u_campaignsurveyquestion",
+        "BC Search Spec": "recordtype='Category'",
+        "Created": "2018-10-15T13:27:04.04",
+        "Updated": "2018-10-24T11:37:51.167",
+        "Owner": "-"
+    },
+    {
+        "Id": -2644,
+        "Name": "QC CampaignQuestions",
+        "Table": "u_campaignsurveyquestion",
+        "BC Search Spec": "recordtype='Threshold'",
+        "Created": "2018-10-11T12:31:02.347",
+        "Updated": "2018-10-24T11:38:40.743",
+        "Owner": "-"
+    },
+    {
+        "Id": -2646,
+        "Name": "QC CampaignQuestions Others",
+        "Table": "u_campaignsurveyquestion",
+        "BC Search Spec": "recordtype='Threshold'",
+        "Created": "2018-10-12T13:11:46.15",
+        "Updated": "2018-10-24T11:40:40.653",
+        "Owner": "-"
+    },
+    {
+        "Id": -2643,
+        "Name": "QC Record",
+        "Table": "u_qualityControl",
+        "BC Search Spec": "recordtype='QC Record'",
+        "Created": "2018-10-10T09:02:00.33",
+        "Updated": "2018-10-25T07:48:10.13",
+        "Owner": "-"
+    },
+    {
+        "Id": -2674,
+        "Name": "QC Updates",
+        "Table": "u_notes",
+        "BC Search Spec": "u_notes.busCompId = -2643",
+        "Created": "2019-02-14T12:03:17.42",
+        "Updated": "2019-02-14T12:03:17.42",
+        "Owner": "Parm Bains"
+    },
+    {
+        "Id": -2,
+        "Name": "RM - Account",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=1 AND u_contact.parId = 0",
+        "Created": "2005-07-11T18:20:15.623",
+        "Updated": "2014-04-30T10:30:25.02",
+        "Owner": "-"
+    },
+    {
+        "Id": -208,
+        "Name": "RM - Account Site",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=1 AND u_contact.parId <> 0",
+        "Created": "2007-08-06T20:52:15.077",
+        "Updated": "2014-04-30T10:30:30.76",
+        "Owner": "-"
+    },
+    {
+        "Id": -26,
+        "Name": "RM - Activity",
+        "Table": "u_activity",
+        "BC Search Spec": "",
+        "Created": "2005-08-12T02:13:48.937",
+        "Updated": "2014-04-30T10:30:36.807",
+        "Owner": "-"
+    },
+    {
+        "Id": -40,
+        "Name": "RM - Booking",
+        "Table": "u_order",
+        "BC Search Spec": "u_order.recordType='BOOKING'",
+        "Created": "2005-08-25T12:49:02.767",
+        "Updated": "2014-04-30T10:30:42.15",
+        "Owner": "-"
+    },
+    {
+        "Id": -209,
+        "Name": "RM - Booking Shift",
+        "Table": "u_orderItem",
+        "BC Search Spec": "u_orderItem.recordType='RMSHIFT'",
+        "Created": "2007-08-08T14:32:25.89",
+        "Updated": "2014-04-30T10:30:50.867",
+        "Owner": "-"
+    },
+    {
+        "Id": -45,
+        "Name": "RM - Booking Shift Adjustment",
+        "Table": "u_workOrder",
+        "BC Search Spec": "u_workOrder.recordType='RMSHIFTADJUSTMENT'",
+        "Created": "2005-09-17T17:29:48.677",
+        "Updated": "2014-04-30T10:30:56.76",
+        "Owner": "-"
+    },
+    {
+        "Id": -212,
+        "Name": "RM - Booking Skills",
+        "Table": "u_orderLineItemSkills",
+        "BC Search Spec": null,
+        "Created": "2007-08-14T13:23:11.687",
+        "Updated": "2014-04-30T10:31:03.237",
+        "Owner": "-"
+    },
+    {
+        "Id": -211,
+        "Name": "RM - Booking Team",
+        "Table": "u_objectTeam",
+        "BC Search Spec": "u_objectTeam.objectType=4",
+        "Created": "2007-08-14T13:05:26.81",
+        "Updated": "2014-04-30T10:31:08.75",
+        "Owner": "-"
+    },
+    {
+        "Id": -1,
+        "Name": "RM - Candidate",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType = 4",
+        "Created": "2005-07-08T17:17:05.403",
+        "Updated": "2014-04-30T10:31:17.73",
+        "Owner": "-"
+    },
+    {
+        "Id": -219,
+        "Name": "RM - Candidate Client Grade",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactATT.recordType='CLIENTGRADE'",
+        "Created": "2007-09-12T10:58:58.7",
+        "Updated": "2014-04-30T10:31:26.85",
+        "Owner": "-"
+    },
+    {
+        "Id": -213,
+        "Name": "RM - Candidate Hours",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contact.recordType = 'RMCandidateHours'",
+        "Created": "2007-08-14T14:15:48.89",
+        "Updated": "2014-04-30T10:31:32.717",
+        "Owner": "-"
+    },
+    {
+        "Id": -205,
+        "Name": "RM - Candidate Notes",
+        "Table": "u_contactNotes",
+        "BC Search Spec": "",
+        "Created": "2007-08-06T17:19:32.093",
+        "Updated": "2014-04-30T10:31:38.533",
+        "Owner": "-"
+    },
+    {
+        "Id": -44,
+        "Name": "RM - Candidate Rejection",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType='REJECTION'",
+        "Created": "2005-09-15T15:35:29.567",
+        "Updated": "2014-04-30T10:31:48.07",
+        "Owner": "-"
+    },
+    {
+        "Id": -75,
+        "Name": "RM - Candidate Removal",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "recordType='REMOVAL'",
+        "Created": "2006-01-31T12:42:05.78",
+        "Updated": "2014-04-30T10:32:17.877",
+        "Owner": "-"
+    },
+    {
+        "Id": -74,
+        "Name": "RM - Candidate Restriction",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType='RESTRICTION'",
+        "Created": "2006-01-30T13:40:08.733",
+        "Updated": "2014-04-30T10:32:26.687",
+        "Owner": "-"
+    },
+    {
+        "Id": -24,
+        "Name": "RM - Candidate Skills",
+        "Table": "u_contactSkills",
+        "BC Search Spec": "",
+        "Created": "2005-07-27T11:25:14.653",
+        "Updated": "2014-04-30T10:32:35.18",
+        "Owner": "-"
+    },
+    {
+        "Id": -48,
+        "Name": "RM - Candidate Unavailable",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType='CANDUNAVAILABLE'",
+        "Created": "2005-09-27T12:08:44.543",
+        "Updated": "2014-04-30T10:32:51.36",
+        "Owner": "-"
+    },
+    {
+        "Id": -49,
+        "Name": "RM - Candidate Unavailable Dtl",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType='CANDUNAVAILABLEDTL'",
+        "Created": "2005-09-28T19:55:07.863",
+        "Updated": "2014-04-30T10:33:17.583",
+        "Owner": "-"
+    },
+    {
+        "Id": -218,
+        "Name": "RM - Client Grade Scheme",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactATT.recordType='CLIENTGRADESCHEME'",
+        "Created": "2007-09-12T10:55:50.873",
+        "Updated": "2014-04-30T10:33:57.187",
+        "Owner": "-"
+    },
+    {
+        "Id": -10,
+        "Name": "RM - Contact",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=2",
+        "Created": "2005-07-21T15:11:47.17",
+        "Updated": "2014-04-30T10:34:03.443",
+        "Owner": "-"
+    },
+    {
+        "Id": -65,
+        "Name": "RM - Daily Actuals",
+        "Table": "u_orderItem",
+        "BC Search Spec": "u_orderItem.recordType='RMDAILYACTUAL'",
+        "Created": "2005-12-23T15:16:07.13",
+        "Updated": "2014-04-30T10:34:11.203",
+        "Owner": "-"
+    },
+    {
+        "Id": -38,
+        "Name": "RM - Education History",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType='EDUHISTORY'",
+        "Created": "2005-08-17T21:57:55.967",
+        "Updated": "2014-04-30T10:34:19.453",
+        "Owner": "-"
+    },
+    {
+        "Id": -37,
+        "Name": "RM - Employment History",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType = 'EMPHISTORY'",
+        "Created": "2005-08-17T21:34:06.997",
+        "Updated": "2014-04-30T10:34:24.753",
+        "Owner": "-"
+    },
+    {
+        "Id": -42,
+        "Name": "RM - Shift Candidate",
+        "Table": "u_workOrder",
+        "BC Search Spec": "u_workOrder.recordType='RMSHIFTCONTACT'",
+        "Created": "2005-09-01T17:04:48.977",
+        "Updated": "2014-04-30T10:34:31.483",
+        "Owner": "-"
+    },
+    {
+        "Id": -210,
+        "Name": "RM - Shift Cycle Item",
+        "Table": "u_orderItem",
+        "BC Search Spec": "u_orderitem.recordtype='RMCYCLEITEM'",
+        "Created": "2007-08-08T15:43:22.123",
+        "Updated": "2014-04-30T10:34:37.47",
+        "Owner": "-"
+    },
+    {
+        "Id": -216,
+        "Name": "RM - Shift Cycle Item Adjustm.",
+        "Table": "u_orderItem",
+        "BC Search Spec": "u_orderitem.recordtype='RMCYCLEITEMADJUSTMENT'",
+        "Created": "2007-09-05T11:02:19.873",
+        "Updated": "2014-04-30T10:38:42.113",
+        "Owner": "-"
+    },
+    {
+        "Id": -217,
+        "Name": "RM - Shift Cycle Item Team QTY",
+        "Table": "u_orderItem",
+        "BC Search Spec": "u_orderitem.recordtype='RMCYCLEITEMTEAMQTY'",
+        "Created": "2007-09-05T12:00:01.92",
+        "Updated": "2014-04-30T10:39:04.777",
+        "Owner": "-"
+    },
+    {
+        "Id": -43,
+        "Name": "RM - Shift Day",
+        "Table": "u_workOrderLineItem",
+        "BC Search Spec": "u_workorderlineitem.recordType='RMSHIFTDAY'",
+        "Created": "2005-09-01T17:05:08.907",
+        "Updated": "2014-04-30T10:39:12.82",
+        "Owner": "-"
+    },
+    {
+        "Id": -214,
+        "Name": "RM - Shift Section Team",
+        "Table": "u_workOrderLineItem",
+        "BC Search Spec": "u_workorderlineitem.recordType='RMSHIFTSECTION'",
+        "Created": "2007-08-31T18:35:48.797",
+        "Updated": "2014-04-30T10:39:23.143",
+        "Owner": "-"
+    },
+    {
+        "Id": -215,
+        "Name": "RM - Shift Section Team Skill",
+        "Table": "u_workOrderLineItem",
+        "BC Search Spec": "u_workorderlineitem.recordType='RMSHIFTSECTIONSKILL'",
+        "Created": "2007-09-03T10:46:47.077",
+        "Updated": "2014-04-30T10:30:03.503",
+        "Owner": "-"
+    },
+    {
+        "Id": -207,
+        "Name": "RM - Site",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=1",
+        "Created": "2007-08-06T17:19:41.247",
+        "Updated": "2014-04-30T10:39:28.797",
+        "Owner": "-"
+    },
+    {
+        "Id": -21,
+        "Name": "RM - Skill Category",
+        "Table": "rm_skillCategory",
+        "BC Search Spec": "",
+        "Created": "2005-07-27T11:15:02.31",
+        "Updated": "2014-04-30T10:39:36.257",
+        "Owner": "-"
+    },
+    {
+        "Id": -20,
+        "Name": "RM - Skill Definition",
+        "Table": "rm_skills",
+        "BC Search Spec": "rm_skills.parentSkillId=0",
+        "Created": "2005-07-27T11:14:07.233",
+        "Updated": "2014-04-30T10:39:41.107",
+        "Owner": "-"
+    },
+    {
+        "Id": -55,
+        "Name": "RM - Skill Synonym",
+        "Table": "rm_skillSynonym",
+        "BC Search Spec": "",
+        "Created": "2005-10-17T21:53:25.123",
+        "Updated": "2014-04-30T10:39:48.45",
+        "Owner": "-"
+    },
+    {
+        "Id": -2619,
+        "Name": "RPT - Audit Log",
+        "Table": "u_auditLog_Report",
+        "BC Search Spec": null,
+        "Created": "2018-06-25T11:04:02.86",
+        "Updated": "2018-06-25T11:04:02.86",
+        "Owner": "-"
+    },
+    {
+        "Id": -162,
+        "Name": "RPT - Report Field",
+        "Table": "rpt_reportField",
+        "BC Search Spec": null,
+        "Created": "2007-01-27T13:37:27.56",
+        "Updated": "2007-01-27T13:37:27.56",
+        "Owner": "-"
+    },
+    {
+        "Id": -161,
+        "Name": "RPT - Report Query",
+        "Table": "rpt_reportUserQueryHdr",
+        "BC Search Spec": null,
+        "Created": "2007-01-27T12:55:38.217",
+        "Updated": "2014-04-30T16:25:19.61",
+        "Owner": "-"
+    },
+    {
+        "Id": -64,
+        "Name": "RPT - Reports",
+        "Table": "rpt_report",
+        "BC Search Spec": "",
+        "Created": "2005-12-07T11:04:48.95",
+        "Updated": "2019-01-10T14:32:09.197",
+        "Owner": "-"
+    },
+    {
+        "Id": -138,
+        "Name": "RPT - Reports (With Chart)",
+        "Table": "rpt_report",
+        "BC Search Spec": "rpt_report.id!= 0",
+        "Created": "2006-09-11T15:09:12.28",
+        "Updated": "2018-10-10T17:29:51.713",
+        "Owner": "-"
+    },
+    {
+        "Id": -2730,
+        "Name": "RPT - SP Param Details",
+        "Table": "rpt_spParamsDetails",
+        "BC Search Spec": null,
+        "Created": "2020-01-02T14:19:27.797",
+        "Updated": "2020-01-02T14:19:27.797",
+        "Owner": "Aamir Lakdawala"
+    },
+    {
+        "Id": -2757,
+        "Name": "Scorecard Feedback",
+        "Table": "u_surveyFeedbackAcknowledgement",
+        "BC Search Spec": "",
+        "Created": "2020-03-18T13:31:52.597",
+        "Updated": "2020-03-18T13:31:52.597",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -2633,
+        "Name": "ScriptHeaderV2",
+        "Table": "u_scriptHeader_v2",
+        "BC Search Spec": null,
+        "Created": "2018-09-14T10:43:25.013",
+        "Updated": "2018-09-14T10:43:25.013",
+        "Owner": "-"
+    },
+    {
+        "Id": -18,
+        "Name": "Skill Measure Definition",
+        "Table": "r_pickListDef",
+        "BC Search Spec": "type = 'SKILLVALUES'",
+        "Created": "2005-07-27T10:55:47.14",
+        "Updated": "2005-10-18T16:11:30.403",
+        "Owner": "-"
+    },
+    {
+        "Id": -71,
+        "Name": "SM - Sales Methodology",
+        "Table": "u_salesMethodology",
+        "BC Search Spec": "",
+        "Created": "2006-01-26T12:13:12.53",
+        "Updated": "2014-04-30T11:36:08.13",
+        "Owner": "-"
+    },
+    {
+        "Id": -72,
+        "Name": "SM - Sales Stage",
+        "Table": "u_salesStage",
+        "BC Search Spec": "",
+        "Created": "2006-01-26T12:13:32.187",
+        "Updated": "2014-04-30T11:36:16.94",
+        "Owner": "-"
+    },
+    {
+        "Id": -73,
+        "Name": "SM - Sales Status",
+        "Table": "u_salesStatus",
+        "BC Search Spec": "",
+        "Created": "2006-01-26T12:13:51.043",
+        "Updated": "2014-04-30T11:35:58.48",
+        "Owner": "-"
+    },
+    {
+        "Id": -151,
+        "Name": "SMS - Campaign",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": "u_campaignHDR.diallerType='SMS'",
+        "Created": "2006-12-17T16:28:22.233",
+        "Updated": "2018-10-19T10:12:49.07",
+        "Owner": "-"
+    },
+    {
+        "Id": -2518,
+        "Name": "SMS - Campaign v2",
+        "Table": "u_SMSCampaigns",
+        "BC Search Spec": null,
+        "Created": "2016-05-05T16:06:16",
+        "Updated": "2018-10-19T10:15:22.517",
+        "Owner": "-"
+    },
+    {
+        "Id": -1496,
+        "Name": "SMS - Escalations",
+        "Table": "u_SMSEscalations",
+        "BC Search Spec": null,
+        "Created": "2016-01-25T15:49:58.65",
+        "Updated": "2016-01-25T15:49:58.65",
+        "Owner": "-"
+    },
+    {
+        "Id": -2519,
+        "Name": "SMS - Escalations Header",
+        "Table": "u_SMSEscalationsHdr",
+        "BC Search Spec": null,
+        "Created": "2016-05-05T16:07:15",
+        "Updated": "2018-10-19T10:16:43.12",
+        "Owner": "-"
+    },
+    {
+        "Id": -1497,
+        "Name": "SMS - Escalations Processed",
+        "Table": "u_SMSEscalationsProcessed",
+        "BC Search Spec": null,
+        "Created": "2016-01-25T15:51:10.573",
+        "Updated": "2016-01-25T15:51:10.573",
+        "Owner": "-"
+    },
+    {
+        "Id": -150,
+        "Name": "SMS - Group Message",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.actionType = 'SMS Batch'",
+        "Created": "2006-12-17T16:15:49.187",
+        "Updated": "2018-10-19T11:36:51.963",
+        "Owner": "-"
+    },
+    {
+        "Id": -143,
+        "Name": "SMS - Message",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.actionType like '%SMS%'",
+        "Created": "2006-11-09T12:56:12.81",
+        "Updated": "2018-10-19T11:42:46.873",
+        "Owner": "-"
+    },
+    {
+        "Id": -220,
+        "Name": "SMS - Number",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.vendor='SMSNumber'",
+        "Created": "2007-09-19T12:14:56.967",
+        "Updated": "2014-04-30T13:15:16.24",
+        "Owner": "-"
+    },
+    {
+        "Id": -158,
+        "Name": "SMS - Recipient Actual",
+        "Table": "u_contactActivity",
+        "BC Search Spec": "u_contactActivity.participantType=1",
+        "Created": "2007-01-24T16:20:16.013",
+        "Updated": "2007-01-24T16:28:26.653",
+        "Owner": "-"
+    },
+    {
+        "Id": -157,
+        "Name": "SMS - Recipient Selected",
+        "Table": "u_contactActivity",
+        "BC Search Spec": "u_contactActivity.participantType=0",
+        "Created": "2007-01-24T16:05:15.56",
+        "Updated": "2007-01-24T16:11:09.967",
+        "Owner": "-"
+    },
+    {
+        "Id": -152,
+        "Name": "SMS - Templates",
+        "Table": "u_contactNotes",
+        "BC Search Spec": "u_contactNotes.noteType='SMSTEMPLATE'",
+        "Created": "2006-12-17T20:03:50.043",
+        "Updated": "2006-12-17T20:06:26.84",
+        "Owner": "-"
+    },
+    {
+        "Id": -160,
+        "Name": "SMS - Transmissions",
+        "Table": "u_activity",
+        "BC Search Spec": "u_activity.actiontype = 'SMS Transmission'",
+        "Created": "2007-01-27T11:19:10.357",
+        "Updated": "2007-01-27T11:19:10.357",
+        "Owner": "-"
+    },
+    {
+        "Id": -2601,
+        "Name": "Social_Master",
+        "Table": "social_master",
+        "BC Search Spec": null,
+        "Created": "2018-03-28T13:09:35.817",
+        "Updated": "2018-03-28T13:09:35.817",
+        "Owner": "-"
+    },
+    {
+        "Id": -2606,
+        "Name": "Social_MasterMentionAlert_Map",
+        "Table": "social_masterMentionAlert_mapping",
+        "BC Search Spec": null,
+        "Created": "2018-04-03T08:42:18.683",
+        "Updated": "2018-04-03T08:42:18.683",
+        "Owner": "-"
+    },
+    {
+        "Id": -2607,
+        "Name": "Social_MasterReputology_Map",
+        "Table": "social_masterReputology_mapping",
+        "BC Search Spec": null,
+        "Created": "2018-04-03T08:44:44.86",
+        "Updated": "2018-04-03T08:44:44.86",
+        "Owner": "-"
+    },
+    {
+        "Id": -2603,
+        "Name": "Social_MasterSite_Mapping",
+        "Table": "social_masterSite_mapping",
+        "BC Search Spec": null,
+        "Created": "2018-03-28T13:13:58.48",
+        "Updated": "2018-03-28T13:13:58.48",
+        "Owner": "-"
+    },
+    {
+        "Id": -2604,
+        "Name": "Social_MentionAlert",
+        "Table": "social_MentionAlert",
+        "BC Search Spec": null,
+        "Created": "2018-04-03T08:40:22.38",
+        "Updated": "2018-04-03T08:40:22.38",
+        "Owner": "-"
+    },
+    {
+        "Id": -2605,
+        "Name": "Social_Reputology",
+        "Table": "social_Reputology",
+        "BC Search Spec": "",
+        "Created": "2018-04-03T08:41:17.827",
+        "Updated": "2018-04-03T08:41:17.827",
+        "Owner": "-"
+    },
+    {
+        "Id": -2608,
+        "Name": "Social_Reputology_Site_Map",
+        "Table": "social_ReputologySite_mapping",
+        "BC Search Spec": null,
+        "Created": "2018-04-03T16:00:13.767",
+        "Updated": "2018-04-03T16:00:33.443",
+        "Owner": "-"
+    },
+    {
+        "Id": -2602,
+        "Name": "Social_Sites",
+        "Table": "social_sites",
+        "BC Search Spec": null,
+        "Created": "2018-03-28T13:10:40.803",
+        "Updated": "2018-03-28T13:10:40.803",
+        "Owner": "-"
+    },
+    {
+        "Id": -133,
+        "Name": "SRM - Service Request",
+        "Table": "u_service",
+        "BC Search Spec": "u_service.RecordType = 'Service Request'",
+        "Created": "2006-09-05T11:04:34.153",
+        "Updated": "2006-09-07T09:34:17.187",
+        "Owner": "-"
+    },
+    {
+        "Id": -134,
+        "Name": "SRM - Service Request Activity",
+        "Table": "u_activity",
+        "BC Search Spec": null,
+        "Created": "2006-09-05T12:16:54.043",
+        "Updated": "2006-09-05T12:16:54.043",
+        "Owner": "-"
+    },
+    {
+        "Id": -135,
+        "Name": "SRM - Service Request Attach",
+        "Table": "u_Attachment",
+        "BC Search Spec": null,
+        "Created": "2006-09-05T12:18:05.7",
+        "Updated": "2006-09-05T12:18:05.7",
+        "Owner": "-"
+    },
+    {
+        "Id": -2789,
+        "Name": "Studio Comments",
+        "Table": "u_Studio_Comments",
+        "BC Search Spec": null,
+        "Created": "2020-12-15T12:39:39.677",
+        "Updated": "2020-12-15T12:41:17.79",
+        "Owner": "-"
+    },
+    {
+        "Id": -2790,
+        "Name": "Studio Feedback",
+        "Table": "u_Studio_Feedbacks",
+        "BC Search Spec": null,
+        "Created": "2020-12-15T12:41:45.463",
+        "Updated": "2020-12-15T12:41:55.027",
+        "Owner": "-"
+    },
+    {
+        "Id": -2774,
+        "Name": "Studio Messages",
+        "Table": "u_studioMessages",
+        "BC Search Spec": "u_studioMessages.recordType = 'DM_-2774'",
+        "Created": "2020-05-13T16:00:49.33",
+        "Updated": "2020-05-13T16:00:49.33",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -2639,
+        "Name": "SUP - Activity",
+        "Table": "u_activity",
+        "BC Search Spec": "",
+        "Created": "2018-09-18T09:50:06.16",
+        "Updated": "2018-09-18T09:50:06.16",
+        "Owner": "-"
+    },
+    {
+        "Id": -2637,
+        "Name": "SUP - Documents",
+        "Table": "u_Attachment",
+        "BC Search Spec": "u_attachment.parenttbl='u_service'",
+        "Created": "2018-09-17T11:03:32.763",
+        "Updated": "2018-09-17T11:03:32.763",
+        "Owner": "-"
+    },
+    {
+        "Id": -2638,
+        "Name": "SUP - FAQ",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactatt.recordtype='FAQ'",
+        "Created": "2018-09-17T11:41:41.353",
+        "Updated": "2018-09-17T11:41:41.353",
+        "Owner": "-"
+    },
+    {
+        "Id": -2634,
+        "Name": "SUP - Outcomes",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactatt.recordtype='resolution'",
+        "Created": "2018-09-17T09:39:25.463",
+        "Updated": "2018-09-17T09:39:25.463",
+        "Owner": "-"
+    },
+    {
+        "Id": -2632,
+        "Name": "SUP - SLA",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.recordtype=150",
+        "Created": "2018-09-12T10:47:43.947",
+        "Updated": "2018-09-12T10:47:43.947",
+        "Owner": "-"
+    },
+    {
+        "Id": -2636,
+        "Name": "SUP - Status Events",
+        "Table": "u_oppProd",
+        "BC Search Spec": "u_oppProd.attTXT01 = 'StatusEvent'",
+        "Created": "2018-09-17T10:38:53.923",
+        "Updated": "2018-09-17T10:42:10.317",
+        "Owner": "-"
+    },
+    {
+        "Id": -2640,
+        "Name": "SUP - Support Hours",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactatt.recordtype='BusinessHours'",
+        "Created": "2018-09-19T09:38:50.773",
+        "Updated": "2018-09-19T09:38:50.773",
+        "Owner": "-"
+    },
+    {
+        "Id": -2631,
+        "Name": "SUP - Tickets",
+        "Table": "u_service",
+        "BC Search Spec": "u_service.recordtype='Support Ticket'",
+        "Created": "2018-09-12T10:29:45.78",
+        "Updated": "2018-09-12T10:29:45.78",
+        "Owner": "-"
+    },
+    {
+        "Id": -2635,
+        "Name": "SUP - Updates",
+        "Table": "u_notes",
+        "BC Search Spec": "u_notes.buscompid in (429)",
+        "Created": "2018-09-17T10:07:18.433",
+        "Updated": "2018-10-02T10:19:37.59",
+        "Owner": "-"
+    },
+    {
+        "Id": -2792,
+        "Name": "Surge Campaign",
+        "Table": "u_campaignHdr",
+        "BC Search Spec": null,
+        "Created": "2021-02-05T12:58:07.757",
+        "Updated": "2021-02-05T12:58:07.757",
+        "Owner": "Abhishek A"
+    },
+    {
+        "Id": -2523,
+        "Name": "Survey - Answer",
+        "Table": "u_surveyAnswer",
+        "BC Search Spec": "u_surveyAnswer.recordType='Answer'",
+        "Created": "2016-06-23T14:30:22.653",
+        "Updated": "2016-07-12T11:52:07.01",
+        "Owner": "-"
+    },
+    {
+        "Id": -2579,
+        "Name": "Survey - Answer Int",
+        "Table": "u_surveyAnswerInt",
+        "BC Search Spec": null,
+        "Created": "2017-07-26T13:59:03.43",
+        "Updated": "2017-07-26T13:59:03.43",
+        "Owner": "-"
+    },
+    {
+        "Id": -2528,
+        "Name": "Survey - Category",
+        "Table": "u_surveyCategory",
+        "BC Search Spec": null,
+        "Created": "2016-07-12T13:38:36.473",
+        "Updated": "2016-07-12T13:38:36.473",
+        "Owner": "-"
+    },
+    {
+        "Id": -2584,
+        "Name": "Survey - Details",
+        "Table": "u_surveydetails",
+        "BC Search Spec": null,
+        "Created": "2017-09-27T14:20:57.543",
+        "Updated": "2017-10-04T14:41:23.86",
+        "Owner": "-"
+    },
+    {
+        "Id": -2526,
+        "Name": "Survey - Header",
+        "Table": "u_surveyHeader",
+        "BC Search Spec": "u_surveyHeader.recordType='SURVEYHEADER'",
+        "Created": "2016-06-23T15:42:57.323",
+        "Updated": "2016-07-12T11:52:45.653",
+        "Owner": "-"
+    },
+    {
+        "Id": -2588,
+        "Name": "Survey - Page",
+        "Table": "u_surveyPage",
+        "BC Search Spec": "",
+        "Created": "2017-10-04T15:50:49.947",
+        "Updated": "2017-10-04T15:50:49.947",
+        "Owner": "-"
+    },
+    {
+        "Id": -2586,
+        "Name": "Survey - Page Answer",
+        "Table": "u_surveyPageAnswer",
+        "BC Search Spec": null,
+        "Created": "2017-10-04T14:39:48.857",
+        "Updated": "2017-10-04T14:39:48.857",
+        "Owner": "-"
+    },
+    {
+        "Id": -2585,
+        "Name": "Survey - Page Question",
+        "Table": "u_surveyPageQuestion",
+        "BC Search Spec": null,
+        "Created": "2017-10-04T14:39:20.013",
+        "Updated": "2017-10-04T14:39:20.013",
+        "Owner": "-"
+    },
+    {
+        "Id": -2593,
+        "Name": "Survey - Participants",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.[id] in(SELECT createdBy FROM u_surveyResponse)",
+        "Created": "2018-01-02T14:44:23.123",
+        "Updated": "2018-01-02T15:33:11.543",
+        "Owner": "-"
+    },
+    {
+        "Id": -2525,
+        "Name": "Survey - Question",
+        "Table": "u_surveyQuestion",
+        "BC Search Spec": "u_surveyQuestion.recordType='Question'",
+        "Created": "2016-06-23T15:36:27.143",
+        "Updated": "2016-07-12T11:52:30.38",
+        "Owner": "-"
+    },
+    {
+        "Id": -2578,
+        "Name": "Survey - Question Int",
+        "Table": "u_surveyQuestionInt",
+        "BC Search Spec": "",
+        "Created": "2017-07-26T13:47:43.813",
+        "Updated": "2017-07-26T13:47:43.813",
+        "Owner": "-"
+    },
+    {
+        "Id": -2587,
+        "Name": "Survey - Response",
+        "Table": "u_surveyResponse",
+        "BC Search Spec": "",
+        "Created": "2017-10-04T14:40:16.487",
+        "Updated": "2017-10-04T14:40:16.487",
+        "Owner": "-"
+    },
+    {
+        "Id": -2630,
+        "Name": "Survey - Response Header",
+        "Table": "u_surveyResponseHeader",
+        "BC Search Spec": null,
+        "Created": "2018-09-07T10:14:49.197",
+        "Updated": "2019-10-18T09:04:10.547",
+        "Owner": "-"
+    },
+    {
+        "Id": -2529,
+        "Name": "Survey - SubCategory",
+        "Table": "u_surveySubCategory",
+        "BC Search Spec": null,
+        "Created": "2016-07-12T13:38:41.983",
+        "Updated": "2016-07-12T13:38:41.983",
+        "Owner": "-"
+    },
+    {
+        "Id": -2701,
+        "Name": "Survey API Config",
+        "Table": "u_service",
+        "BC Search Spec": "u_service.recordType = '-2701'",
+        "Created": "2019-06-30T07:45:18.457",
+        "Updated": "2019-06-30T16:25:05.19",
+        "Owner": "Aamir Lakdawala"
+    },
+    {
+        "Id": -2756,
+        "Name": "Survey Categories",
+        "Table": "u_surveyCategory",
+        "BC Search Spec": "",
+        "Created": "2020-02-18T09:27:07.017",
+        "Updated": "2020-02-18T09:38:41.997",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -2703,
+        "Name": "Survey Collector",
+        "Table": "u_surveyCollector",
+        "BC Search Spec": "u_surveyCollector.recordType=1",
+        "Created": "2019-07-08T16:34:06.983",
+        "Updated": "2019-07-08T16:34:06.983",
+        "Owner": "Aamir Lakdawala"
+    },
+    {
+        "Id": -2645,
+        "Name": "Survey Page Question DL",
+        "Table": "Survey_Page_Question",
+        "BC Search Spec": "",
+        "Created": "2018-10-12T07:53:48.617",
+        "Updated": "2018-10-12T08:00:55.847",
+        "Owner": "-"
+    },
+    {
+        "Id": -2594,
+        "Name": "Survey Participant",
+        "Table": "u_surveyResponse",
+        "BC Search Spec": "",
+        "Created": "2018-01-02T15:08:34.657",
+        "Updated": "2018-01-02T15:11:57.823",
+        "Owner": "-"
+    },
+    {
+        "Id": -2878,
+        "Name": "Survey_Audience_Master",
+        "Table": "u_Survey_AudienceMaster",
+        "BC Search Spec": null,
+        "Created": "2021-09-21T15:30:06.78",
+        "Updated": "2021-09-21T15:30:06.78",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -25,
+        "Name": "Team",
+        "Table": "u_team",
+        "BC Search Spec": "",
+        "Created": "2005-08-11T15:39:33.06",
+        "Updated": "2019-09-04T14:33:54.77",
+        "Owner": "-"
+    },
+    {
+        "Id": -2758,
+        "Name": "Telephony - CDR Log",
+        "Table": "dxi_cdrlog",
+        "BC Search Spec": null,
+        "Created": "2020-04-06T13:14:56.83",
+        "Updated": "2020-04-06T13:14:56.83",
+        "Owner": "Mohammed Hamzah Aziz"
+    },
+    {
+        "Id": -2842,
+        "Name": "test",
+        "Table": "chat_activity",
+        "BC Search Spec": "chat_activity.recordType = 'DM_-2842'",
+        "Created": "2021-04-13T13:01:46.557",
+        "Updated": "2021-04-13T13:01:46.557",
+        "Owner": "Abhishek Mukherjee"
+    },
+    {
+        "Id": -2871,
+        "Name": "Test Component",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=10017",
+        "Created": "2021-07-23T20:55:56.67",
+        "Updated": "2021-07-23T20:55:56.67",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -2874,
+        "Name": "Test component 2",
+        "Table": "u_campaignHdrAtt",
+        "BC Search Spec": "u_campaignHdrAtt.recordType = 'DM_-2874'",
+        "Created": "2021-07-23T21:00:39.227",
+        "Updated": "2021-07-23T21:00:39.227",
+        "Owner": "Venkatesh Nadar"
+    },
+    {
+        "Id": -2840,
+        "Name": "Test1",
+        "Table": "chat_activity",
+        "BC Search Spec": "chat_activity.recordType = 'DM_-2840'",
+        "Created": "2021-04-13T13:01:23.657",
+        "Updated": "2021-04-13T13:01:23.657",
+        "Owner": "Abhishek Mukherjee"
+    },
+    {
+        "Id": -2853,
+        "Name": "test123",
+        "Table": "chat_activity",
+        "BC Search Spec": "chat_activity.recordType = 'DM_-2853'",
+        "Created": "2021-04-13T13:02:55.417",
+        "Updated": "2021-04-13T13:02:55.417",
+        "Owner": "Abhishek Mukherjee"
+    },
+    {
+        "Id": -2868,
+        "Name": "test234",
+        "Table": "chat_activity",
+        "BC Search Spec": "chat_activity.recordType = 'DM_-2868'",
+        "Created": "2021-04-14T10:03:44.78",
+        "Updated": "2021-04-14T10:03:44.78",
+        "Owner": "Abhishek Mukherjee"
+    },
+    {
+        "Id": -2866,
+        "Name": "test4",
+        "Table": "chat_activity",
+        "BC Search Spec": "chat_activity.recordType = 'DM_-2866'",
+        "Created": "2021-04-13T16:06:55.167",
+        "Updated": "2021-04-13T16:06:55.167",
+        "Owner": "Abhishek Mukherjee"
+    },
+    {
+        "Id": -2801,
+        "Name": "Testapp",
+        "Table": "chat_activity",
+        "BC Search Spec": "chat_activity.recordType = 'DM_-2801'",
+        "Created": "2021-03-01T11:10:17.06",
+        "Updated": "2021-03-01T11:10:17.06",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -2822,
+        "Name": "Testapp1",
+        "Table": "u_workOrderLineItem",
+        "BC Search Spec": "u_workOrderLineItem.recordType = 'DM_-2822'",
+        "Created": "2021-03-01T11:14:25.563",
+        "Updated": "2021-03-01T11:14:46.027",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -2830,
+        "Name": "Testapp2",
+        "Table": "u_workOrder",
+        "BC Search Spec": "u_workOrder.recordType = 'DM_-2830'",
+        "Created": "2021-03-01T11:15:57.36",
+        "Updated": "2021-03-01T11:15:57.36",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -2832,
+        "Name": "Testapp3",
+        "Table": "u_webchatPreferences",
+        "BC Search Spec": "u_webchatPreferences.recordType=1",
+        "Created": "2021-03-01T11:16:52.92",
+        "Updated": "2021-03-01T11:16:52.92",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -2833,
+        "Name": "Testapp4",
+        "Table": "u_webChatMessage",
+        "BC Search Spec": "u_webChatMessage.recordType = 'DM_-2833'",
+        "Created": "2021-03-01T11:17:45.657",
+        "Updated": "2021-03-01T11:17:45.657",
+        "Owner": "qa teames teamtest"
+    },
+    {
+        "Id": -2781,
+        "Name": "tPoint Chat Campaigns",
+        "Table": "u_webchatcampaigns",
+        "BC Search Spec": "u_webchatcampaigns.provider in ( 'tpoint', 'Messenger')",
+        "Created": "2020-06-15T11:24:32.71",
+        "Updated": "2020-08-11T11:32:22.603",
+        "Owner": "Ayub Khan"
+    },
+    {
+        "Id": -118,
+        "Name": "TPS - Account",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType in (1,5)",
+        "Created": "2006-08-15T09:34:31.09",
+        "Updated": "2018-08-28T13:20:07.527",
+        "Owner": "-"
+    },
+    {
+        "Id": -169,
+        "Name": "TPS - Account Address",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType='ACCADDR'",
+        "Created": "2007-02-27T14:54:16.75",
+        "Updated": "2007-02-27T15:06:42.39",
+        "Owner": "-"
+    },
+    {
+        "Id": -120,
+        "Name": "TPS - Activity",
+        "Table": "u_activity",
+        "BC Search Spec": "",
+        "Created": "2006-08-15T11:02:23.78",
+        "Updated": "2009-11-18T17:57:59.91",
+        "Owner": "-"
+    },
+    {
+        "Id": -123,
+        "Name": "TPS - Activity Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": "parentTbl = 'u_Activity'",
+        "Created": "2006-08-15T12:35:38.187",
+        "Updated": "2006-08-15T12:35:38.187",
+        "Owner": "-"
+    },
+    {
+        "Id": -2650,
+        "Name": "TPS - Client Relationships",
+        "Table": "u_opp",
+        "BC Search Spec": "u_opp.recordtype=400",
+        "Created": "2018-11-30T10:04:14.07",
+        "Updated": "2018-11-30T10:04:14.07",
+        "Owner": "-"
+    },
+    {
+        "Id": -119,
+        "Name": "TPS - Contact",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=6",
+        "Created": "2006-08-15T10:21:47.873",
+        "Updated": "2018-08-07T14:44:07.823",
+        "Owner": "-"
+    },
+    {
+        "Id": -122,
+        "Name": "TPS - Contact Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": "parentTbl = 'u_contact'",
+        "Created": "2006-08-15T12:28:43.25",
+        "Updated": "2006-08-15T12:28:43.25",
+        "Owner": "-"
+    },
+    {
+        "Id": -2652,
+        "Name": "TPS - Contracts List",
+        "Table": "u_Attachment",
+        "BC Search Spec": "u_Attachment.parentTbl = 'u_contact' and u_Attachment.attachmentType='Contracts'",
+        "Created": "2018-12-03T09:37:26.553",
+        "Updated": "2018-12-03T09:37:26.553",
+        "Owner": "-"
+    },
+    {
+        "Id": -2550,
+        "Name": "TPS - Event",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.recordType=20",
+        "Created": "2016-10-06T10:31:42.797",
+        "Updated": "2016-10-06T10:31:42.797",
+        "Owner": "-"
+    },
+    {
+        "Id": -2552,
+        "Name": "TPS - Event  Speaker",
+        "Table": "u_productAtt",
+        "BC Search Spec": "u_productatt.attName='EventSpeaker'",
+        "Created": "2016-10-06T11:21:16.223",
+        "Updated": "2016-10-06T11:21:16.223",
+        "Owner": "-"
+    },
+    {
+        "Id": -2554,
+        "Name": "TPS - Event Delegate",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "recordType='EventDelegate'",
+        "Created": "2016-10-06T14:13:49.933",
+        "Updated": "2016-10-06T14:13:49.933",
+        "Owner": "-"
+    },
+    {
+        "Id": -2551,
+        "Name": "TPS - Event Type",
+        "Table": "u_productAtt",
+        "BC Search Spec": "u_productAtt.productId=30",
+        "Created": "2016-10-06T11:11:30.99",
+        "Updated": "2016-10-06T11:11:30.99",
+        "Owner": "-"
+    },
+    {
+        "Id": -2623,
+        "Name": "TPS - Industry",
+        "Table": "u_opp",
+        "BC Search Spec": "u_opp.recordtype = 1\t",
+        "Created": "2018-08-13T11:48:02.56",
+        "Updated": "2018-08-13T11:48:02.56",
+        "Owner": "-"
+    },
+    {
+        "Id": -2628,
+        "Name": "TPS - Introducer",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType in (1,5) and u_contact.attTXT05 in ('Introducer','Reseller')",
+        "Created": "2018-08-29T07:12:56.683",
+        "Updated": "2018-08-29T07:12:56.683",
+        "Owner": "-"
+    },
+    {
+        "Id": -2622,
+        "Name": "TPS - Job Titles",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactatt.recordtype = 'JobTitle'",
+        "Created": "2018-08-13T11:24:12.317",
+        "Updated": "2018-08-13T11:26:34.677",
+        "Owner": "-"
+    },
+    {
+        "Id": -2651,
+        "Name": "TPS - Objective",
+        "Table": "u_task",
+        "BC Search Spec": "u_task.recordtype=400",
+        "Created": "2018-11-30T10:17:01.697",
+        "Updated": "2018-11-30T10:17:01.697",
+        "Owner": "-"
+    },
+    {
+        "Id": -121,
+        "Name": "TPS - Opportunity",
+        "Table": "u_opp",
+        "BC Search Spec": "u_opp.recordtype=501",
+        "Created": "2006-08-15T11:53:22.653",
+        "Updated": "2018-08-28T11:31:02.153",
+        "Owner": "-"
+    },
+    {
+        "Id": -2627,
+        "Name": "TPS - Opportunity (U)",
+        "Table": "u_opp",
+        "BC Search Spec": "u_opp.recordtype=501",
+        "Created": "2018-08-28T07:58:29.623",
+        "Updated": "2018-08-28T07:58:29.623",
+        "Owner": "-"
+    },
+    {
+        "Id": -168,
+        "Name": "TPS - Opportunity Attachment",
+        "Table": "u_Attachment",
+        "BC Search Spec": "parentTbl = 'u_opp'",
+        "Created": "2007-02-26T12:08:47.86",
+        "Updated": "2014-04-30T11:32:30.377",
+        "Owner": "-"
+    },
+    {
+        "Id": -28,
+        "Name": "TPS - Opportunity Product",
+        "Table": "u_oppProd",
+        "BC Search Spec": "",
+        "Created": "2005-08-12T10:14:16.513",
+        "Updated": "2014-04-30T11:30:24.01",
+        "Owner": "-"
+    },
+    {
+        "Id": -2624,
+        "Name": "TPS - Site",
+        "Table": "u_contactaddress",
+        "BC Search Spec": "u_contactaddress.recordtype = 'CompanySite'",
+        "Created": "2018-08-14T11:16:35.767",
+        "Updated": "2018-08-15T10:05:31.13",
+        "Owner": "-"
+    },
+    {
+        "Id": -2797,
+        "Name": "TPS - Site / Employees INT",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactAtt.recordType = 'SiteEmployee'",
+        "Created": "2021-02-11T13:04:08.723",
+        "Updated": "2021-02-24T13:26:22.117",
+        "Owner": "Parm Bains"
+    },
+    {
+        "Id": -2553,
+        "Name": "TPS - Speaker",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=9",
+        "Created": "2016-10-06T11:49:50.397",
+        "Updated": "2016-10-06T11:49:50.397",
+        "Owner": "-"
+    },
+    {
+        "Id": -2626,
+        "Name": "TPS - Website Enquiry",
+        "Table": "u_opp",
+        "BC Search Spec": "u_opp.recordtype = 200",
+        "Created": "2018-08-27T13:58:51.92",
+        "Updated": "2018-08-27T13:58:51.92",
+        "Owner": "-"
+    },
+    {
+        "Id": -2689,
+        "Name": "TRK - Product",
+        "Table": "u_product",
+        "BC Search Spec": "u_product.attNum01 = 1",
+        "Created": "2019-03-19T12:21:48.05",
+        "Updated": "2019-03-19T12:21:48.05",
+        "Owner": "-"
+    },
+    {
+        "Id": -2834,
+        "Name": "Twitter Environment",
+        "Table": "u_service",
+        "BC Search Spec": "recordtype='Twitter Environment'",
+        "Created": "2021-03-11T12:57:20.807",
+        "Updated": "2021-03-11T12:57:20.807",
+        "Owner": "Aamir Lakdawala"
+    },
+    {
+        "Id": -23,
+        "Name": "Vacancy Attribute",
+        "Table": "rm_vacancyAttrib",
+        "BC Search Spec": "",
+        "Created": "2005-07-27T11:15:57.53",
+        "Updated": "2005-07-27T11:15:57.53",
+        "Owner": "-"
+    },
+    {
+        "Id": -22,
+        "Name": "Vacancy Template",
+        "Table": "rm_vacancy",
+        "BC Search Spec": "",
+        "Created": "2005-07-27T11:15:37.23",
+        "Updated": "2005-07-27T11:15:37.23",
+        "Owner": "-"
+    },
+    {
+        "Id": -2747,
+        "Name": "vbsgwcf",
+        "Table": "u_contact",
+        "BC Search Spec": "u_contact.recordType=10014",
+        "Created": "2020-01-23T10:12:38.947",
+        "Updated": "2020-01-23T10:12:38.947",
+        "Owner": "CB_Test CB_Test123"
+    },
+    {
+        "Id": -432,
+        "Name": "WD - Menu Intersection ",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactatt.recordType = 'menuInter'",
+        "Created": "2014-05-07T14:04:27.533",
+        "Updated": "2014-09-16T15:31:12.25",
+        "Owner": "-"
+    },
+    {
+        "Id": -423,
+        "Name": "WD - Menus",
+        "Table": "wd_Menus",
+        "BC Search Spec": null,
+        "Created": "2014-05-07T13:01:11.093",
+        "Updated": "2014-05-07T13:01:11.093",
+        "Owner": "-"
+    },
+    {
+        "Id": -425,
+        "Name": "WD - Page Tag",
+        "Table": "wd_pageTag",
+        "BC Search Spec": null,
+        "Created": "2014-05-07T13:02:34.53",
+        "Updated": "2014-05-07T13:02:34.53",
+        "Owner": "-"
+    },
+    {
+        "Id": -426,
+        "Name": "WD - Page Template",
+        "Table": "wd_PageTemplates",
+        "BC Search Spec": null,
+        "Created": "2014-05-07T13:02:59.863",
+        "Updated": "2014-05-07T13:02:59.863",
+        "Owner": "-"
+    },
+    {
+        "Id": -424,
+        "Name": "WD - Pages",
+        "Table": "wd_Pages",
+        "BC Search Spec": null,
+        "Created": "2014-05-07T13:02:00.88",
+        "Updated": "2014-05-07T13:02:00.88",
+        "Owner": "-"
+    },
+    {
+        "Id": -427,
+        "Name": "WD - Resources",
+        "Table": "wd_Resources",
+        "BC Search Spec": null,
+        "Created": "2014-05-07T13:03:18.113",
+        "Updated": "2014-05-07T13:03:18.113",
+        "Owner": "-"
+    },
+    {
+        "Id": -428,
+        "Name": "WD - Site",
+        "Table": "wd_Sites",
+        "BC Search Spec": null,
+        "Created": "2014-05-07T13:03:34.27",
+        "Updated": "2014-05-07T13:03:34.27",
+        "Owner": "-"
+    },
+    {
+        "Id": -429,
+        "Name": "WD - Tag",
+        "Table": "wd_tag",
+        "BC Search Spec": null,
+        "Created": "2014-05-07T13:03:49.82",
+        "Updated": "2014-05-07T13:03:49.82",
+        "Owner": "-"
+    },
+    {
+        "Id": -430,
+        "Name": "WD - Tag Manager",
+        "Table": "wd_tagManager",
+        "BC Search Spec": null,
+        "Created": "2014-05-07T13:04:04.38",
+        "Updated": "2014-05-07T13:04:04.38",
+        "Owner": "-"
+    },
+    {
+        "Id": -439,
+        "Name": "WD - Templates PM",
+        "Table": "u_contactAtt",
+        "BC Search Spec": "u_contactatt.recordtype = 'pickmap'",
+        "Created": "2014-06-02T16:26:50.73",
+        "Updated": "2014-06-02T16:26:50.73",
+        "Owner": "-"
+    },
+    {
+        "Id": -431,
+        "Name": "WD - Versions ",
+        "Table": "wd_Versions",
+        "BC Search Spec": null,
+        "Created": "2014-05-07T13:04:18.09",
+        "Updated": "2014-05-07T15:49:35.77",
+        "Owner": "-"
+    }
+]

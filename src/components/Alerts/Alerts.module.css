@@ -1,0 +1,26 @@
+.alertBox {
+  position: absolute;
+  right: 20px;
+  bottom: 20px;
+  z-index: 1000;
+  text-transform: capitalize;
+}
+.alert {
+  min-width: 200px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  padding: 0px 7px;
+  color: #fff;
+  font-size: 14px;
+  font-weight: 500;
+}
+.alert svg {
+  margin-right: 5px;
+}
+.error_alert {
+  background: red;
+}
+.success_alert {
+  background: green;
+}

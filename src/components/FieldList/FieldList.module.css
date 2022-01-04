@@ -1,0 +1,151 @@
+.dropdown_section {
+  margin-top: 10px;
+}
+.dropdown_section label {
+  display: flex !important;
+  display: block;
+  font-family: "robotobold", sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.fields_section {
+  margin-top: 10px;
+}
+.fields_count {
+  display: flex;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 4px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  font-weight: 500;
+}
+.fields_box {
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  height: 250px;
+}
+.fields_row {
+  display: flex;
+  justify-content: space-between;
+  padding: 0px 5px;
+  height: 26px;
+  border-bottom: 1px solid #ddd;
+}
+.fields_text {
+  align-items: center;
+  font-size: 13px;
+  margin-top: 2px;
+  font-weight: 500;
+  max-width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.fields_tag {
+  font-size: 9px;
+  line-height: 9px;
+  color: #fff;
+  background: #222;
+  border-radius: 9px;
+  padding: 4px 7px;
+  margin-top: 4px;
+  height: 10px;
+  font-weight: 500;
+}
+.save_btn {
+  background: #6f6ee0;
+  width: 40px;
+  padding: 0px 18px;
+  font-size: 13px;
+  height: 26px;
+  line-height: 23px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 14px;
+}
+
+.nice_scroll {
+  overflow-y: scroll;
+  height: 240px;
+}
+
+.nice_scroll::-webkit-scrollbar {
+  width: 8px;
+}
+
+.nice_scroll::-webkit-scrollbar-track {
+  background: #fff;
+  border: 1px solid #aaa;
+}
+
+.nice_scroll::-webkit-scrollbar-thumb {
+  background: #aaa;
+}
+
+.nice_scroll::-webkit-scrollbar-thumb:hover {
+  background: #ddd;
+}
+.fld_col {
+  margin-right: 30px;
+}
+label {
+  font-size: 13px !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+  display: block;
+  font-family: "robotobold", sans-serif;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 4px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: start;
+  height: 16px;
+  line-height: 18px;
+}
+.fld_col input {
+  outline: none;
+  border: 1px solid #ccc;
+  height: 24px;
+  width: 214;
+}
+.btn_sec {
+  margin-top: 10px;
+}
+
+.manage {
+  width: 95px;
+  background: #6f6ee0;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+.manage .manage_icon {
+  width: 24px;
+  height: 20px;
+  background: #5756e6;
+  padding: 2px;
+  color: #fff;
+}
+.manage .txt {
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}

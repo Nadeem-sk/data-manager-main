@@ -1,0 +1,1949 @@
+{
+    "FieldType": {
+        "properties": {
+            "Table": [{
+                    "Id": 310,
+                    "name": "TEXT",
+                    "val": 0,
+                    "listOrder": 1
+                },
+                {
+                    "Id": 311,
+                    "name": "LONGTEXT",
+                    "val": 1,
+                    "listOrder": 1
+                },
+                {
+                    "Id": 2935,
+                    "name": "PROPERTEXT",
+                    "val": 11,
+                    "listOrder": 1
+                },
+                {
+                    "Id": 312,
+                    "name": "DATE",
+                    "val": 2,
+                    "listOrder": 2
+                },
+                {
+                    "Id": 313,
+                    "name": "DATETIME",
+                    "val": 3,
+                    "listOrder": 3
+                },
+                {
+                    "Id": 314,
+                    "name": "NUMBER",
+                    "val": 5,
+                    "listOrder": 5
+                },
+                {
+                    "Id": 315,
+                    "name": "BOOLEAN",
+                    "val": 6,
+                    "listOrder": 6
+                },
+                {
+                    "Id": 316,
+                    "name": "CALCULATEDEXT",
+                    "val": 7,
+                    "listOrder": 7
+                },
+                {
+                    "Id": 317,
+                    "name": "CALCULATEDINT",
+                    "val": 8,
+                    "listOrder": 8
+                },
+                {
+                    "Id": 491,
+                    "name": "CALCULATEDNUM",
+                    "val": 8,
+                    "listOrder": 8
+                },
+                {
+                    "Id": 318,
+                    "name": "PHONE",
+                    "val": 9,
+                    "listOrder": 9
+                },
+                {
+                    "Id": 319,
+                    "name": "URL",
+                    "val": 10,
+                    "listOrder": 10
+                },
+                {
+                    "Id": 6065,
+                    "name": "PASSWORD",
+                    "val": 12,
+                    "listOrder": 12
+                },
+                {
+                    "Id": 6995,
+                    "name": "TIME",
+                    "val": 13,
+                    "listOrder": 13
+                }
+            ]
+        }
+    },
+    "Picklist": {
+        "properties": {
+            "Table": [{
+                    "id": -20,
+                    "name": "UK Postcode"
+                },
+                {
+                    "id": -17,
+                    "name": "Alphanumeric With Spaces"
+                },
+                {
+                    "id": -16,
+                    "name": "24h Time"
+                },
+                {
+                    "id": -15,
+                    "name": "Small Money Datatype"
+                },
+                {
+                    "id": -14,
+                    "name": "Phone Number"
+                },
+                {
+                    "id": -13,
+                    "name": "Last Name Validation"
+                },
+                {
+                    "id": -11,
+                    "name": "First Name Validation"
+                },
+                {
+                    "id": -9,
+                    "name": "Number"
+                },
+                {
+                    "id": -8,
+                    "name": "Bank Sort Code"
+                },
+                {
+                    "id": -7,
+                    "name": "Bank Account Number"
+                },
+                {
+                    "id": -4,
+                    "name": "Internet URL"
+                },
+                {
+                    "id": -2,
+                    "name": "Internet Email Address"
+                },
+                {
+                    "id": -1,
+                    "name": "Credit Card Number Format"
+                }
+            ]
+        }
+    },
+    "RegularExpression": {
+        "properties": {
+            "Table": [{
+                    "id": -2120,
+                    "name": "Â£~!@#$%^&*()_+[]{}"
+                },
+                {
+                    "id": -445,
+                    "name": "1 to 60 & Unknown"
+                },
+                {
+                    "id": -536,
+                    "name": "1-10"
+                },
+                {
+                    "id": -8,
+                    "name": "Action Type"
+                },
+                {
+                    "id": -16,
+                    "name": "actionStatus"
+                },
+                {
+                    "id": -9,
+                    "name": "actionSubType"
+                },
+                {
+                    "id": -15,
+                    "name": "ActionUser"
+                },
+                {
+                    "id": -2074,
+                    "name": "Admin - All Agents"
+                },
+                {
+                    "id": -30,
+                    "name": "Admin - Bus Comp"
+                },
+                {
+                    "id": -681,
+                    "name": "Admin - Cancelled Status"
+                },
+                {
+                    "id": -2019,
+                    "name": "Admin - Certificate Status"
+                },
+                {
+                    "id": -2018,
+                    "name": "Admin - Certificates"
+                },
+                {
+                    "id": -689,
+                    "name": "Admin - Clients"
+                },
+                {
+                    "id": -134,
+                    "name": "Admin - CMS Type"
+                },
+                {
+                    "id": -2102,
+                    "name": "Admin - CMS Visual Type"
+                },
+                {
+                    "id": -127,
+                    "name": "Admin - Contact List"
+                },
+                {
+                    "id": -133,
+                    "name": "Admin - Contact List (All)"
+                },
+                {
+                    "id": -27,
+                    "name": "Admin - Divisions"
+                },
+                {
+                    "id": -2068,
+                    "name": "Admin - DNC Suppressed Status DL"
+                },
+                {
+                    "id": -21,
+                    "name": "Admin - Email Account"
+                },
+                {
+                    "id": -118,
+                    "name": "Admin - Email Signature"
+                },
+                {
+                    "id": -132,
+                    "name": "Admin - Email Template"
+                },
+                {
+                    "id": -691,
+                    "name": "Admin - Employee Managers"
+                },
+                {
+                    "id": -693,
+                    "name": "Admin - Employee Type"
+                },
+                {
+                    "id": -712,
+                    "name": "Admin - Employee Users"
+                },
+                {
+                    "id": -690,
+                    "name": "Admin - Employment Type"
+                },
+                {
+                    "id": -2216,
+                    "name": "ADMIN - FTP Accounts"
+                },
+                {
+                    "id": -2114,
+                    "name": "Admin - Identity Provider Binding"
+                },
+                {
+                    "id": -2115,
+                    "name": "Admin - Identity Provider Outbound Signing Alg"
+                },
+                {
+                    "id": -2016,
+                    "name": "Admin - Images"
+                },
+                {
+                    "id": -31,
+                    "name": "Admin - List Applet"
+                },
+                {
+                    "id": -2005,
+                    "name": "Admin - Menu Applications"
+                },
+                {
+                    "id": -688,
+                    "name": "Admin - Message Type"
+                },
+                {
+                    "id": -156,
+                    "name": "Admin - Proxy Account"
+                },
+                {
+                    "id": -142,
+                    "name": "Admin - Roles"
+                },
+                {
+                    "id": -2160,
+                    "name": "Admin - Sales Employees"
+                },
+                {
+                    "id": -318,
+                    "name": "Admin - Site"
+                },
+                {
+                    "id": -105,
+                    "name": "Admin - SMS Account"
+                },
+                {
+                    "id": -667,
+                    "name": "Admin - User Type"
+                },
+                {
+                    "id": -316,
+                    "name": "AES - Auto Dialer"
+                },
+                {
+                    "id": -317,
+                    "name": "AES - Switch"
+                },
+                {
+                    "id": -2017,
+                    "name": "Agent DashBoard Tiles"
+                },
+                {
+                    "id": -71,
+                    "name": "APP - Applet"
+                },
+                {
+                    "id": -85,
+                    "name": "APP - Applet Field"
+                },
+                {
+                    "id": -76,
+                    "name": "APP - Applet Type"
+                },
+                {
+                    "id": -55,
+                    "name": "APP - BC Field"
+                },
+                {
+                    "id": -54,
+                    "name": "APP - BusComp"
+                },
+                {
+                    "id": -75,
+                    "name": "APP - BusComp Fields"
+                },
+                {
+                    "id": -172,
+                    "name": "APP - BusComp Report"
+                },
+                {
+                    "id": -59,
+                    "name": "APP - BusObject"
+                },
+                {
+                    "id": -2053,
+                    "name": "APP - Calc Fields"
+                },
+                {
+                    "id": -2105,
+                    "name": "APP - CM Activity Component Fields"
+                },
+                {
+                    "id": -57,
+                    "name": "APP - Column Type"
+                },
+                {
+                    "id": -58,
+                    "name": "APP - Control Type"
+                },
+                {
+                    "id": -2162,
+                    "name": "APP - Encodings"
+                },
+                {
+                    "id": -591,
+                    "name": "APP - Export File Types"
+                },
+                {
+                    "id": -590,
+                    "name": "APP - Export Frequency"
+                },
+                {
+                    "id": -673,
+                    "name": "APP - Export Reports"
+                },
+                {
+                    "id": -589,
+                    "name": "APP - Export SPs"
+                },
+                {
+                    "id": -56,
+                    "name": "APP - Field Type"
+                },
+                {
+                    "id": -2054,
+                    "name": "APP - Format"
+                },
+                {
+                    "id": -112,
+                    "name": "APP - Icons"
+                },
+                {
+                    "id": -593,
+                    "name": "APP - Import Frequency"
+                },
+                {
+                    "id": -74,
+                    "name": "APP - Join"
+                },
+                {
+                    "id": -2174,
+                    "name": "APP - Kryon Error Id"
+                },
+                {
+                    "id": -2175,
+                    "name": "APP - Kryon Error Id DL"
+                },
+                {
+                    "id": -2170,
+                    "name": "APP - Kryon Robot Run Status"
+                },
+                {
+                    "id": -2171,
+                    "name": "APP - Kryon Robot Run Status DL"
+                },
+                {
+                    "id": -2172,
+                    "name": "APP - Kryon Status Id"
+                },
+                {
+                    "id": -2173,
+                    "name": "APP - Kryon Status Id DL"
+                },
+                {
+                    "id": -82,
+                    "name": "APP - Link"
+                },
+                {
+                    "id": -2163,
+                    "name": "APP - Media Types"
+                },
+                {
+                    "id": -73,
+                    "name": "APP - Picklist"
+                },
+                {
+                    "id": -72,
+                    "name": "APP - Regular Expression"
+                },
+                {
+                    "id": -113,
+                    "name": "APP - Reports"
+                },
+                {
+                    "id": -2061,
+                    "name": "APP - Sched Default Size"
+                },
+                {
+                    "id": -2059,
+                    "name": "APP - Sched View Mode"
+                },
+                {
+                    "id": -2060,
+                    "name": "APP - Scheduler Params"
+                },
+                {
+                    "id": -672,
+                    "name": "APP - Search Views"
+                },
+                {
+                    "id": -680,
+                    "name": "APP - Security Profile"
+                },
+                {
+                    "id": -53,
+                    "name": "APP - Table"
+                },
+                {
+                    "id": -45,
+                    "name": "APP - Table Column"
+                },
+                {
+                    "id": -592,
+                    "name": "APP - Trans Template Type"
+                },
+                {
+                    "id": -2028,
+                    "name": "APP - Transformation Templates"
+                },
+                {
+                    "id": -80,
+                    "name": "APP - View Mode"
+                },
+                {
+                    "id": -83,
+                    "name": "APP - View Type"
+                },
+                {
+                    "id": -84,
+                    "name": "APP - Views"
+                },
+                {
+                    "id": -2024,
+                    "name": "APP - Web API Error Level"
+                },
+                {
+                    "id": -2025,
+                    "name": "APP - Web API Error Level DL"
+                },
+                {
+                    "id": -2026,
+                    "name": "APP - Web API Error Lookup"
+                },
+                {
+                    "id": -2104,
+                    "name": "APP - Web API Request Template"
+                },
+                {
+                    "id": -2020,
+                    "name": "APP - Web API Request Template - HttpMethod"
+                },
+                {
+                    "id": -2182,
+                    "name": "APP - WebLatch - Request Mappings"
+                },
+                {
+                    "id": -2161,
+                    "name": "APP - WebLatch Mapping - Lookup Section"
+                },
+                {
+                    "id": -104,
+                    "name": "APP - WF Action Type"
+                },
+                {
+                    "id": -101,
+                    "name": "APP - WF Monitor Type"
+                },
+                {
+                    "id": -1706,
+                    "name": "APP - WF Time Periods"
+                },
+                {
+                    "id": -103,
+                    "name": "APP - WF Trigger Time Type"
+                },
+                {
+                    "id": -102,
+                    "name": "APP - WF Trigger Type"
+                },
+                {
+                    "id": -143,
+                    "name": "APP - WFP Action Types"
+                },
+                {
+                    "id": -144,
+                    "name": "APP - WFP Operator Type"
+                },
+                {
+                    "id": -677,
+                    "name": "APP =- API State"
+                },
+                {
+                    "id": -2164,
+                    "name": "AppGroup"
+                },
+                {
+                    "id": -2021,
+                    "name": "appointmentType"
+                },
+                {
+                    "id": -14,
+                    "name": "attachmentType"
+                },
+                {
+                    "id": -135,
+                    "name": "BEVO - Report Type (PL)"
+                },
+                {
+                    "id": -2178,
+                    "name": "BlogGroup"
+                },
+                {
+                    "id": -2177,
+                    "name": "BlogTags"
+                },
+                {
+                    "id": -2122,
+                    "name": "BrainTree Environment"
+                },
+                {
+                    "id": -33,
+                    "name": "breakPattern"
+                },
+                {
+                    "id": -1709,
+                    "name": "Broadcast Queue Outcome Retry"
+                },
+                {
+                    "id": -1711,
+                    "name": "Broadcast Queue Outcomes"
+                },
+                {
+                    "id": -1710,
+                    "name": "Broadcast Queue Outcomes DL"
+                },
+                {
+                    "id": -1708,
+                    "name": "Broadcast Retry Max Attempts"
+                },
+                {
+                    "id": -2003,
+                    "name": "Broadcast Schedule Time"
+                },
+                {
+                    "id": -2002,
+                    "name": "Broadcast Virtual Agents"
+                },
+                {
+                    "id": -7,
+                    "name": "CalendarAppointmentType"
+                },
+                {
+                    "id": -2193,
+                    "name": "Call Reject Reason"
+                },
+                {
+                    "id": -2208,
+                    "name": "ChatCommunicationType"
+                },
+                {
+                    "id": -2198,
+                    "name": "ChatProvider"
+                },
+                {
+                    "id": -155,
+                    "name": "CL - Crystal Report Groups"
+                },
+                {
+                    "id": -395,
+                    "name": "Clast - details updated"
+                },
+                {
+                    "id": -625,
+                    "name": "CM - Advert Code"
+                },
+                {
+                    "id": -598,
+                    "name": "CM - Agent Radio"
+                },
+                {
+                    "id": -614,
+                    "name": "CM - All Clients"
+                },
+                {
+                    "id": -618,
+                    "name": "CM - Attendance Reason Code"
+                },
+                {
+                    "id": -195,
+                    "name": "CM - Branch Scripts"
+                },
+                {
+                    "id": -319,
+                    "name": "CM - Call Selection Methods"
+                },
+                {
+                    "id": -538,
+                    "name": "CM - Card Type"
+                },
+                {
+                    "id": -2124,
+                    "name": "CM - Contact Addresses DL"
+                },
+                {
+                    "id": -546,
+                    "name": "CM - Dial Modes"
+                },
+                {
+                    "id": -679,
+                    "name": "CM - Dialler"
+                },
+                {
+                    "id": -236,
+                    "name": "CM - Disposition Category"
+                },
+                {
+                    "id": -2214,
+                    "name": "CM - Email Queue Type"
+                },
+                {
+                    "id": -131,
+                    "name": "CM - Employment Status"
+                },
+                {
+                    "id": -138,
+                    "name": "CM - FSD Providers"
+                },
+                {
+                    "id": -137,
+                    "name": "CM - FSD Reason for Cover"
+                },
+                {
+                    "id": -621,
+                    "name": "CM - Fulfilment Lisy "
+                },
+                {
+                    "id": -1707,
+                    "name": "CM - Menu Group Icons"
+                },
+                {
+                    "id": -2006,
+                    "name": "CM - OOH Rule Type"
+                },
+                {
+                    "id": -619,
+                    "name": "CM - Order/AddOffer"
+                },
+                {
+                    "id": -674,
+                    "name": "CM - Pass/Fail"
+                },
+                {
+                    "id": -617,
+                    "name": "CM - Payment Type "
+                },
+                {
+                    "id": -2215,
+                    "name": "CM - Process Queue Type"
+                },
+                {
+                    "id": -599,
+                    "name": "CM - Queue Priority"
+                },
+                {
+                    "id": -2097,
+                    "name": "CM - Queue Script Pop"
+                },
+                {
+                    "id": -2098,
+                    "name": "CM - Queue Script Pop DL"
+                },
+                {
+                    "id": -547,
+                    "name": "CM - Queue Type"
+                },
+                {
+                    "id": -686,
+                    "name": "CM - Queue Voice Messages"
+                },
+                {
+                    "id": -541,
+                    "name": "CM - renewal date (exact/estimated)"
+                },
+                {
+                    "id": -2213,
+                    "name": "CM - SMS Queue Type"
+                },
+                {
+                    "id": -692,
+                    "name": "CM - Telephony Providers"
+                },
+                {
+                    "id": -623,
+                    "name": "CM - Timeframes "
+                },
+                {
+                    "id": -624,
+                    "name": "CM - Title Types"
+                },
+                {
+                    "id": -2202,
+                    "name": "CM Activation Control Status"
+                },
+                {
+                    "id": -2201,
+                    "name": "CM Active Sites DL"
+                },
+                {
+                    "id": -2159,
+                    "name": "CM Adherence"
+                },
+                {
+                    "id": -2045,
+                    "name": "CM All QUEUE"
+                },
+                {
+                    "id": -2008,
+                    "name": "CM Broadcast Message Profilers"
+                },
+                {
+                    "id": -2001,
+                    "name": "CM Broadcast Queue Messages DL"
+                },
+                {
+                    "id": -2009,
+                    "name": "CM Broadcast Queue Script"
+                },
+                {
+                    "id": -48,
+                    "name": "CM Call Back Reason"
+                },
+                {
+                    "id": -597,
+                    "name": "CM Campaign Group"
+                },
+                {
+                    "id": -47,
+                    "name": "CM Campaign Name"
+                },
+                {
+                    "id": -2075,
+                    "name": "CM Campaign Queue (Outbound)"
+                },
+                {
+                    "id": -2011,
+                    "name": "CM Campaign Queue External Id"
+                },
+                {
+                    "id": -2203,
+                    "name": "CM Campaign Queue Inbound Num"
+                },
+                {
+                    "id": -34,
+                    "name": "CM Campaign Type"
+                },
+                {
+                    "id": -2188,
+                    "name": "CM CampaignTeams"
+                },
+                {
+                    "id": -2050,
+                    "name": "CM Case Status"
+                },
+                {
+                    "id": -2051,
+                    "name": "CM Case Type DL"
+                },
+                {
+                    "id": -2096,
+                    "name": "CM Contact"
+                },
+                {
+                    "id": -2123,
+                    "name": "CM Contact Address Type"
+                },
+                {
+                    "id": -2044,
+                    "name": "CM Contact DL"
+                },
+                {
+                    "id": -2035,
+                    "name": "CM Contact Media (Email) DL"
+                },
+                {
+                    "id": -2092,
+                    "name": "CM Contact Media (Phone) DL"
+                },
+                {
+                    "id": -2034,
+                    "name": "CM Contact Media Type"
+                },
+                {
+                    "id": -2046,
+                    "name": "Cm Contact Mobile Search"
+                },
+                {
+                    "id": -2093,
+                    "name": "CM Currency"
+                },
+                {
+                    "id": -123,
+                    "name": "CM Customer Opinion"
+                },
+                {
+                    "id": -157,
+                    "name": "CM Data Import Picklist"
+                },
+                {
+                    "id": -35,
+                    "name": "CM Dialler Type"
+                },
+                {
+                    "id": -29,
+                    "name": "CM Disp Code 2"
+                },
+                {
+                    "id": -28,
+                    "name": "CM Disposition Code"
+                },
+                {
+                    "id": -2039,
+                    "name": "CM Distribution List DL"
+                },
+                {
+                    "id": -600,
+                    "name": "CM DXI Inbound Queues"
+                },
+                {
+                    "id": -613,
+                    "name": "CM Employment Type "
+                },
+                {
+                    "id": -2186,
+                    "name": "CM Escalation Contact "
+                },
+                {
+                    "id": -2168,
+                    "name": "CM Inbound Email Campaign Type"
+                },
+                {
+                    "id": -2000,
+                    "name": "CM Inbound Queue DL"
+                },
+                {
+                    "id": -2071,
+                    "name": "CM Media Actions"
+                },
+                {
+                    "id": -2072,
+                    "name": "CM Media Types"
+                },
+                {
+                    "id": -2073,
+                    "name": "CM Media Webchat Prov DL"
+                },
+                {
+                    "id": -2007,
+                    "name": "CM OOH Action Type"
+                },
+                {
+                    "id": -141,
+                    "name": "CM Opportunity Pick List"
+                },
+                {
+                    "id": -2010,
+                    "name": "CM Out of Hours Policy"
+                },
+                {
+                    "id": -2052,
+                    "name": "CM Priority"
+                },
+                {
+                    "id": -117,
+                    "name": "CM QA Campaign"
+                },
+                {
+                    "id": -713,
+                    "name": "CM Quality Check Views"
+                },
+                {
+                    "id": -2004,
+                    "name": "CM Queue Inbound Numbers DL"
+                },
+                {
+                    "id": -687,
+                    "name": "CM Queue Message DL"
+                },
+                {
+                    "id": -2169,
+                    "name": "CM Queue Parameter Rules"
+                },
+                {
+                    "id": -2187,
+                    "name": "CM Queue Team Priority"
+                },
+                {
+                    "id": -2204,
+                    "name": "CM Queues DL"
+                },
+                {
+                    "id": -60,
+                    "name": "CM Related Item"
+                },
+                {
+                    "id": -62,
+                    "name": "CM Return Home Reason"
+                },
+                {
+                    "id": -2190,
+                    "name": "CM Schedule Days DL"
+                },
+                {
+                    "id": -2189,
+                    "name": "CM Schedule Time Slot"
+                },
+                {
+                    "id": -2185,
+                    "name": "CM Schedule Times"
+                },
+                {
+                    "id": -2183,
+                    "name": "CM Schedule Type"
+                },
+                {
+                    "id": -2192,
+                    "name": "CM Schedules"
+                },
+                {
+                    "id": -2184,
+                    "name": "CM Schedules DNU"
+                },
+                {
+                    "id": -25,
+                    "name": "CM Script"
+                },
+                {
+                    "id": -2206,
+                    "name": "CM Site Activation Status"
+                },
+                {
+                    "id": -2048,
+                    "name": "CM Skills Category DL"
+                },
+                {
+                    "id": -2049,
+                    "name": "CM Skills DL"
+                },
+                {
+                    "id": -332,
+                    "name": "CM Static Dialler Type"
+                },
+                {
+                    "id": -2205,
+                    "name": "CM Surge Agents DL"
+                },
+                {
+                    "id": -2043,
+                    "name": "CM Task Media Sub Type"
+                },
+                {
+                    "id": -2040,
+                    "name": "CM Task Media Type"
+                },
+                {
+                    "id": -2041,
+                    "name": "CM Task Status"
+                },
+                {
+                    "id": -2042,
+                    "name": "CM Task Type"
+                },
+                {
+                    "id": -626,
+                    "name": "CM Timeframes 2"
+                },
+                {
+                    "id": -2158,
+                    "name": "CM Web Chat Campaign Name"
+                },
+                {
+                    "id": -2101,
+                    "name": "CMS Control"
+                },
+                {
+                    "id": -2103,
+                    "name": "CMS Control Type"
+                },
+                {
+                    "id": -2179,
+                    "name": "CMSGroup"
+                },
+                {
+                    "id": -2180,
+                    "name": "CMSTemplateGroup"
+                },
+                {
+                    "id": -77,
+                    "name": "Collection Date"
+                },
+                {
+                    "id": -2121,
+                    "name": "ComAPI Agent Presence"
+                },
+                {
+                    "id": -291,
+                    "name": "Complaint Category"
+                },
+                {
+                    "id": -532,
+                    "name": "Contact Method"
+                },
+                {
+                    "id": -2106,
+                    "name": "Conversation List"
+                },
+                {
+                    "id": -79,
+                    "name": "Cover Level"
+                },
+                {
+                    "id": -78,
+                    "name": "Cover Type"
+                },
+                {
+                    "id": -2063,
+                    "name": "Cust - Contacts"
+                },
+                {
+                    "id": -2065,
+                    "name": "Cust - Question Groups"
+                },
+                {
+                    "id": -2066,
+                    "name": "Cust - Question SubGroups"
+                },
+                {
+                    "id": -2064,
+                    "name": "Cust - Survey"
+                },
+                {
+                    "id": -2146,
+                    "name": "Days"
+                },
+                {
+                    "id": -540,
+                    "name": "DD Dates NSPCC"
+                },
+                {
+                    "id": -2099,
+                    "name": "Display Formats"
+                },
+                {
+                    "id": -121,
+                    "name": "Distribution Field"
+                },
+                {
+                    "id": -120,
+                    "name": "Distribution Type"
+                },
+                {
+                    "id": -2067,
+                    "name": "DNC - Suppressed Status"
+                },
+                {
+                    "id": -292,
+                    "name": "DNC Reason"
+                },
+                {
+                    "id": -2047,
+                    "name": "DOC - Document Locations"
+                },
+                {
+                    "id": -130,
+                    "name": "DOC - Document Template"
+                },
+                {
+                    "id": -2112,
+                    "name": "DocGroup"
+                },
+                {
+                    "id": -2113,
+                    "name": "DocTags"
+                },
+                {
+                    "id": -2027,
+                    "name": "EMAIL - Account DL"
+                },
+                {
+                    "id": -2032,
+                    "name": "EMAIL - Account Type"
+                },
+                {
+                    "id": -2037,
+                    "name": "EMAIL - Batch Email Type"
+                },
+                {
+                    "id": -2023,
+                    "name": "EMAIL - Batch Status"
+                },
+                {
+                    "id": -2033,
+                    "name": "EMAIL - Campaign DL"
+                },
+                {
+                    "id": -2036,
+                    "name": "EMAIL - Contact List Type"
+                },
+                {
+                    "id": -2031,
+                    "name": "EMAIL - Status"
+                },
+                {
+                    "id": -26,
+                    "name": "Employee"
+                },
+                {
+                    "id": -2128,
+                    "name": "Employee - tPoint Only"
+                },
+                {
+                    "id": -18,
+                    "name": "EmploymentPayType"
+                },
+                {
+                    "id": -542,
+                    "name": "EON - Payment Type"
+                },
+                {
+                    "id": -544,
+                    "name": "EON Verifiers"
+                },
+                {
+                    "id": -20,
+                    "name": "EthnicGroup"
+                },
+                {
+                    "id": -2109,
+                    "name": "FAQGroup"
+                },
+                {
+                    "id": -2110,
+                    "name": "FAQTags"
+                },
+                {
+                    "id": -13,
+                    "name": "FinancialProdType"
+                },
+                {
+                    "id": -197,
+                    "name": "Frequency"
+                },
+                {
+                    "id": -86,
+                    "name": "Frequency -"
+                },
+                {
+                    "id": -50,
+                    "name": "FS Product Type"
+                },
+                {
+                    "id": -43,
+                    "name": "Gender"
+                },
+                {
+                    "id": -2191,
+                    "name": "GetLoginUsers"
+                },
+                {
+                    "id": -66,
+                    "name": "headcount"
+                },
+                {
+                    "id": -2055,
+                    "name": "Holiday Region"
+                },
+                {
+                    "id": -70,
+                    "name": "How did you recruit"
+                },
+                {
+                    "id": -545,
+                    "name": "HS - Mkting Opt Ins"
+                },
+                {
+                    "id": -636,
+                    "name": "In/Out"
+                },
+                {
+                    "id": -2022,
+                    "name": "Info Graphic Master Template"
+                },
+                {
+                    "id": -2091,
+                    "name": "IVR - Action Type DL"
+                },
+                {
+                    "id": -2089,
+                    "name": "IVR - Default Voices"
+                },
+                {
+                    "id": -2088,
+                    "name": "IVR - IVR Scripts DL"
+                },
+                {
+                    "id": -2087,
+                    "name": "IVR - Script Step Action"
+                },
+                {
+                    "id": -2082,
+                    "name": "IVR - Script Steps DL"
+                },
+                {
+                    "id": -2086,
+                    "name": "IVR - Script Steps Type"
+                },
+                {
+                    "id": -2090,
+                    "name": "IVR - Step Type DL"
+                },
+                {
+                    "id": -116,
+                    "name": "lyndsey"
+                },
+                {
+                    "id": -44,
+                    "name": "Marital Status"
+                },
+                {
+                    "id": -2108,
+                    "name": "Media Campaign Types"
+                },
+                {
+                    "id": -52,
+                    "name": "Month"
+                },
+                {
+                    "id": -51,
+                    "name": "Nationality"
+                },
+                {
+                    "id": -2211,
+                    "name": "NPS Categories"
+                },
+                {
+                    "id": -99,
+                    "name": "Number of Children"
+                },
+                {
+                    "id": -67,
+                    "name": "Number of people"
+                },
+                {
+                    "id": -61,
+                    "name": "Pass/Fail"
+                },
+                {
+                    "id": -17,
+                    "name": "Priority"
+                },
+                {
+                    "id": -2212,
+                    "name": "Process Media Script"
+                },
+                {
+                    "id": -2176,
+                    "name": "Process V2"
+                },
+                {
+                    "id": -2148,
+                    "name": "ProcessDesignerV2"
+                },
+                {
+                    "id": -2094,
+                    "name": "Provider Type"
+                },
+                {
+                    "id": -2095,
+                    "name": "Provider Types"
+                },
+                {
+                    "id": -543,
+                    "name": "QC Employee"
+                },
+                {
+                    "id": -2154,
+                    "name": "QC Frequency"
+                },
+                {
+                    "id": -2151,
+                    "name": "QC Number"
+                },
+                {
+                    "id": -2155,
+                    "name": "QC Page Question"
+                },
+                {
+                    "id": -2152,
+                    "name": "QC Percentage"
+                },
+                {
+                    "id": -2150,
+                    "name": "QC Survey Type"
+                },
+                {
+                    "id": -2149,
+                    "name": "QC Surveys"
+                },
+                {
+                    "id": -2153,
+                    "name": "QC Surveys O"
+                },
+                {
+                    "id": -69,
+                    "name": "Recruitment Challenges"
+                },
+                {
+                    "id": -129,
+                    "name": "Report Field"
+                },
+                {
+                    "id": -128,
+                    "name": "Report Query"
+                },
+                {
+                    "id": -68,
+                    "name": "Resourcing methods"
+                },
+                {
+                    "id": -42,
+                    "name": "RM Account"
+                },
+                {
+                    "id": -151,
+                    "name": "RM Account - For Team"
+                },
+                {
+                    "id": -150,
+                    "name": "RM Booking - For Team"
+                },
+                {
+                    "id": -24,
+                    "name": "RM Candidate Grade"
+                },
+                {
+                    "id": -153,
+                    "name": "RM Client Grade"
+                },
+                {
+                    "id": -145,
+                    "name": "RM Contact"
+                },
+                {
+                    "id": -147,
+                    "name": "RM Hours List"
+                },
+                {
+                    "id": -148,
+                    "name": "RM Minutes List"
+                },
+                {
+                    "id": -149,
+                    "name": "RM Pend Reason"
+                },
+                {
+                    "id": -22,
+                    "name": "RM Rejection Reason"
+                },
+                {
+                    "id": -146,
+                    "name": "RM Site"
+                },
+                {
+                    "id": -154,
+                    "name": "RM Timesheet Rejection Reason"
+                },
+                {
+                    "id": -23,
+                    "name": "RM Unavailable Reason"
+                },
+                {
+                    "id": -2038,
+                    "name": "RPT - Report (u_contact)"
+                },
+                {
+                    "id": -126,
+                    "name": "RPT - Reports"
+                },
+                {
+                    "id": -114,
+                    "name": "RPT Reports (With Chart)"
+                },
+                {
+                    "id": -12,
+                    "name": "Salutation"
+                },
+                {
+                    "id": -49,
+                    "name": "SM Sales Method"
+                },
+                {
+                    "id": -40,
+                    "name": "SM Sales Stage"
+                },
+                {
+                    "id": -41,
+                    "name": "SM Sales Status"
+                },
+                {
+                    "id": -539,
+                    "name": "Smokers Status"
+                },
+                {
+                    "id": -2057,
+                    "name": "SMS - Campaign v2 DL"
+                },
+                {
+                    "id": -2056,
+                    "name": "SMS - Status"
+                },
+                {
+                    "id": -124,
+                    "name": "SMS Campaign"
+                },
+                {
+                    "id": -125,
+                    "name": "SMS Templates"
+                },
+                {
+                    "id": -2058,
+                    "name": "SMS Templates v2"
+                },
+                {
+                    "id": -111,
+                    "name": "Source"
+                },
+                {
+                    "id": -108,
+                    "name": "SRM - Activity Type"
+                },
+                {
+                    "id": -107,
+                    "name": "SRM - Measure"
+                },
+                {
+                    "id": -110,
+                    "name": "SRM - Request Priority"
+                },
+                {
+                    "id": -106,
+                    "name": "SRM - Request Status"
+                },
+                {
+                    "id": -109,
+                    "name": "SRM - Request Type"
+                },
+                {
+                    "id": -2145,
+                    "name": "SUP - FAQ Status"
+                },
+                {
+                    "id": -2140,
+                    "name": "SUP - Internal Status"
+                },
+                {
+                    "id": -2143,
+                    "name": "Sup - outcomes"
+                },
+                {
+                    "id": -2141,
+                    "name": "SUP - Resolution Source"
+                },
+                {
+                    "id": -2139,
+                    "name": "SUP - SLA"
+                },
+                {
+                    "id": -2147,
+                    "name": "SUP - Status"
+                },
+                {
+                    "id": -2144,
+                    "name": "SUP - tPoint Update Types"
+                },
+                {
+                    "id": -2138,
+                    "name": "Support Hours Type"
+                },
+                {
+                    "id": -2062,
+                    "name": "Survey - 0 to 10"
+                },
+                {
+                    "id": -2069,
+                    "name": "Survey - Category"
+                },
+                {
+                    "id": -2070,
+                    "name": "Survey - SubCategory"
+                },
+                {
+                    "id": -2137,
+                    "name": "Survey - Survey Types"
+                },
+                {
+                    "id": -2181,
+                    "name": "Survey Answer Type"
+                },
+                {
+                    "id": -2194,
+                    "name": "Survey Campaigns"
+                },
+                {
+                    "id": -2195,
+                    "name": "Survey Categories"
+                },
+                {
+                    "id": -2196,
+                    "name": "Survey Knowledge Categories"
+                },
+                {
+                    "id": -2111,
+                    "name": "Survey List"
+                },
+                {
+                    "id": -2156,
+                    "name": "Survey Page Question"
+                },
+                {
+                    "id": -2197,
+                    "name": "Survey QC Categories"
+                },
+                {
+                    "id": -2157,
+                    "name": "Survey Question Category "
+                },
+                {
+                    "id": -2014,
+                    "name": "Switch Outcome Categories"
+                },
+                {
+                    "id": -196,
+                    "name": "Tax Authorisation "
+                },
+                {
+                    "id": -2165,
+                    "name": "tesst111"
+                },
+                {
+                    "id": -2210,
+                    "name": "Test_dec"
+                },
+                {
+                    "id": -87,
+                    "name": "Time of Sale"
+                },
+                {
+                    "id": -2217,
+                    "name": "tPoint Chat Campaigns"
+                },
+                {
+                    "id": -2131,
+                    "name": "TPS - Account Key Contact DL"
+                },
+                {
+                    "id": -2127,
+                    "name": "TPS - Account Picklist"
+                },
+                {
+                    "id": -2136,
+                    "name": "TPS - Account Site DL"
+                },
+                {
+                    "id": -708,
+                    "name": "TPS - Account Status"
+                },
+                {
+                    "id": -88,
+                    "name": "TPS - Account Type"
+                },
+                {
+                    "id": -615,
+                    "name": "TPS - Accounts "
+                },
+                {
+                    "id": -139,
+                    "name": "TPS - Accounts DL"
+                },
+                {
+                    "id": -89,
+                    "name": "TPS - Action Status"
+                },
+                {
+                    "id": -90,
+                    "name": "TPS - Action Type"
+                },
+                {
+                    "id": -91,
+                    "name": "TPS - Action User"
+                },
+                {
+                    "id": -92,
+                    "name": "TPS - Activity Group"
+                },
+                {
+                    "id": -711,
+                    "name": "TPS - Client Contacts DL"
+                },
+                {
+                    "id": -710,
+                    "name": "TPS - Client DL"
+                },
+                {
+                    "id": -2085,
+                    "name": "TPS - Contacts "
+                },
+                {
+                    "id": -2015,
+                    "name": "TPS - Customers"
+                },
+                {
+                    "id": -2084,
+                    "name": "TPS - Event Charge Type"
+                },
+                {
+                    "id": -2076,
+                    "name": "TPS - Event Name DL"
+                },
+                {
+                    "id": -2083,
+                    "name": "TPS - Event Type"
+                },
+                {
+                    "id": -2077,
+                    "name": "TPS - Event Type DL"
+                },
+                {
+                    "id": -616,
+                    "name": "TPS - Frequency "
+                },
+                {
+                    "id": -671,
+                    "name": "TPS - Industry"
+                },
+                {
+                    "id": -2126,
+                    "name": "TPS - Industry DL"
+                },
+                {
+                    "id": -2133,
+                    "name": "TPS - Influencer - no use"
+                },
+                {
+                    "id": -2134,
+                    "name": "TPS - Influencers"
+                },
+                {
+                    "id": -2129,
+                    "name": "TPS - Introducer Datalist"
+                },
+                {
+                    "id": -709,
+                    "name": "TPS - Introducers DL"
+                },
+                {
+                    "id": -93,
+                    "name": "TPS - Investment Stage"
+                },
+                {
+                    "id": -2125,
+                    "name": "TPS - Job Title DL"
+                },
+                {
+                    "id": -119,
+                    "name": "TPS - Opp Status"
+                },
+                {
+                    "id": -94,
+                    "name": "TPS - Opportunity Sales Stage"
+                },
+                {
+                    "id": -95,
+                    "name": "TPS - Opportunity Sales Status"
+                },
+                {
+                    "id": -2130,
+                    "name": "TPS - Opportunity Types"
+                },
+                {
+                    "id": -670,
+                    "name": "TPS - Partner/Introducer"
+                },
+                {
+                    "id": -96,
+                    "name": "TPS - Priority"
+                },
+                {
+                    "id": -668,
+                    "name": "TPS - Registration Type"
+                },
+                {
+                    "id": -98,
+                    "name": "TPS - Sales Stage"
+                },
+                {
+                    "id": -97,
+                    "name": "TPS - Salutation"
+                },
+                {
+                    "id": -669,
+                    "name": "TPS - Sector"
+                },
+                {
+                    "id": -2207,
+                    "name": "TPS - Sites DL"
+                },
+                {
+                    "id": -115,
+                    "name": "TPS - Source"
+                },
+                {
+                    "id": -2078,
+                    "name": "TPS - Speakers DL"
+                },
+                {
+                    "id": -2079,
+                    "name": "TPS - Supplier Venue DL"
+                },
+                {
+                    "id": -2142,
+                    "name": "TPS - Suppliers"
+                },
+                {
+                    "id": -2080,
+                    "name": "TPS - Venue Postcode DL"
+                },
+                {
+                    "id": -2081,
+                    "name": "TPS - Venue Town DL"
+                },
+                {
+                    "id": -140,
+                    "name": "TPS Address Type"
+                },
+                {
+                    "id": -2132,
+                    "name": "TRK - Products"
+                },
+                {
+                    "id": -2135,
+                    "name": "TRK - Release DL"
+                },
+                {
+                    "id": -2209,
+                    "name": "Twitter Config"
+                },
+                {
+                    "id": -46,
+                    "name": "UK County"
+                },
+                {
+                    "id": -2199,
+                    "name": "Venue"
+                },
+                {
+                    "id": -704,
+                    "name": "WAV - Abandon"
+                },
+                {
+                    "id": -696,
+                    "name": "WAV - Annouce"
+                },
+                {
+                    "id": -699,
+                    "name": "WAV - DNC Intro"
+                },
+                {
+                    "id": -705,
+                    "name": "WAV - DNC MSG"
+                },
+                {
+                    "id": -700,
+                    "name": "WAV - DNC Thanks"
+                },
+                {
+                    "id": -698,
+                    "name": "WAV - DNC Welcome"
+                },
+                {
+                    "id": -702,
+                    "name": "WAV - Hangup"
+                },
+                {
+                    "id": -695,
+                    "name": "WAV - Intro"
+                },
+                {
+                    "id": -703,
+                    "name": "WAV - Intro Skip"
+                },
+                {
+                    "id": -701,
+                    "name": "WAV - Voicemail"
+                },
+                {
+                    "id": -694,
+                    "name": "WAV - Welcome"
+                },
+                {
+                    "id": -697,
+                    "name": "WAV - Whisper"
+                },
+                {
+                    "id": -685,
+                    "name": "WD - Menu DL"
+                },
+                {
+                    "id": -682,
+                    "name": "WD - Site Layout"
+                },
+                {
+                    "id": -684,
+                    "name": "WD - Site Type"
+                },
+                {
+                    "id": -683,
+                    "name": "WD - Template PL"
+                },
+                {
+                    "id": -707,
+                    "name": "WD - Templates DL"
+                },
+                {
+                    "id": -706,
+                    "name": "WD- Temp Type"
+                },
+                {
+                    "id": -39,
+                    "name": "WFComparitorBoolean"
+                },
+                {
+                    "id": -37,
+                    "name": "WFComparitorDate"
+                },
+                {
+                    "id": -36,
+                    "name": "WFComparitorNumeric"
+                },
+                {
+                    "id": -38,
+                    "name": "WFComparitorSimple"
+                },
+                {
+                    "id": -32,
+                    "name": "WFComparitorText"
+                },
+                {
+                    "id": -239,
+                    "name": "Y/N"
+                },
+                {
+                    "id": -300,
+                    "name": "Year from 1990"
+                },
+                {
+                    "id": -19,
+                    "name": "YesNo"
+                },
+                {
+                    "id": -502,
+                    "name": "YesNo_V2"
+                },
+                {
+                    "id": -198,
+                    "name": "YesNoNA"
+                },
+                {
+                    "id": -199,
+                    "name": "Zero to Four"
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,146 @@
+.top_band {
+  display: flex;
+  padding: 10px 12px;
+  border-bottom: 1px solid #c9cacc;
+}
+
+.band_title {
+  color: #424242;
+  line-height: 23px;
+  font-family: "robotobold", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 6px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+}
+.left_section {
+  /* height: 100vh; */
+  padding: 10px;
+  border: 1px solid #eee;
+  /* width: 255px; */
+  opacity: 1;
+  background-color: #efefef;
+  transition: all 0.5s;
+}
+
+.left_Sec_title {
+  display: flex;
+  line-height: 19px;
+  font-size: 15px;
+  font-family: "robotobold", sans-serif;
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+  height: 23px;
+}
+.right_Section {
+  /* width: 25%; */
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid green;
+}
+.input_box input {
+  width: 100%;
+  height: 32px;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 13px;
+}
+/* .input_box label {
+  float: left;
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+  font-family: sans-serif;
+} */
+
+.dropdown_section {
+  margin-top: 10px;
+}
+.dropdown_section label {
+  display: flex !important;
+  display: block;
+  font-family: "robotobold", sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.second_dropdwon {
+  margin-top: 10px;
+}
+.save_btn {
+  background: #6f6ee0;
+  width: 20px;
+  padding: 0px 18px;
+  font-size: 13px;
+  height: 26px;
+  line-height: 23px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+  margin-top: 14px;
+}
+.css-1s2u09g-con {
+  height: 30px !important;
+}
+
+.fld_col {
+  /* margin-right: 30px; */
+  margin-top: 10px;
+}
+
+label {
+  font-size: 13px !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+  display: block;
+  font-family: "robotobold", sans-serif;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 4px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: start;
+  height: 16px;
+  line-height: 18px;
+}
+
+
+.btn_sec {
+  margin-top: 10px;
+}
+
+.save {
+  width: 73px;
+  background: #6f6ee0;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #fff;
+}
+.save .save_icon {
+  width: 50px;
+  height: 22px;
+  background: #5756e6;
+  padding: 0px;
+  color: #fff;
+  padding-top: 2px;
+  text-align: center;
+}
+.save .txt {
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}

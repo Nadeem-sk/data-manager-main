@@ -1,0 +1,37 @@
+{
+    "success": true,
+    "LinkObjectList": {
+        "Table": [
+            {
+                "LinkId": -2371,
+                "LinkName": "CM Account / Escalation",
+                "ObjectId": -45,
+                "ObjectName": "TPS - Account",
+                "SourceColumnId": -17098,
+                "SourceColumnName": "Id",
+                "TargetColumnId": -15275,
+                "TargetColumnName": "Schedule Id"
+            },
+            {
+                "LinkId": -2381,
+                "LinkName": "CM Schedule / Account",
+                "ObjectId": -45,
+                "ObjectName": "TPS - Account",
+                "SourceColumnId": -17098,
+                "SourceColumnName": "Id",
+                "TargetColumnId": -15275,
+                "TargetColumnName": "Schedule Id"
+            },
+            {
+                "LinkId": -2418,
+                "LinkName": "link1",
+                "ObjectId": -2425,
+                "ObjectName": "group1",
+                "SourceColumnId": -17098,
+                "SourceColumnName": "Id",
+                "TargetColumnId": -15267,
+                "TargetColumnName": "Id"
+            }
+        ]
+    }
+}

@@ -1,0 +1,11 @@
+.css-16awh2u-MuiAutocomplete-root .MuiOutlinedInput-root {
+    padding: 0px !important;
+}
+.css-16awh2u-MuiAutocomplete-root .MuiOutlinedInput-root .MuiAutocomplete-input {
+    padding: 0px 4px 0px 6px !important;
+}
+.css-16awh2u-MuiAutocomplete-root {
+    background: #fff !important;
+    width: 99% !important;
+    outline: none !important;
+}

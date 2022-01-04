@@ -1,0 +1,251 @@
+.top_band {
+  display: flex;
+  padding: 10px 12px;
+  border-bottom: 1px solid #c9cacc;
+}
+
+.band_title {
+  color: #424242;
+  line-height: 23px;
+  font-family: "robotobold", sans-serif;
+  font-size: 18px;
+  font-weight: bold;
+  margin-left: 6px;
+}
+.wrapper {
+  flex-direction: row;
+}
+
+.left_Sec_title {
+  display: flex;
+  line-height: 19px;
+  font-size: 15px;
+  font-family: "robotobold", sans-serif;
+  font-weight: normal;
+  border-bottom: 1px solid #ddd;
+  height: 23px;
+}
+.right_Section {
+  /* width: 25%; */
+  margin: 5px;
+  padding: 5px;
+  border: 2px solid green;
+}
+.input_box {
+  display: flex;
+}
+.input_box input {
+  width: 100%;
+  height: 30px;
+  outline: none;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  border-radius: 4px;
+}
+.lbl {
+  display: flex;
+  font-size: 14px;
+  color: #333;
+  line-height: 24px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+
+.dropdown_section {
+  margin-top: 10px;
+}
+.dropdown_section label {
+  display: flex !important;
+  display: block;
+  font-family: "robotobold", sans-serif;
+  font-size: 14px;
+  color: #333;
+  margin-bottom: 4px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.second_dropdwon {
+  margin-top: 10px;
+}
+
+.link_add_btn {
+  padding: 2px 3px !important;
+  background: #2b90cc;
+  text-align: center;
+  cursor: pointer;
+  margin-top: 5px;
+  margin-left: 6px;
+  height: 20px;
+}
+.ddl_plus {
+  width: 90%;
+}
+.link_delete_btn {
+  padding: 2px 3px !important;
+  background: #2b90cc;
+  text-align: center;
+  cursor: pointer;
+  height: 20px;
+  position: absolute;
+  top: 180px;
+  left: 246px;
+}
+.Checkbox_section {
+  display: flex;
+  margin-top: 5px;
+}
+.btn_section {
+  display: flex;
+  margin-top: 10px;
+}
+.save_btn {
+  background: #6f6ee0;
+  width: auto;
+  padding: 0px 18px;
+  font-size: 13px;
+  height: 26px;
+  line-height: 23px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+}
+.cancel_btn {
+  background-color: #ff4747;
+  width: auto;
+  padding: 0px 18px;
+  font-size: 13px;
+  height: 26px;
+  line-height: 23px;
+  color: #fff;
+  font-weight: 500;
+  cursor: pointer;
+
+  margin-left: 6px;
+}
+
+.fld_col {
+  /* margin-right: 30px; */
+  margin-top: 10px;
+}
+
+label {
+  font-size: 13px !important;
+  font-family: "Roboto", sans-serif !important;
+  font-weight: 500;
+  display: block;
+  font-family: "robotobold", sans-serif;
+  font-size: 13px;
+  color: #333;
+  margin-bottom: 4px;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  text-align: start;
+  height: 16px;
+  line-height: 18px;
+}
+/* .fld_col input {
+  width: 97%;
+  outline: none;
+  height: 20px;
+} */
+.add_btn {
+  display: flex;
+}
+
+.addBtn {
+  width: 22px;
+  height: 22px;
+  color: #fff;
+
+  font-size: 20px;
+  font-weight: 800;
+  cursor: pointer;
+
+  margin-left: 4px;
+  display: block;
+}
+
+.addBtn.plus {
+  background: #6d6ee0;
+  line-height: 22px;
+  height: 26px;
+  text-align: center;
+  width: 28px;
+}
+
+.addBtn.cancel {
+  padding: 1px 0px 3px 4px;
+  background: #222;
+  text-align: center;
+}
+.ddl_add {
+  display: flex;
+}
+
+.btnTransform {
+  transform: rotate(130deg);
+  display: block;
+}
+.select_width {
+  display: flex;
+}
+.btn_sec {
+  display: flex;
+  margin-top: 10px;
+}
+
+.save {
+  width: 73px;
+  background: #6f6ee0;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+.save .save_icon {
+  width: 24px;
+  height: 20px;
+  background: #5756e6;
+  padding: 2px;
+  color: #fff;
+
+}
+.save .txt {
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}
+.remove {
+  width: 95px;
+  background: #ff4747;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 10px;
+  cursor: pointer;
+  color: #fff;
+  text-align: center;
+}
+.remove .remove_icon {
+  width: 28px;
+  height: 20px;
+  background: #ff3333;
+  padding: 2px;
+  color: #fff;
+}
+.remove .txt {
+  color: #fff;
+  padding: 0px 10px;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 500;
+}

@@ -1,0 +1,123 @@
+.accord {
+  width: calc(100% - 590px);
+  border: 1px solid #ccc;
+  background: #f8f8f8;
+  height: calc(74vh - -112px);
+}
+.accord_band {
+  padding: 10px;
+  background: #eef6fb;
+  display: flex;
+  justify-content: space-between;
+}
+.search_box {
+  width: 240px;
+  border: 1px solid #cccccc;
+  height: 26px;
+  border-radius: 26px;
+  display: flex;
+  background: #fff;
+}
+.search_box svg {
+  color: #6f6ee0;
+  font-size: 21px;
+  margin-right: 5px;
+  margin-top: 4px;
+}
+
+.search_box input {
+  border: none !important;
+  margin-left: 10px;
+  width: 220px !important;
+  height: 24px !important;
+  outline: none !important;
+}
+.save {
+  background: #6f6ee0;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  margin-right: 5px;
+  cursor: pointer;
+  margin-top: 3px;
+}
+.save .save_icon {
+  width: 24px;
+  height: 24px;
+  background: #5756e6;
+  text-align: center;
+  line-height: 32px;
+}
+.save_icon svg {
+  padding: 2px !important;
+}
+.save .txt {
+  color: #fff;
+  padding: 0px 6px;
+  font-size: 14px;
+  line-height: 25px;
+  font-weight: 400;
+  font-family: sans-serif;
+}
+.accord_cont {
+  display: flex;
+  justify-content: space-between;
+}
+.left_sec .text01 {
+  font-size: 13px;
+  font-weight: 500;
+  color: #6f6ee0;
+  text-align: start;
+  line-height: 18px;
+}
+.left_sec .text02 {
+  font-size: 12px;
+  font-weight: 500;
+  color: #333;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+.right_sec .all_val {
+  display: flex;
+  justify-content: end;
+}
+.all_val .value {
+  font-size: 12px;
+  background: #222;
+  color: #fff;
+  padding: 2px 8px;
+  border-radius: 30px;
+  line-height: 16px;
+  font-weight: 400;
+  font-family: sans-serif;
+  margin-left: 4px;
+}
+.all_val svg {
+  width: 18px;
+  height: 18px;
+  color: #6f6ee0;
+  margin-top: 2px;
+  margin-left: 10px;
+}
+.all_val svg :hover {
+  color: #222;
+}
+.owner_status {
+  float: right;
+  width: auto;
+  font-size: 12px;
+  text-align: right;
+  margin-top: 5px;
+  color: #888888;
+  clear: right;
+  margin-right: 30px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 999px) {
+  .accord {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #f8f8f8;
+    height: auto;
+  }
+}

@@ -1,0 +1,17 @@
+{
+    "success": true,
+    "LinkObjectCompList": {
+        "Table": [
+            {
+                "LinkId": -2418,
+                "LinkName": "link1",
+                "ObjectId": -2425,
+                "ObjectName": "group1",
+                "SourceColumnId": -17098,
+                "SourceColumnName": "Id",
+                "TargetColumnId": -15267,
+                "TargetColumnName": "Id"
+            }
+        ]
+    }
+}
