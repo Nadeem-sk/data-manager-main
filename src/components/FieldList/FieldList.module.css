@@ -76,6 +76,8 @@
 .nice_scroll {
   overflow-y: scroll;
   height: 240px;
+  background: #fff;
+
 }
 
 .nice_scroll::-webkit-scrollbar {

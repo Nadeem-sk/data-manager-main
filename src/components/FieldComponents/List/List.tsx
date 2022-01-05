@@ -301,23 +301,63 @@ const List = (props: Props) => {
             <Typography>Field <span>({simpleField.length})</span></Typography>
           </AccordionSummary>
           <AccordionDetails>
-            {simpleField.map((item: IDataField) => {
-              return <div className={`${styles.accord_cont}`}>
+          <div className={`${styles.accord_cont} ${styles.nice_scroll}`}>
                 <div className={`${styles.left_sec}`}>
-                  <div className={`${styles.text01}`}>{item.name}</div>
-                  <div className={`${styles.text02}`}>{item.type}</div>
+                  <div className={`${styles.text01}`}>dfsd</div>
+                  <div className={`${styles.text02}`}>fdd</div>
                 </div>
                 <div className={`${styles.right_sec}`}>
-                  <div className={`${styles.all_val}`}>
-                    {displayFieldCategory(item).map((str: any) => {
-                      return <div className={`${styles.value}`}>{str}</div>
-                    })}
-                    <Icon icon="vaadin:close-circle" fr={undefined} />
+                  <div className={`${styles.all_val} `}>
+        
+                    <div className={`${styles.value}`}>abbd ofdddds </div>
+                       <div className={`${styles.value}`}>abbd ofdddds sdd</div>
+                       <div className={`${styles.value}`}>abc ffff</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abbd ofdddds sdd</div>
+                       <div className={`${styles.value}`}>abc ffff</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abbd ofdddds sdd</div>
+                       <div className={`${styles.value}`}>abc ffff</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abbd ofdddds sdd</div>
+                       <div className={`${styles.value}`}>abc ffff</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abbd ofdddds sdd</div>
+                       <div className={`${styles.value}`}>abc ffff</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abbd ofdddds sdd</div>
+                       <div className={`${styles.value}`}>abc ffff</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abbd ofdddds sdd</div>
+                       <div className={`${styles.value}`}>abc ffff</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                       <div className={`${styles.value}`}>abc</div>
+                      
+                
+                  
+                   
                   </div>
-                  <div className={`${styles.owner_status}`}>Owner : {item.Owner} Created : {formatDateTime(item.created, '')}</div>
+               
+                  <div className={`${styles.owner_status}`}>Owner : haider Created : </div>
                 </div>
+                <Icon icon="vaadin:close-circle" fr={undefined} />
               </div>
-            })}
+          
 
           </AccordionDetails>
         </Accordion>
