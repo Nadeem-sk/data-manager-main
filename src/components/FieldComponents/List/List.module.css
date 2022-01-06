@@ -63,10 +63,11 @@
   display: flex;
   justify-content: space-between;
   overflow-y: scroll;   
+  background-color: #fff !important;
 }
 .left_sec  {
   width: calc(100% - 690px);
-  padding: 12px 0px;
+  padding: 12px 12px;
 }
 .left_sec .text01 {
   font-size: 13px;
@@ -125,7 +126,6 @@
   margin-top: 5px;
   color: #888888;
   clear: right;
-  margin-right: 30px;
   margin-bottom: 10px;
 }
 @media only screen and (max-width: 999px) {
@@ -136,16 +136,48 @@
     height: auto;
   }
 }
-
-@media only screen and (min-width: 1155px) and (max-width: 1360px){
+@media only screen and (max-width: 800px) {
   .right_sec{
-    width: 490px;
+    width: 400px;
   }
   .left_sec  {
-    width: calc(100% - 490px);
+    width: calc(100% - 400px);
   }
 }
-@media only screen and (min-width: 800px) and (max-width: 1154px){
+@media only screen and (max-width: 500px) {
+  .right_sec{
+    width: 300px;
+  }
+  .left_sec  {
+    width: calc(100% - 300px);
+  }
+}
+
+@media only screen and (min-width: 1150px) and (max-width: 1360px){
+  .right_sec{
+    width: 420px;
+  }
+  .left_sec  {
+    width: calc(100% - 420px);
+  }
+}
+@media only screen and (min-width: 1361px) and (max-width: 1680px){
+  .right_sec{
+    width: 620px;
+  }
+  .left_sec  {
+    width: calc(100% - 620px);
+  }
+}
+@media only screen and (min-width: 1681px){
+  .right_sec{
+    width: 1000px;
+  }
+  .left_sec  {
+    width: calc(100% - 1000px);
+  }
+}
+@media only screen and (min-width: 998px) and (max-width: 1154px){
   .right_sec{
     width: 300px;
   }
@@ -159,6 +191,7 @@
   margin-right: -13px;
   margin-top: -12px;
     margin-bottom: -12px;
+    margin-left: -12px;
 }
 
 .nice_scroll::-webkit-scrollbar {
